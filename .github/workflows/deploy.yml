@@ -12,13 +12,17 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
+    - name: Parse FTP Config
+      id: parse
+      run: |
+        echo "::set-output name=ftp_config::$(echo '${{ secrets.YMP_WEB_FTP }}' | jq -r '.server, .username, .password, .port')"
+    
     - name: FTP Upload
       uses: SamKirkland/FTP-Deploy-Action@4.1.0
       with:
-        server: ${{ secrets.FTP_SERVER }}       # Alamat FTP server
-        username: ${{ secrets.FTP_USERNAME }}   # Username FTP
-        password: ${{ secrets.FTP_PASSWORD }}   # Password FTP
-        local-dir: ./                          # Folder lokal yang ingin kamu deploy
-        server-dir: /public_html               # Direktori di server tempat file akan diupload
-        port: ${{ secrets.FTP_PORT }}           # Port FTP (opsional, jika diperlukan)
-        protocol: ftp                         # Protocol (opsional, jika diperlukan)
+        server: ${{ steps.parse.outputs.ftp_config[0] }}
+        username: ${{ steps.parse.outputs.ftp_config[1] }}
+        password: ${{ steps.parse.outputs.ftp_config[2] }}
+        local-dir: ./
+        server-dir: /public_html
+        port: ${{ steps.parse.outputs.ftp_config[3] }}
