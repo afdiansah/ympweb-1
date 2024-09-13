@@ -1,0 +1,128 @@
+Array
+(
+    [transaction_time] => 2023-11-15 18:45:13
+    [transaction_status] => settlement
+    [transaction_id] => 513f1f01-c9da-474c-9fc9-d5c64364b709
+    [status_message] => midtrans payment notification
+    [status_code] => 200
+    [signature_key] => 9c6991f9f10210380bbabe67b9926ac8166097b17a01479a29869828bf4b80f20335954b2395012942880e7923299482e427625b7b80ed22d1b8c9309eb63c3c
+    [settlement_time] => 2023-11-15 22:45:13
+    [payment_type] => gopay
+    [order_id] => payment_notif_test_G537554248_ad0ee795-7c0d-4458-b06e-9bb09588da99
+    [merchant_id] => G537554248
+    [gross_amount] => 105000.00
+    [fraud_status] => accept
+    [currency] => IDR
+)
+Array
+(
+    [transaction_time] => 2023-11-15 18:45:13
+    [transaction_status] => settlement
+    [transaction_id] => 513f1f01-c9da-474c-9fc9-d5c64364b709
+    [status_message] => midtrans payment notification
+    [status_code] => 200
+    [signature_key] => a48c236a3a0b04c4f2b7089028638d06d94b202f65cdbefbd1e45af773b20ab0a9e9d190f768d37e1fb5b5bd376b413ff61b0569dc63486b741e8176998a1474
+    [settlement_time] => 2023-11-15 22:45:13
+    [payment_type] => gopay
+    [order_id] => payment_notif_test_G537554248_55877bfa-26ba-4965-88f6-8b4df93300f4
+    [merchant_id] => G537554248
+    [gross_amount] => 105000.00
+    [fraud_status] => accept
+    [currency] => IDR
+)
+Array
+(
+    [transaction_time] => 2023-11-15 18:45:13
+    [transaction_status] => settlement
+    [transaction_id] => 513f1f01-c9da-474c-9fc9-d5c64364b709
+    [status_message] => midtrans payment notification
+    [status_code] => 200
+    [signature_key] => 5d5115ff997226843ecef409f0f6166864246610e149f5a71690dc6c1c1a44209fc000e80d9876a45a8901185727df7bd2eae74392ff878b34868493fdb499a1
+    [settlement_time] => 2023-11-15 22:45:13
+    [payment_type] => gopay
+    [order_id] => payment_notif_test_G537554248_143328f4-59b0-4425-896a-27f43f21b3d1
+    [merchant_id] => G537554248
+    [gross_amount] => 105000.00
+    [fraud_status] => accept
+    [currency] => IDR
+)
+Array
+(
+    [transaction_time] => 2023-11-15 18:45:13
+    [transaction_status] => settlement
+    [transaction_id] => 513f1f01-c9da-474c-9fc9-d5c64364b709
+    [status_message] => midtrans payment notification
+    [status_code] => 200
+    [signature_key] => 2b9a5a88a834561cbf95ea2aa08d4fceb6aaabf2551cf0521bcd55c046b6420c250f20ab1f04eb7812065d7fa951b0eeaeec51bfeb72f99dc79e59f14bdc26b7
+    [settlement_time] => 2023-11-15 22:45:13
+    [payment_type] => gopay
+    [order_id] => payment_notif_test_G537554248_357bb3a2-1a5b-4269-a283-d1a7d8ee931b
+    [merchant_id] => G537554248
+    [gross_amount] => 105000.00
+    [fraud_status] => accept
+    [currency] => IDR
+)
+Array
+(
+    [token] => 8447a56f-0e5e-498a-a948-eefa88265544
+    [status] => active
+    [schedule] => Array
+        (
+            [start_time] => 2022-10-26T04:20:00.000000Z
+            [next_execution_at] => 2022-10-26T04:20:00.000000Z
+            [interval_unit] => month
+            [interval] => 1
+            [current_interval] => 0
+        )
+
+    [payment_type] => credit_card
+    [name] => SUBSCRIBE-1666753619
+    [metadata] => Array
+        (
+            [meta] => data
+        )
+
+    [merchant_id] => G537554248
+    [id] => a05a8d85-8e22-4a9d-80bd-1e6199aea3f3
+    [customer_details] => Array
+        (
+            [first_name] => John
+        )
+
+    [currency] => IDR
+    [amount] => 14000
+)
+Array
+(
+    [transaction_type] => off-us
+    [transaction_time] => 2024-08-17 20:39:50
+    [transaction_status] => pending
+    [transaction_id] => 5a116dfd-ba64-405b-9667-b19258fe49f2
+    [status_message] => midtrans payment notification
+    [status_code] => 201
+    [signature_key] => b7461006ffc03e67a7278b5116371b43e4fb1eb866ba0ff5688df3e351b1d281e31c2b26f9b37ec0d9202963be36527122c00d38602f5228b4541d1765d4715c
+    [payment_type] => qris
+    [order_id] => 66357042
+    [merchant_id] => G537554248
+    [gross_amount] => 1.00
+    [fraud_status] => accept
+    [expiry_time] => 2024-08-18 11:39:50
+    [currency] => IDR
+)
+Array
+(
+    [transaction_type] => off-us
+    [transaction_time] => 2024-08-17 20:39:50
+    [transaction_status] => cancel
+    [transaction_id] => 5a116dfd-ba64-405b-9667-b19258fe49f2
+    [status_message] => midtrans payment notification
+    [status_code] => 202
+    [signature_key] => 86256156816022a6dad83af7e4111490f8bf466e876867bb128df00c6058476715f551df3ff9706edc02b2179f88ae421be471918500f1c44830ead8ca1d16b9
+    [payment_type] => qris
+    [order_id] => 66357042
+    [merchant_id] => G537554248
+    [gross_amount] => 1.00
+    [fraud_status] => accept
+    [expiry_time] => 2024-08-18 11:39:50
+    [currency] => IDR
+)

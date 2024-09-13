@@ -1,0 +1,489 @@
+[17-Aug-2024 00:06:51 UTC] PHP Warning:  require_once(lib/Midtrans/Midtrans.php): Failed to open stream: No such file or directory in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 3
+[17-Aug-2024 00:06:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'lib/Midtrans/Midtrans.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/yukmaric/public_html/lib/Midtrans/json_data.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 3
+[17-Aug-2024 00:07:41 UTC] PHP Warning:  require_once(lib/Midtrans/Midtrans.php): Failed to open stream: No such file or directory in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 3
+[17-Aug-2024 00:07:41 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'lib/Midtrans/Midtrans.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/yukmaric/public_html/lib/Midtrans/json_data.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 3
+[17-Aug-2024 00:11:18 UTC] PHP Warning:  require_once(lib/Midtrans/Midtrans.php): Failed to open stream: No such file or directory in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 2
+[17-Aug-2024 00:11:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'lib/Midtrans/Midtrans.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/yukmaric/public_html/lib/Midtrans/json_data.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 2
+[17-Aug-2024 00:11:43 UTC] PHP Warning:  require_once(lib/Midtrans/Midtrans.php): Failed to open stream: No such file or directory in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 2
+[17-Aug-2024 00:11:43 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'lib/Midtrans/Midtrans.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/yukmaric/public_html/lib/Midtrans/json_data.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 2
+[17-Aug-2024 00:11:48 UTC] PHP Warning:  require_once(lib/Midtrans/Midtrans.php): Failed to open stream: No such file or directory in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 2
+[17-Aug-2024 00:11:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'lib/Midtrans/Midtrans.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/yukmaric/public_html/lib/Midtrans/json_data.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 2
+[17-Aug-2024 00:12:06 UTC] PHP Warning:  require_once(lib/Midtrans/Midtrans.php): Failed to open stream: No such file or directory in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 2
+[17-Aug-2024 00:12:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'lib/Midtrans/Midtrans.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/yukmaric/public_html/lib/Midtrans/json_data.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 2
+[17-Aug-2024 00:12:16 UTC] PHP Warning:  require_once(lib/Midtrans/Midtrans.php): Failed to open stream: No such file or directory in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 2
+[17-Aug-2024 00:12:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'lib/Midtrans/Midtrans.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/yukmaric/public_html/lib/Midtrans/json_data.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 2
+[17-Aug-2024 00:12:54 UTC] PHP Warning:  require_once(lib/Midtrans/Midtrans.php): Failed to open stream: No such file or directory in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 2
+[17-Aug-2024 00:12:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'lib/Midtrans/Midtrans.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/yukmaric/public_html/lib/Midtrans/json_data.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 2
+[17-Aug-2024 00:14:54 UTC] PHP Warning:  require_once(lib/Midtrans/Midtrans.php): Failed to open stream: No such file or directory in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 2
+[17-Aug-2024 00:14:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'lib/Midtrans/Midtrans.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/yukmaric/public_html/lib/Midtrans/json_data.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 2
+[17-Aug-2024 00:15:07 UTC] PHP Warning:  require_once(lib/Midtrans/Midtrans.php): Failed to open stream: No such file or directory in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 2
+[17-Aug-2024 00:15:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'lib/Midtrans/Midtrans.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/yukmaric/public_html/lib/Midtrans/json_data.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 2
+[17-Aug-2024 00:16:12 UTC] PHP Warning:  require_once(lib/Midtrans/Midtrans.php): Failed to open stream: No such file or directory in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 6
+[17-Aug-2024 00:16:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'lib/Midtrans/Midtrans.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/yukmaric/public_html/lib/Midtrans/json_data.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 6
+[17-Aug-2024 00:17:09 UTC] PHP Warning:  require_once(lib/Midtrans/Midtrans.php): Failed to open stream: No such file or directory in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 6
+[17-Aug-2024 00:17:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'lib/Midtrans/Midtrans.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/yukmaric/public_html/lib/Midtrans/json_data.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 6
+[17-Aug-2024 00:17:13 UTC] PHP Warning:  require_once(lib/Midtrans/Midtrans.php): Failed to open stream: No such file or directory in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 6
+[17-Aug-2024 00:17:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'lib/Midtrans/Midtrans.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/yukmaric/public_html/lib/Midtrans/json_data.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 6
+[17-Aug-2024 00:17:22 UTC] PHP Warning:  require_once(lib/Midtrans/Midtrans.php): Failed to open stream: No such file or directory in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 6
+[17-Aug-2024 00:17:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'lib/Midtrans/Midtrans.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/yukmaric/public_html/lib/Midtrans/json_data.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 6
+[17-Aug-2024 00:17:52 UTC] PHP Warning:  require_once(lib/Midtrans/Midtrans.php): Failed to open stream: No such file or directory in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 6
+[17-Aug-2024 00:17:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'lib/Midtrans/Midtrans.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/yukmaric/public_html/lib/Midtrans/json_data.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 6
+[17-Aug-2024 00:19:26 UTC] PHP Warning:  require_once(lib/Midtrans/Midtrans.php): Failed to open stream: No such file or directory in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 6
+[17-Aug-2024 00:19:26 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'lib/Midtrans/Midtrans.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/yukmaric/public_html/lib/Midtrans/json_data.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 6
+[17-Aug-2024 00:19:50 UTC] PHP Warning:  require_once(./lib/Midtrans/Midtrans.php): Failed to open stream: No such file or directory in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 6
+[17-Aug-2024 00:19:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required './lib/Midtrans/Midtrans.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/yukmaric/public_html/lib/Midtrans/json_data.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 6
+[17-Aug-2024 00:30:29 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 11
+[17-Aug-2024 00:30:29 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 11
+[17-Aug-2024 00:30:38 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 11
+[17-Aug-2024 00:30:38 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 11
+[17-Aug-2024 00:30:42 UTC] PHP Warning:  Undefined global variable $_SESSION in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 11
+[17-Aug-2024 00:30:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 11
+[17-Aug-2024 00:55:07 UTC] PHP Warning:  require_once(lib/PHP-JWT/src/JWT.php): Failed to open stream: No such file or directory in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 7
+[17-Aug-2024 00:55:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'lib/PHP-JWT/src/JWT.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/yukmaric/public_html/lib/Midtrans/json_data.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 7
+[17-Aug-2024 00:55:12 UTC] PHP Warning:  require_once(lib/PHP-JWT/src/JWT.php): Failed to open stream: No such file or directory in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 7
+[17-Aug-2024 00:55:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'lib/PHP-JWT/src/JWT.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/yukmaric/public_html/lib/Midtrans/json_data.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 7
+[17-Aug-2024 00:55:30 UTC] PHP Warning:  require_once(lib/PHP-JWT/src/JWT.php): Failed to open stream: No such file or directory in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 7
+[17-Aug-2024 00:55:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'lib/PHP-JWT/src/JWT.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/yukmaric/public_html/lib/Midtrans/json_data.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 7
+[17-Aug-2024 00:56:24 UTC] PHP Warning:  require_once(lib/PHP-JWT/src/JWT.php): Failed to open stream: No such file or directory in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 9
+[17-Aug-2024 00:56:24 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'lib/PHP-JWT/src/JWT.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/yukmaric/public_html/lib/Midtrans/json_data.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 9
+[17-Aug-2024 00:56:46 UTC] PHP Warning:  require_once(lib/PHP-JWT/src/JWT.php): Failed to open stream: No such file or directory in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 9
+[17-Aug-2024 00:56:46 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'lib/PHP-JWT/src/JWT.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/yukmaric/public_html/lib/Midtrans/json_data.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 9
+[17-Aug-2024 00:57:31 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 56 and at least 3 expected in /home/yukmaric/public_html/lib/PHP-JWT/src/JWT.php:199
+Stack trace:
+#0 /home/yukmaric/public_html/lib/Midtrans/json_data.php(56): Firebase\JWT\JWT::encode()
+#1 {main}
+  thrown in /home/yukmaric/public_html/lib/PHP-JWT/src/JWT.php on line 199
+[17-Aug-2024 05:12:40 UTC] PHP Warning:  Undefined array key "captcha" in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 11
+[17-Aug-2024 06:53:04 UTC] PHP Warning:  require_once(lib/PHP-JWT/src/JWT.php): Failed to open stream: No such file or directory in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 9
+[17-Aug-2024 06:53:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'lib/PHP-JWT/src/JWT.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/yukmaric/public_html/lib/Midtrans/json_data.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 9
+[17-Aug-2024 06:53:09 UTC] PHP Warning:  require_once(lib/PHP-JWT/src/JWT.php): Failed to open stream: No such file or directory in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 9
+[17-Aug-2024 06:53:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'lib/PHP-JWT/src/JWT.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/yukmaric/public_html/lib/Midtrans/json_data.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 9
+[17-Aug-2024 06:53:39 UTC] PHP Warning:  require_once(lib/PHP-JWT/src/JWT.php): Failed to open stream: No such file or directory in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 9
+[17-Aug-2024 06:53:39 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'lib/PHP-JWT/src/JWT.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/yukmaric/public_html/lib/Midtrans/json_data.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 9
+[17-Aug-2024 06:54:14 UTC] PHP Warning:  require_once(lib/PHP-JWT/src/JWT.php): Failed to open stream: No such file or directory in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 9
+[17-Aug-2024 06:54:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'lib/PHP-JWT/src/JWT.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/yukmaric/public_html/lib/Midtrans/json_data.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 9
+[17-Aug-2024 07:15:17 UTC] PHP Fatal error:  Uncaught Error: Class "PHPMailer\PHPMailer\SMTP" not found in /home/yukmaric/public_html/lib/PHP-Mailer/src/PHPMailer.php:1989
+Stack trace:
+#0 /home/yukmaric/public_html/lib/PHP-Mailer/src/PHPMailer.php(2145): PHPMailer\PHPMailer\PHPMailer->getSMTPInstance()
+#1 /home/yukmaric/public_html/lib/PHP-Mailer/src/PHPMailer.php(2058): PHPMailer\PHPMailer\PHPMailer->smtpConnect()
+#2 /home/yukmaric/public_html/lib/PHP-Mailer/src/PHPMailer.php(1687): PHPMailer\PHPMailer\PHPMailer->smtpSend()
+#3 /home/yukmaric/public_html/lib/PHP-Mailer/src/PHPMailer.php(1521): PHPMailer\PHPMailer\PHPMailer->postSend()
+#4 /home/yukmaric/public_html/lib/Midtrans/json_data.php(95): PHPMailer\PHPMailer\PHPMailer->send()
+#5 {main}
+  thrown in /home/yukmaric/public_html/lib/PHP-Mailer/src/PHPMailer.php on line 1989
+[17-Aug-2024 07:15:22 UTC] PHP Fatal error:  Uncaught Error: Class "PHPMailer\PHPMailer\SMTP" not found in /home/yukmaric/public_html/lib/PHP-Mailer/src/PHPMailer.php:1989
+Stack trace:
+#0 /home/yukmaric/public_html/lib/PHP-Mailer/src/PHPMailer.php(2145): PHPMailer\PHPMailer\PHPMailer->getSMTPInstance()
+#1 /home/yukmaric/public_html/lib/PHP-Mailer/src/PHPMailer.php(2058): PHPMailer\PHPMailer\PHPMailer->smtpConnect()
+#2 /home/yukmaric/public_html/lib/PHP-Mailer/src/PHPMailer.php(1687): PHPMailer\PHPMailer\PHPMailer->smtpSend()
+#3 /home/yukmaric/public_html/lib/PHP-Mailer/src/PHPMailer.php(1521): PHPMailer\PHPMailer\PHPMailer->postSend()
+#4 /home/yukmaric/public_html/lib/Midtrans/json_data.php(95): PHPMailer\PHPMailer\PHPMailer->send()
+#5 {main}
+  thrown in /home/yukmaric/public_html/lib/PHP-Mailer/src/PHPMailer.php on line 1989
+[17-Aug-2024 07:51:07 UTC] PHP Warning:  Undefined variable $snapToken in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 82
+[17-Aug-2024 07:52:33 UTC] PHP Warning:  Undefined variable $snapToken in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 82
+[17-Aug-2024 08:11:33 UTC] PHP Warning:  Undefined variable $transaction_id in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 65
+[17-Aug-2024 08:11:46 UTC] PHP Warning:  Undefined variable $transaction_id in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 65
+[17-Aug-2024 08:12:27 UTC] PHP Fatal error:  Uncaught Exception: Midtrans API is returning API error. HTTP status code: 502 API response: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+ in /home/yukmaric/public_html/lib/Midtrans/Midtrans/ApiRequestor.php:167
+Stack trace:
+#0 /home/yukmaric/public_html/lib/Midtrans/Midtrans/ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall()
+#1 /home/yukmaric/public_html/lib/Midtrans/Midtrans/Snap.php(108): Midtrans\ApiRequestor::post()
+#2 /home/yukmaric/public_html/lib/Midtrans/Midtrans/Snap.php(36): Midtrans\Snap::createTransaction()
+#3 /home/yukmaric/public_html/lib/Midtrans/json_data.php(60): Midtrans\Snap::getSnapToken()
+#4 {main}
+  thrown in /home/yukmaric/public_html/lib/Midtrans/Midtrans/ApiRequestor.php on line 167
+[17-Aug-2024 08:12:32 UTC] PHP Warning:  Undefined variable $data in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 63
+[17-Aug-2024 08:12:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 63
+[17-Aug-2024 08:12:32 UTC] PHP Warning:  Undefined variable $data in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 64
+[17-Aug-2024 08:12:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 64
+[17-Aug-2024 08:42:59 UTC] PHP Warning:  Undefined variable $transaction_id in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 65
+[17-Aug-2024 12:10:07 UTC] PHP Warning:  Undefined variable $transaction_id in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 65
+[17-Aug-2024 12:12:09 UTC] PHP Warning:  Undefined variable $transaction_id in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 65
+[17-Aug-2024 12:20:05 UTC] PHP Warning:  Undefined variable $transaction_id in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 65
+[17-Aug-2024 12:26:35 UTC] PHP Fatal error:  Uncaught Exception: Midtrans API is returning API error. HTTP status code: 400 API response: {"error_messages":["transaction_details.gross_amount must be greater than or equal to 0.01"]} in /home/yukmaric/public_html/lib/Midtrans/Midtrans/ApiRequestor.php:167
+Stack trace:
+#0 /home/yukmaric/public_html/lib/Midtrans/Midtrans/ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall()
+#1 /home/yukmaric/public_html/lib/Midtrans/Midtrans/Snap.php(108): Midtrans\ApiRequestor::post()
+#2 /home/yukmaric/public_html/lib/Midtrans/Midtrans/Snap.php(36): Midtrans\Snap::createTransaction()
+#3 /home/yukmaric/public_html/lib/Midtrans/json_data.php(60): Midtrans\Snap::getSnapToken()
+#4 {main}
+  thrown in /home/yukmaric/public_html/lib/Midtrans/Midtrans/ApiRequestor.php on line 167
+[17-Aug-2024 12:26:42 UTC] PHP Fatal error:  Uncaught Exception: Midtrans API is returning API error. HTTP status code: 400 API response: {"error_messages":["transaction_details.gross_amount harus sama atau lebih besar dari 0.01"]} in /home/yukmaric/public_html/lib/Midtrans/Midtrans/ApiRequestor.php:167
+Stack trace:
+#0 /home/yukmaric/public_html/lib/Midtrans/Midtrans/ApiRequestor.php(39): Midtrans\ApiRequestor::remoteCall()
+#1 /home/yukmaric/public_html/lib/Midtrans/Midtrans/Snap.php(108): Midtrans\ApiRequestor::post()
+#2 /home/yukmaric/public_html/lib/Midtrans/Midtrans/Snap.php(36): Midtrans\Snap::createTransaction()
+#3 /home/yukmaric/public_html/lib/Midtrans/json_data.php(60): Midtrans\Snap::getSnapToken()
+#4 {main}
+  thrown in /home/yukmaric/public_html/lib/Midtrans/Midtrans/ApiRequestor.php on line 167
+[18-Aug-2024 03:38:21 UTC] PHP Warning:  require_once(Midtrans/Midtrans.php): Failed to open stream: No such file or directory in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 2
+[18-Aug-2024 03:38:21 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'Midtrans/Midtrans.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 2
+[18-Aug-2024 03:42:40 UTC] Array
+(
+)
+
+[18-Aug-2024 03:50:50 UTC] Array
+(
+)
+
+[18-Aug-2024 03:57:06 UTC] Array
+(
+)
+
+[18-Aug-2024 04:04:49 UTC] Array
+(
+)
+
+[18-Aug-2024 04:15:17 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "phone", expecting "]" in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 69
+[18-Aug-2024 04:15:23 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "phone", expecting "]" in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 69
+[18-Aug-2024 04:15:38 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "phone", expecting "]" in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 69
+[18-Aug-2024 04:16:29 UTC] Array
+(
+)
+
+[18-Aug-2024 04:36:57 UTC] Array
+(
+)
+
+[18-Aug-2024 05:15:52 UTC] Array
+(
+)
+
+[18-Aug-2024 05:26:40 UTC] Array
+(
+)
+
+[18-Aug-2024 05:30:37 UTC] Array
+(
+)
+
+[18-Aug-2024 05:32:21 UTC] Array
+(
+)
+
+[18-Aug-2024 09:30:00 UTC] Array
+(
+)
+
+[18-Aug-2024 09:32:07 UTC] Array
+(
+)
+
+[18-Aug-2024 09:35:01 UTC] Array
+(
+)
+
+[18-Aug-2024 16:38:18 UTC] PHP Warning:  Undefined array key "captcha" in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 20
+[18-Aug-2024 16:38:22 UTC] PHP Warning:  Undefined array key "captcha" in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 20
+[18-Aug-2024 16:38:32 UTC] PHP Warning:  Undefined array key "captcha" in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 20
+[20-Aug-2024 08:45:36 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 52
+[20-Aug-2024 08:45:42 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 52
+[20-Aug-2024 08:47:16 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 52
+[20-Aug-2024 08:48:48 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 52
+[20-Aug-2024 08:48:52 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 52
+[20-Aug-2024 08:51:13 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 52
+[20-Aug-2024 08:52:25 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 52
+[20-Aug-2024 08:52:32 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 52
+[20-Aug-2024 08:53:19 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 52
+[20-Aug-2024 08:53:24 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 52
+[20-Aug-2024 08:55:04 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 52
+[20-Aug-2024 08:55:08 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 52
+[20-Aug-2024 08:55:46 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 52
+[20-Aug-2024 08:56:19 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 52
+[20-Aug-2024 08:56:34 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 52
+[20-Aug-2024 08:58:12 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 52
+[20-Aug-2024 08:59:26 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 52
+[20-Aug-2024 09:03:53 UTC] Array
+(
+)
+
+[20-Aug-2024 09:08:15 UTC] Array
+(
+)
+
+[20-Aug-2024 15:22:38 UTC] Array
+(
+)
+
+[22-Aug-2024 09:23:38 UTC] Array
+(
+)
+
+[22-Aug-2024 09:23:41 UTC] PHP Warning:  Undefined variable $decoded_array in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 111
+[22-Aug-2024 09:23:41 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 111
+[22-Aug-2024 09:23:41 UTC] PHP Warning:  Undefined array key "email_pemateri" in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 145
+[22-Aug-2024 09:32:59 UTC] Array
+(
+)
+
+[22-Aug-2024 09:33:02 UTC] PHP Warning:  Undefined variable $decoded_array in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112
+[22-Aug-2024 09:33:02 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112
+[22-Aug-2024 09:33:02 UTC] PHP Warning:  Undefined array key "email_pemateri" in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 146
+[22-Aug-2024 09:34:53 UTC] Array
+(
+)
+
+[22-Aug-2024 09:34:56 UTC] PHP Warning:  Undefined variable $decoded_array in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112
+[22-Aug-2024 09:34:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112
+[22-Aug-2024 09:34:56 UTC] PHP Warning:  Undefined array key "email_pemateri" in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 146
+[22-Aug-2024 09:37:50 UTC] Array
+(
+)
+
+[22-Aug-2024 09:37:53 UTC] PHP Warning:  Undefined variable $decoded_array in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112
+[22-Aug-2024 09:37:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112
+[22-Aug-2024 09:50:33 UTC] Array
+(
+)
+
+[22-Aug-2024 09:50:36 UTC] PHP Warning:  Undefined variable $decoded_array in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112
+[22-Aug-2024 09:50:36 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112
+[22-Aug-2024 09:53:30 UTC] PHP Parse error:  syntax error, unexpected identifier "container", expecting "," or ";" in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 97
+[22-Aug-2024 09:54:48 UTC] Array
+(
+)
+
+[22-Aug-2024 09:54:51 UTC] PHP Warning:  Undefined variable $decoded_array in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 118
+[22-Aug-2024 09:54:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 118
+[22-Aug-2024 09:57:24 UTC] Array
+(
+)
+
+[22-Aug-2024 09:57:27 UTC] PHP Warning:  Undefined variable $decoded_array in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112
+[22-Aug-2024 09:57:27 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112
+[22-Aug-2024 09:59:16 UTC] Array
+(
+)
+
+[22-Aug-2024 09:59:19 UTC] PHP Warning:  Undefined variable $decoded_array in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112
+[22-Aug-2024 09:59:19 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112
+[26-Aug-2024 08:13:51 UTC] Array
+(
+)
+
+[26-Aug-2024 08:13:53 UTC] PHP Warning:  Undefined variable $decoded_array in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 113
+[26-Aug-2024 08:13:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 113
+[26-Aug-2024 09:32:37 UTC] Array
+(
+)
+
+[26-Aug-2024 09:32:40 UTC] PHP Warning:  Undefined variable $decoded_array in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112
+[26-Aug-2024 09:32:40 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112
+[26-Aug-2024 09:35:30 UTC] Array
+(
+)
+
+[26-Aug-2024 09:35:33 UTC] PHP Warning:  Undefined variable $decoded_array in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112
+[26-Aug-2024 09:35:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112
+[26-Aug-2024 09:40:26 UTC] Array
+(
+)
+
+[26-Aug-2024 09:40:29 UTC] PHP Warning:  Undefined variable $decoded_array in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112
+[26-Aug-2024 09:40:29 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112
+[26-Aug-2024 09:48:18 UTC] Array
+(
+)
+
+[26-Aug-2024 09:59:09 UTC] Array
+(
+)
+
+[26-Aug-2024 09:59:11 UTC] PHP Warning:  Undefined variable $decoded_array in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112
+[26-Aug-2024 09:59:11 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112
+[26-Aug-2024 09:59:14 UTC] Array
+(
+)
+
+[30-Aug-2024 14:01:20 UTC] Array
+(
+)
+
+[30-Aug-2024 14:01:23 UTC] PHP Warning:  Undefined variable $decoded_array in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112
+[30-Aug-2024 14:01:23 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112
+[30-Aug-2024 14:20:42 UTC] Array
+(
+)
+
+[30-Aug-2024 14:20:46 UTC] Array
+(
+)
+
+[02-Sep-2024 03:36:27 UTC] Array
+(
+)
+
+[02-Sep-2024 03:36:30 UTC] PHP Warning:  Undefined variable $decoded_array in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112
+[02-Sep-2024 03:36:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112
+[02-Sep-2024 03:38:28 UTC] Array
+(
+)
+
+[02-Sep-2024 03:38:31 UTC] PHP Warning:  Undefined variable $decoded_array in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112
+[02-Sep-2024 03:38:31 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112
+[03-Sep-2024 07:20:11 UTC] PHP Warning:  Undefined array key "captcha" in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 21
+[03-Sep-2024 07:20:22 UTC] PHP Warning:  Undefined array key "captcha" in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 21
+[03-Sep-2024 07:20:28 UTC] PHP Warning:  Undefined array key "captcha" in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 21
+[03-Sep-2024 07:20:41 UTC] PHP Warning:  Undefined array key "captcha" in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 21
+[03-Sep-2024 07:21:40 UTC] PHP Warning:  Undefined array key "captcha" in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 21
+[03-Sep-2024 07:21:42 UTC] PHP Warning:  Undefined array key "captcha" in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 21
+[03-Sep-2024 07:22:19 UTC] PHP Warning:  Undefined array key "captcha" in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 21
+[03-Sep-2024 07:22:24 UTC] PHP Warning:  Undefined array key "captcha" in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 21
+[03-Sep-2024 07:22:29 UTC] PHP Warning:  Undefined array key "captcha" in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 21
+[03-Sep-2024 07:23:56 UTC] PHP Warning:  Undefined array key "captcha" in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 21
+[03-Sep-2024 07:24:12 UTC] PHP Warning:  Undefined array key "captcha" in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 21
+[03-Sep-2024 07:24:13 UTC] PHP Warning:  Undefined array key "captcha" in /home/yukmaric/public_html/lib/Midtrans/json_data.php on line 21
+[05-Sep-2024 12:33:13 UTC] Array
+(
+)
+
+[05-Sep-2024 12:33:16 UTC] PHP Warning:  Undefined variable $decoded_array in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112
+[05-Sep-2024 12:33:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112
+[06-Sep-2024 06:29:19 UTC] Array
+(
+)
+
+[06-Sep-2024 06:29:22 UTC] PHP Warning:  Undefined variable $decoded_array in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112
+[06-Sep-2024 06:29:22 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112
+[06-Sep-2024 06:31:22 UTC] Array
+(
+)
+
+[06-Sep-2024 06:31:25 UTC] PHP Warning:  Undefined variable $decoded_array in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112
+[06-Sep-2024 06:31:25 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112
+[06-Sep-2024 06:32:53 UTC] Array
+(
+)
+
+[06-Sep-2024 06:32:56 UTC] PHP Warning:  Undefined variable $decoded_array in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112
+[06-Sep-2024 06:32:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112
+[08-Sep-2024 07:40:55 UTC] Array
+(
+)
+
+[08-Sep-2024 07:40:58 UTC] PHP Warning:  Undefined variable $decoded_array in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112
+[08-Sep-2024 07:40:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112
+[08-Sep-2024 16:27:40 UTC] Array
+(
+)
+
+[08-Sep-2024 16:27:44 UTC] PHP Warning:  Undefined variable $decoded_array in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112
+[08-Sep-2024 16:27:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112
+[09-Sep-2024 09:41:27 UTC] Array
+(
+)
+
+[09-Sep-2024 09:41:30 UTC] PHP Warning:  Undefined variable $decoded_array in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112
+[09-Sep-2024 09:41:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112
+[09-Sep-2024 16:23:46 UTC] Array
+(
+)
+
+[09-Sep-2024 16:23:49 UTC] PHP Warning:  Undefined variable $decoded_array in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112
+[09-Sep-2024 16:23:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112
+[10-Sep-2024 02:45:23 UTC] Array
+(
+)
+
+[10-Sep-2024 02:45:26 UTC] PHP Warning:  Undefined variable $decoded_array in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112
+[10-Sep-2024 02:45:26 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112
+[10-Sep-2024 02:45:33 UTC] Array
+(
+)
+
+[10-Sep-2024 02:45:37 UTC] PHP Warning:  Undefined variable $decoded_array in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112
+[10-Sep-2024 02:45:37 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112
+[11-Sep-2024 03:28:33 UTC] Array
+(
+)
+
+[11-Sep-2024 03:28:36 UTC] PHP Warning:  Undefined variable $decoded_array in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112
+[11-Sep-2024 03:28:36 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/yukmaric/public_html/lib/Midtrans/process_jwt.php on line 112

@@ -1,0 +1,2 @@
+[16-Aug-2024 23:11:20 UTC] PHP Warning:  imagettftext(): Could not find/open font in /home/yukmaric/public_html/lib/captcha.php on line 22
+[16-Aug-2024 23:11:27 UTC] PHP Warning:  imagettftext(): Could not find/open font in /home/yukmaric/public_html/lib/captcha.php on line 22

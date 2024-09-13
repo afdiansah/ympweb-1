@@ -1,0 +1,1 @@
+Transaction order_id: payment_notif_test_G537554248_9f1f6cf7-fccb-4371-b966-879372636fff successfully transferred using gopay

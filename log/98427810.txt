@@ -1,0 +1,1 @@
+Payment using qris for transaction order_id: 98427810 is canceled.

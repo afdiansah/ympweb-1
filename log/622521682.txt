@@ -1,0 +1,1 @@
+Transaction order_id: 622521682 successfully settled.
