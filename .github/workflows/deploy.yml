@@ -21,4 +21,4 @@ jobs:
         local-dir: ./ # Folder lokal yang ingin kamu deploy
         server-dir: /public_html # Direktori di server tempat file akan diupload
         git-ftp-args: --insecure
-        /
+        
