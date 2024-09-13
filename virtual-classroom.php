@@ -125,8 +125,8 @@ error_log(print_r($_POST, true));
             <div class="section-title">
                     <h2>List Kelas</h2>
                     <div class="bar"></div>
-                    <a href="https://drive.google.com/file/d/1Fu_imNOBts_xmBiDqZy5obou08Mf9UDn/view?usp=sharing" target="_blank"><button type="button" class="btn btn-primary me-2" id="myBtn"><i class="fas fa-arrow-down"></i> Download Buku Panduan Virtual Classroom</button></a>
-                    <a href="https://api.whatsapp.com/send/?phone=6282295603115&text=Permisi,%20saya%20Ingin%20Dapat%20Diskon%20Kursus%20Kelas,%20apakah%20bisa?&type=phone_number&app_absent=0" target="_blank"><button type="button" class="btn btn-primary me-2" id="myBtn"><i class="fas fa-info-circle"></i> Dapatkan diskon hingga 75%</button></a>
+                    <a href="https://drive.google.com/file/d/1Fu_imNOBts_xmBiDqZy5obou08Mf9UDn/view?usp=sharing" target="_blank"><button type="button" class="btn btn-primary me-2" id="myBtn"><i class="fas fa-arrow-down"></i> Download Buku Panduan Virtual Classroom</button></a><br/>
+                    <a href="https://api.whatsapp.com/send/?phone=6282295603115&text=Permisi,%20saya%20Ingin%20Dapat%20Diskon%20Kursus%20Kelas,%20apakah%20bisa?&type=phone_number&app_absent=0" target="_blank"><button type="button" style="margin-top:10px" class="btn btn-primary me-2" id="myBtn"><i class="fas fa-info-circle"></i> Dapatkan diskon hingga 75%</button></a>
                 </div>
 				<div class="row">
 				    <!-- LIST KELAS -->
