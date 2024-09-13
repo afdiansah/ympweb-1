@@ -19,6 +19,6 @@ jobs:
         username: ${{ secrets.FTP_USERNAME }}   # Username FTP
         password: ${{ secrets.FTP_PASSWORD }}   # Password FTP
         local-dir: ./                          # Folder lokal yang ingin kamu deploy
-        server-dir: /public_html               # Direktori di server tempat file akan diupload
+        server-dir: /public_html/               # Direktori di server tempat file akan diupload
         port: ${{ secrets.FTP_PORT }}           # Port FTP (opsional, jika diperlukan)
         protocol: ftp                         # Protocol (opsional, jika diperlukan)
