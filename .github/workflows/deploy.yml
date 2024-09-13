@@ -15,9 +15,10 @@ jobs:
     - name: FTP Upload
       uses: SamKirkland/FTP-Deploy-Action@4.1.0
       with:
-        server: ${{ secrets.FTP_SERVER }}
-        username: ${{ secrets.FTP_USERNAME }}
-        password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: ./ # Folder lokal yang ingin kamu deploy
-        server-dir: /public_html # Direktori di server tempat file akan diupload
-        
+        server: ${{ secrets.FTP_SERVER }}       # Alamat FTP server
+        username: ${{ secrets.FTP_USERNAME }}   # Username FTP
+        password: ${{ secrets.FTP_PASSWORD }}   # Password FTP
+        local-dir: ./                          # Folder lokal yang ingin kamu deploy
+        server-dir: /public_html               # Direktori di server tempat file akan diupload
+        port: 21                              # Opsional: port FTP, jika diperlukan
+        protocol: ftp                         # Opsional: protocol, jika berbeda dari default
