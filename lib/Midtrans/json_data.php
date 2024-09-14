@@ -37,7 +37,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Daftar level, harga, dan judul kelas yang valid (judul kelas bisa dalam bentuk array)
     $valid_classes = [
         'pemula' => [
-            'price' => 1,
+            'price' => 35000,
             'titles' => ['Keamanan Siber untuk Pemula: Hacking hingga Forensik']
         ],
         'menengah' => [
