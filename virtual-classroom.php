@@ -83,6 +83,23 @@ error_log(print_r($_POST, true));
             margin-right: 10px;
         }
         </style>
+
+        <style>
+        .captcha-container {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .refresh-btn {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            font-size: 1.5rem;
+        }
+        .refresh-btn:hover {
+            color: #fdc609;
+        }
+        </style>
         
         <?php include 'templates/nav.php'; ?>
 
@@ -166,6 +183,12 @@ error_log(print_r($_POST, true));
         <!-- End Blog Area -->
         
         <?php include 'templates/footer.php'; ?>
+        
+        <script>
+        function refreshCaptcha() {
+            document.getElementById('captcha').src = 'lib/captcha/captcha.php?' + Math.random();
+        }
+        </script>
 
         <!-- Magnific Popup Trigger Script -->
         <script src="assets/js/virtual-classroom/popup_trigger.js"></script>

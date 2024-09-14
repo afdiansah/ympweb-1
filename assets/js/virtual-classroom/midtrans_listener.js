@@ -59,7 +59,7 @@ document.getElementById('buy-button').addEventListener('click', function() {
             })
             .catch(error => {
                 console.error('Error:', error);
-                alert('Terjadi kesalahan dalam komunikasi dengan server.');
+                alert('Terjadi kesalahan dalam komunikasi dengan server. Silahkan coba kembali.');
             });
         });
         

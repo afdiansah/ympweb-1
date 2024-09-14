@@ -158,54 +158,95 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->Subject = 'Status Pembayaran Kursus Online Kamu di Yuk-Mari Project !';
         $mail->Body    = '
             <html>
-            <head>
-                <style>
-                    body {
-                        font-family: Arial, sans-serif;
-                        color: #333;
-                    }
-                    .container {
-                        width: 80%;
-                        margin: 0 auto;
-                        padding: 20px;
-                        background-color: #f9f9f9;
-                        border-radius: 5px;
-                        border: 1px solid #ddd;
-                    }
-                    h1 {
-                        color: #000;
-                    }
-                    .content {
-                        margin-bottom: 20px;
-                    }
-                    a {
-                        color: #007bff;
-                        text-decoration: none;
-                    }
-                    .footer {
-                        border-top: 1px solid #ddd;
-                        padding-top: 10px;
-                        font-size: 12px;
-                        color: #777;
-                    }
-                </style>
-            </head>
-            <body>
-                <div class="container">
-                    <h1>Halo ' . htmlspecialchars($_POST['nama_lengkap']) . '!</h1>
-                    <div class="content">
-                        Terima kasih telah berminat untuk kursus online <b>"'.htmlspecialchars($_POST['judul_kursus']).'"</b> di Yuk-Mari Project.<br>
-                        Berikut kami lampirkan status pembayaran Anda. Klik link berikut untuk melihatnya: <br/><br/>
-                        <b><a href="https://yuk-mari.com/payment.php?token=' . htmlspecialchars($snapToken) . '">Status Pembayaran</a></b>
+                <head>
+                    <style>
+                        body {
+                            font-family: Arial, sans-serif;
+                            color: #333;
+                            background-color: #f4f4f4;
+                            margin: 0;
+                            padding: 0;
+                        }
+                        .container {
+                            width: 80%;
+                            max-width: 600px;
+                            margin: 0 auto;
+                            padding: 20px;
+                            background-color: #ffffff;
+                            border-radius: 8px;
+                            border: 1px solid #ddd;
+                            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+                        }
+                        .header {
+                            text-align: center;
+                            margin-bottom: 20px;
+                        }
+                        .logo {
+                            max-width: 150px;
+                            margin-bottom: 10px;
+                        }
+                        h1 {
+                            color: #333;
+                            font-size: 24px;
+                            margin-bottom: 10px;
+                        }
+                        .content {
+                            margin-bottom: 20px;
+                            line-height: 1.6;
+                        }
+                        a {
+                            color: #007bff;
+                            text-decoration: none;
+                        }
+                        .button {
+                            display: inline-block;
+                            padding: 10px 20px;
+                            margin-top: 20px;
+                            background-color: #fdbe08;
+                            color: #fff;
+                            text-decoration: none;
+                            border-radius: 5px;
+                            font-size: 16px;
+                        }
+                        .button:hover {
+                            background-color: #000;
+                        }
+                        .footer {
+                            border-top: 1px solid #ddd;
+                            padding-top: 10px;
+                            font-size: 12px;
+                            color: #777;
+                            text-align: left;
+                        }
+                        .footer a {
+                            color: #007bff;
+                            text-decoration: none;
+                        }
+                    </style>
+                </head>
+                <body>
+                    <div class="container">
+                        <!-- Logo Perusahaan -->
+                        <div class="header">
+                            <img src="https://yuk-mari.com/assets/img/black-logo.png" alt="Logo Yuk-Mari Project" class="logo">
+                        </div>
+
+                        <!-- Isi Email -->
+                        <h1>Orderan kursus dari ' . htmlspecialchars($first_name) . '!</h1>
+                        <div class="content">
+                            Terima kasih telah berminat untuk kursus online <b>"'.htmlspecialchars($_POST['judul_kursus']).'"</b> di Yuk-Mari Project.<br>
+                            Berikut kami lampirkan status pembayaran Anda. Klik link berikut untuk melihatnya: <br/><br/>
+                            <b><a href="https://yuk-mari.com/payment.php?token=' . htmlspecialchars($snapToken) . '">Status Pembayaran</a></b>
+                        </div>
+
+                        <!-- Footer -->
+                        <div class="footer">
+                            Hormat Kami,<br>
+                            Yuk-Mari Project<br>
+                            Komplek Bandung Indah Raya No.17 Blok C13, Mekarjaya, Kec. Rancasari, Kota Bandung, Jawa Barat 40286 , <a href="wa.me/6282295603115">+62 822-9560-3115</a> (via Call / Whatsapp Messenger)
+                        </div>
                     </div>
-                    <div class="footer">
-                        Hormat Kami,<br>
-                        Yuk-Mari Project Team<br>
-                        Alamat Kantor: Komplek Bandung Indah Raya No.17 Blok C13, Mekarjaya, Kec. Rancasari, Kota Bandung, Jawa Barat 40286<br>
-                        No. Telepon: +62813-8636-9207 (via Call / Whatsapp Messenger)
-                    </div>
-                </div>
-            </body>
+                </body>
             </html>
         ';
         $mail->isHTML(true); // Pastikan email dikirim sebagai HTML

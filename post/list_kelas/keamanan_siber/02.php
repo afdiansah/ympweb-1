@@ -278,7 +278,11 @@
         </div>
         <div class="form-group">
             <label for="captcha" style="font-weight: bold; color: #343a40;">Verifikasi Captcha</label><br/>
-            <img src="lib/captcha/captcha.php" alt="CAPTCHA Image">
+            <!-- Bagian Captcha -->
+                <img id="captcha" src="lib/captcha/captcha.php" alt="Captcha Image">
+                <button type="button" class="refresh-btn" onclick="refreshCaptcha()">
+                    <i class="fas fa-sync-alt"></i>
+                </button>
             <input class="form-control" type="text" name="captcha" id="captcha" required placeholder="Masukkan kode Captcha" style="border-radius: 15px; padding: 10px; border: 1px solid #343a40;">
         </div>
         

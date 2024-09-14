@@ -54,54 +54,94 @@ if ($order_id) {
         $mail->Subject = 'Link Materi Video Kursus Online Kamu di Yuk-Mari Project!';
         $mail->Body    = '
             <html>
-            <head>
-                <style>
-                    body {
-                        font-family: Arial, sans-serif;
-                        color: #333;
-                        margin: 0;
-                        padding: 0;
-                        background-color: #f4f4f4;
-                    }
-                    .container {
-                        width: 80%;
-                        margin: 20px auto;
-                        padding: 20px;
-                        background-color: #ffffff;
-                        border-radius: 5px;
-                        border: 1px solid #ddd;
-                    }
-                    h1 {
-                        color: #000;
-                        font-size: 24px;
-                    }
-                    a {
-                        color: #007bff;
-                        text-decoration: none;
-                        font-weight: bold;
-                    }
-                    .footer {
-                        border-top: 1px solid #ddd;
-                        padding-top: 10px;
-                        font-size: 12px;
-                        color: #777;
-                    }
-                </style>
-            </head>
-            <body>
-                <div class="container">
-                    <h1>Selamat! Pembayaran Kursus Online kamu telah berhasil!</h1>
-                    <p>Terima kasih <b>'.$first_name.'</b>, kamu telah menyelesaikan pembayaran kursus online <b>"'.$judul_kursus.'"</b> di Yuk-Mari Project!<br/>Berikut link materi video eksklusif kamu kami lampirkan:</p>
-                    <p><a href="https://yuk-mari.com/materi-video-exclusive.php?token=' . htmlspecialchars($jwtToken) . '">Akses Materi Video</a></p>
-                    <p>Selamat belajar!</p>
-                    <div class="footer">
-                        Hormat Kami,<br>
-                        Yuk-Mari Project Team<br>
-                        Alamat Kantor: Komplek Bandung Indah Raya No.17 Blok C13, Mekarjaya, Kec. Rancasari, Kota Bandung, Jawa Barat 40286<br>
-                        No. Telepon: +62813-8636-9207 (via Call / Whatsapp Messenger)
+                <head>
+                    <style>
+                        body {
+                            font-family: Arial, sans-serif;
+                            color: #333;
+                            background-color: #f4f4f4;
+                            margin: 0;
+                            padding: 0;
+                        }
+                        .container {
+                            width: 80%;
+                            max-width: 600px;
+                            margin: 0 auto;
+                            padding: 20px;
+                            background-color: #ffffff;
+                            border-radius: 8px;
+                            border: 1px solid #ddd;
+                            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+                        }
+                        .header {
+                            text-align: center;
+                            margin-bottom: 20px;
+                        }
+                        .logo {
+                            max-width: 150px;
+                            margin-bottom: 10px;
+                        }
+                        h1 {
+                            color: #333;
+                            font-size: 24px;
+                            margin-bottom: 10px;
+                        }
+                        .content {
+                            margin-bottom: 20px;
+                            line-height: 1.6;
+                        }
+                        a {
+                            color: #007bff;
+                            text-decoration: none;
+                        }
+                        .button {
+                            display: inline-block;
+                            padding: 10px 20px;
+                            margin-top: 20px;
+                            background-color: #fdbe08;
+                            color: #fff;
+                            text-decoration: none;
+                            border-radius: 5px;
+                            font-size: 16px;
+                        }
+                        .button:hover {
+                            background-color: #000;
+                        }
+                        .footer {
+                            border-top: 1px solid #ddd;
+                            padding-top: 10px;
+                            font-size: 12px;
+                            color: #777;
+                            text-align: left;
+                        }
+                        .footer a {
+                            color: #007bff;
+                            text-decoration: none;
+                        }
+                    </style>
+                </head>
+                <body>
+                    <div class="container">
+                        <!-- Logo Perusahaan -->
+                        <div class="header">
+                            <img src="https://yuk-mari.com/assets/img/black-logo.png" alt="Logo Yuk-Mari Project" class="logo">
+                        </div>
+
+                        <!-- Isi Email -->
+                        <h1>Selamat! Pembayaran Kursus Online kamu telah berhasil!</h1>
+                        <div class="content">
+                            Terima kasih <b>'.$first_name.'</b>, kamu telah menyelesaikan pembayaran kursus online <b>"'.$judul_kursus.'"</b> di Yuk-Mari Project!<br/>Berikut link materi video eksklusif kamu kami lampirkan:<br/>
+                            <a href="https://yuk-mari.com/materi-video-exclusive.php?token=' . htmlspecialchars($jwtToken) . '" class="button">Akses Materi Video</a>
+                        </div>
+
+                        <!-- Footer -->
+                        <div class="footer">
+                            Hormat Kami,<br>
+                            Yuk-Mari Project<br>
+                            Komplek Bandung Indah Raya No.17 Blok C13, Mekarjaya, Kec. Rancasari, Kota Bandung, Jawa Barat 40286 , <a href="wa.me/6282295603115">+62 822-9560-3115</a> (via Call / Whatsapp Messenger)
+                        </div>
                     </div>
-                </div>
-            </body>
+                </body>
             </html>
         ';
 
@@ -144,61 +184,102 @@ if ($order_id) {
     // Recipients
     $mail2->setFrom('yukmari2211@gmail.com', 'Yuk-Mari Project');
     $mail2->addAddress($email);
-    $mail2->addAddress($email_pemateri); // Email kedua, ganti dengan email yang diinginkan
+    $mail2->addAddress('firdamdamsasmita@upi.edu'); // Email kedua, ganti dengan email yang diinginkan
     
     // Content
     $mail2->Subject = '#YMP-'.$order_id.' -  '.$judul_kursus.' !';
     $mail2->Body    = '
         <html>
-        <head>
-            <style>
-                body {
-                    font-family: Arial, sans-serif;
-                    color: #333;
-                }
-                .container {
-                    width: 80%;
-                    margin: 0 auto;
-                    padding: 20px;
-                    background-color: #f9f9f9;
-                    border-radius: 5px;
-                    border: 1px solid #ddd;
-                }
-                h1 {
-                    color: #000;
-                }
-                .content {
-                    margin-bottom: 20px;
-                }
-                a {
-                    color: #007bff;
-                    text-decoration: none;
-                }
-                .footer {
-                    border-top: 1px solid #ddd;
-                    padding-top: 10px;
-                    font-size: 12px;
-                    color: #777;
-                }
-            </style>
-        </head>
-        <body>
-            <div class="container">
-                <h1>Orderan kursus dari ' . htmlspecialchars($first_name) . '!</h1>
-                <div class="content">
-                    Sebagai notifikasi pembayaran kursus, '.htmlspecialchars($indonesianDate).', ada orderan kursus dengan id <b>YMP-'.htmlspecialchars($order_id).'</b> untuk judul kursus <b>"'.htmlspecialchars($judul_kursus).'"</b><br><br>
-                    Mohon untuk tidak menghapus pesan ini ya, sebagai bukti orderan masuk untuk materi kursus.<br/><br/>
-                    Terima Kasih!
-                </div>
-                <div class="footer">
-                    Hormat Kami,<br>
-                    Yuk-Mari Project Team<br>
-                    Alamat Kantor: Komplek Bandung Indah Raya No.17 Blok C13, Mekarjaya, Kec. Rancasari, Kota Bandung, Jawa Barat 40286<br>
-                    No. Telepon: +62813-8636-9207 (via Call / Whatsapp Messenger)
-                </div>
-            </div>
-        </body>
-        </html>
+                <head>
+                    <style>
+                        body {
+                            font-family: Arial, sans-serif;
+                            color: #333;
+                            background-color: #f4f4f4;
+                            margin: 0;
+                            padding: 0;
+                        }
+                        .container {
+                            width: 80%;
+                            max-width: 600px;
+                            margin: 0 auto;
+                            padding: 20px;
+                            background-color: #ffffff;
+                            border-radius: 8px;
+                            border: 1px solid #ddd;
+                            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+                        }
+                        .header {
+                            text-align: center;
+                            margin-bottom: 20px;
+                        }
+                        .logo {
+                            max-width: 150px;
+                            margin-bottom: 10px;
+                        }
+                        h1 {
+                            color: #333;
+                            font-size: 24px;
+                            margin-bottom: 10px;
+                        }
+                        .content {
+                            margin-bottom: 20px;
+                            line-height: 1.6;
+                        }
+                        a {
+                            color: #007bff;
+                            text-decoration: none;
+                        }
+                        .button {
+                            display: inline-block;
+                            padding: 10px 20px;
+                            margin-top: 20px;
+                            background-color: #fdbe08;
+                            color: #fff;
+                            text-decoration: none;
+                            border-radius: 5px;
+                            font-size: 16px;
+                        }
+                        .button:hover {
+                            background-color: #000;
+                        }
+                        .footer {
+                            border-top: 1px solid #ddd;
+                            padding-top: 10px;
+                            font-size: 12px;
+                            color: #777;
+                            text-align: left;
+                        }
+                        .footer a {
+                            color: #007bff;
+                            text-decoration: none;
+                        }
+                    </style>
+                </head>
+                <body>
+                    <div class="container">
+                        <!-- Logo Perusahaan -->
+                        <div class="header">
+                            <img src="https://yuk-mari.com/assets/img/black-logo.png" alt="Logo Yuk-Mari Project" class="logo">
+                        </div>
+
+                        <!-- Isi Email -->
+                        <h1>Orderan kursus dari ' . htmlspecialchars($first_name) . '!</h1>
+                        <div class="content">
+                            Sebagai notifikasi pembayaran kursus, '.htmlspecialchars($indonesianDate).', ada orderan kursus dengan id <b>YMP-'.htmlspecialchars($order_id).'</b> untuk judul kursus <b>"'.htmlspecialchars($judul_kursus).'"</b><br><br>
+                            Mohon untuk tidak menghapus pesan ini ya, sebagai bukti orderan masuk untuk materi kursus.<br/><br/>
+                            Terima Kasih!
+                        </div>
+
+                        <!-- Footer -->
+                        <div class="footer">
+                            Hormat Kami,<br>
+                            Yuk-Mari Project<br>
+                            Komplek Bandung Indah Raya No.17 Blok C13, Mekarjaya, Kec. Rancasari, Kota Bandung, Jawa Barat 40286 , <a href="wa.me/6282295603115">+62 822-9560-3115</a> (via Call / Whatsapp Messenger)
+                        </div>
+                    </div>
+                </body>
+            </html>
     ';
     $mail2->isHTML(true); // Pastikan email dikirim sebagai HTML
     
