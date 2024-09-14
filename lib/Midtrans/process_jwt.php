@@ -144,7 +144,7 @@ if ($order_id) {
     // Recipients
     $mail2->setFrom('yukmari2211@gmail.com', 'Yuk-Mari Project');
     $mail2->addAddress($email);
-    $mail2->addAddress('yukmari2211@gmail.com'); // Email kedua, ganti dengan email yang diinginkan
+    $mail2->addAddress($email_pemateri); // Email kedua, ganti dengan email yang diinginkan
     
     // Content
     $mail2->Subject = '#YMP-'.$order_id.' -  '.$judul_kursus.' !';

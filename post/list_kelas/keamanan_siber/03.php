@@ -16,7 +16,7 @@
 							<div class="blog-post-content">
 								<h3><a href="#">Memulai Perjalanan dalam Keamanan Website : Bangun Pengalaman Praktis</a></h3>
 
-								<span><b>Harga:</b> <!--<del><font color="red">Rp135.000</font></del>--> Rp120.000 / 5 Materi / 63:78 Menit<br/><b>Level Kelas:</b> Menengah</span>
+								<span><b>Harga: </b><del><font color="red">Rp155.000</font></del> Rp55.000<br/><b>Total Materi:</b> 5 Materi<br/><b>Durasi Materi:</b> 63:78 Menit<br/><b>Level Kelas:</b> Menengah</span>
 
 								<p style="text-align:justify"> Materi yang disampaikan cukup kental dengan best practices dan simulasi penetrasi sistem. Untuk terjun ke dunia Penetrasi Website, penting memahami keamanan dan membangun pengalaman praktis yang kuat dalam aplikasi nyata.</p>
 
@@ -77,7 +77,7 @@
                                                 <h6><strong>Tanggal Pembuatan:</strong> 01 September 2024</h6>
                                             </div>
                                             <div class="col-md-6">
-                                                <h6><strong>Harga Total:</strong> <!--<del><font color="red">Rp135.000</font></del>--> Rp120.000</h6>
+                                                <h6><strong>Harga Total:</strong> <del><font color="red">Rp155.000</font></del> Rp55.000</h6>
                                             </div>
                                         </div>
                                         <div class="row">
@@ -283,7 +283,8 @@
         </div>
         
         <!-- INPUT MANUAL -->
-        <input value="120000" class="form-control" type="hidden" name="harga" id="harga" style="border-radius: 15px; padding: 10px; border: 1px solid #343a40;">
+        <input value="55000" class="form-control" type="hidden" name="harga" id="harga" style="border-radius: 15px; padding: 10px; border: 1px solid #343a40;">
+        <input value="menengah" class="form-control" type="hidden" name="level" id="level" style="border-radius: 15px; padding: 10px; border: 1px solid #343a40;">
         <input value="Memulai Perjalanan dalam Keamanan Website Membangun Pengalaman Praktis" class="form-control" type="hidden" name="judul_kursus" id="harga" style="border-radius: 15px; padding: 10px; border: 1px solid #343a40;">
         <input value="firdamdamsasmita@upi.edu" class="form-control" type="hidden" name="email_pemateri" id="email_pemateri" style="border-radius: 15px; padding: 10px; border: 1px solid #343a40;">
         <button type="button" id="buy-button3" style="width: 100%; border-radius: 15px;" class="btn btn-primary me-2"><i class="fas fa-shopping-cart"></i> Beli</button>

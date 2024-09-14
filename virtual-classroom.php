@@ -90,7 +90,7 @@ error_log(print_r($_POST, true));
         <div class="page-title-area item-bg1 jarallax" data-jarallax='{"speed": 0.3}'>
             <div class="container">
                 <div class="page-title-content">
-                    <h2>Virtual Classroom</h2>
+                    <h2>Virtual Classroom / Kursus Online</h2>
                     <p>Salah satu media bantu Kelas Maya / Kelas Virtual yang diperuntukan untuk Pelajar (kalangan siswa maupun mahasiswa) maupun Umum dalam meningkatkan kapasitas keilmuan dan keterampilannya hanya melalui device, device apapun dan kapanpun waktunya</p>
                 </div>
             </div>
@@ -126,7 +126,6 @@ error_log(print_r($_POST, true));
                     <h2>List Kelas</h2>
                     <div class="bar"></div>
                     <a href="https://drive.google.com/file/d/1Fu_imNOBts_xmBiDqZy5obou08Mf9UDn/view?usp=sharing" target="_blank"><button type="button" class="btn btn-primary me-2" id="myBtn"><i class="fas fa-arrow-down"></i> Download Buku Panduan Virtual Classroom</button></a><br/>
-                    <a href="https://api.whatsapp.com/send/?phone=6282295603115&text=Permisi,%20saya%20Ingin%20Dapat%20Diskon%20Kursus%20Kelas,%20apakah%20bisa?&type=phone_number&app_absent=0" target="_blank"><button type="button" style="margin-top:10px" class="btn btn-primary me-2" id="myBtn"><i class="fas fa-info-circle"></i> Dapatkan diskon hingga 75%</button></a>
                 </div>
 				<div class="row">
 				    <!-- LIST KELAS -->

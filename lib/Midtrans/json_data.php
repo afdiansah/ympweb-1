@@ -34,12 +34,48 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         exit();
     }
 
-    // Set harga tetap
-    $fixed_price = 120000;
+    // Daftar level, harga, dan judul kelas yang valid (judul kelas bisa dalam bentuk array)
+    $valid_classes = [
+        'pemula' => [
+            'price' => 35000,
+            'titles' => ['Keamanan Siber untuk Pemula: Hacking hingga Forensik']
+        ],
+        'menengah' => [
+            'price' => 55000,
+            'titles' => ['Fondasi dalam Keamanan Website Sebelum Memulai Penetrasi Sistem', 'Memulai Perjalanan dalam Keamanan Website Membangun Pengalaman Praktis'] // Variasi judul
+        ]
+    ];
+
+    // Pastikan 'level', 'harga', dan 'judul_kelas' ada di $_POST
+    if (!isset($_POST['level'], $_POST['harga'], $_POST['judul_kursus'])) {
+        echo json_encode(['error' => 'Error: Data tidak lengkap.']);
+        exit();
+    }
+
+    // Ambil data dari POST
+    $level = $_POST['level'];
+    $harga = (int)$_POST['harga'];
+    $judul_kursus = $_POST['judul_kursus'];
+
+    // Cek apakah level yang dikirim ada di daftar kelas yang valid
+    if (!array_key_exists($level, $valid_classes)) {
+        echo json_encode(['error' => 'Error: Level kelas tidak valid.']);
+        exit();
+    }
+
+    // Ambil data valid berdasarkan level yang dikirim
+    $fixed_price = $valid_classes[$level]['price'];
+    $valid_titles = $valid_classes[$level]['titles']; // Judul kelas bisa banyak
 
     // Validasi harga
-    if ((int)$_POST['harga'] !== $fixed_price) {
-        echo json_encode(['error' => 'Harga tidak valid.']);
+    if ($harga !== $fixed_price) {
+        echo json_encode(['error' => 'Error: Terjadi manipulasi Harga.']);
+        exit();
+    }
+
+    // Validasi judul kelas (cek apakah judul kelas yang dikirim ada dalam array valid titles)
+    if (!in_array($judul_kursus, $valid_titles)) {
+        echo json_encode(['error' => 'Error: Terjadi manipulasi Judul Kursus.']);
         exit();
     }
 
