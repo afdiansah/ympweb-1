@@ -16,7 +16,7 @@
 							<div class="blog-post-content">
 								<h3><a href="#">Fondasi dalam Keamanan Website Sebelum Memulai Penetrasi Sistem</a></h3>
 
-								<span><b>Harga: </b><del><font color="red">Rp155.000</font></del> Rp55.000<br/><b>Total Materi:</b> 5 Materi<br/><b>Durasi Materi:</b> 63:96 Menit<br/><b>Level Kelas:</b> Menengah</span>
+								<span><b>Harga: </b><del><font color="red">Rp155.000</font></del> Rp55.000<br/><b>Total Materi:</b> 5 Materi<br/><b>Durasi Materi:</b> 63:96 Menit<br/><b>Level Kelas:</b> Menengah<br/><b>Peserta Terdaftar:</b> 5 Peserta</span>
 
 								<p style="text-align:justify">Materi yang disampaikan ini cukup kental dengan best practices karena didampingi dengan simulasi penetrasi sistem. Alangkah baiknya jika ingin terjun ke dunia Penetrasi Sistem, khususnya bidang Website, harus memahami fondasi.</p>
 
@@ -46,6 +46,9 @@
                                                         </a>
                                                         <a href="https://www.instagram.com/adamsasmi/" target="_blank" class="social-icon">
                                                             <i class="fab fa-instagram"></i>
+                                                        </a>
+                                                        <a href="adam_cv.pdf" target="_blank" class="social-icon">
+                                                            <i class="fa-solid fa-file"></i>
                                                         </a>
                                                 </div>
                                             </div>
@@ -82,7 +85,7 @@
                                         </div>
                                         <div class="row">
                                             <div class="col-md-6">
-                                                <h6><strong>Peserta Terdaftar: </strong>1 Peserta</h6>
+                                                <h6><strong>Peserta Terdaftar: </strong>5 Peserta</h6>
                                             </div>
                                             <div class="col-md-6">
                                                 <h6><strong>Benefit Akhir:</strong> Ilmu & Sertifikat</h6>
@@ -152,7 +155,7 @@
                                         
                                         <hr>
                                     
-                                        <h5>Screenshot Kelas & Sertifikat</h5>
+                                        <h5>Screenshot Kelas</h5>
                                         
                                         <div class="row" style="margin-bottom: 20px;"> <!-- Menambahkan jarak antar row -->
         <div class="col-md-12 mb-12">
@@ -223,23 +226,6 @@
                 "
             >
         </div>
-    </div>
-    <div class="row">
-        <div class="col-md-12 mb-12">
-            <img 
-                src="https://lh3.googleusercontent.com/d/1pvG3bPulvvwYF8FSr65mlNDP4HvlNOWZ=s1020?authuser=0" 
-                alt="Sertifikat Kelulusan"
-                style="
-                    width: 100%; 
-                    height: auto; 
-                    border: 3px solid #343a40; /* Border hitam */
-                    display: block;
-                "
-            >
-        </div>
-        <p>
-            <i>Desain sertifikat serupa, materi kelas disesuaikan</i>
-        </p>
     </div>
                                     </div>
                                 </div>
