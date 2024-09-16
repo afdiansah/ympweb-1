@@ -48,6 +48,7 @@
                                         <li class="nav-item"><a href="konsul-akademik" class="nav-link">Konsultasi Tugas Akademik</a></li>
                                         <li class="nav-item"><a href="virtual-classroom" class="nav-link">Virtual Classroom</a></li>
                                         <li class="nav-item"><a href="https://www.instagram.com/p/C_wz3xHydeA/" class="nav-link" target="_blank">Komunitas Siber YMP</a></li>
+                                        <li class="nav-item"><a href="https://www.instagram.com/p/C_9VjstTrFT/" class="nav-link" target="_blank">Bimbel MAFIKI</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item"><a href="contact" class="nav-link">Kontak Kami</a></li>
