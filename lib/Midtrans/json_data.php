@@ -232,7 +232,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         </div>
 
                         <!-- Isi Email -->
-                        <h1>Orderan kursus dari ' . htmlspecialchars($first_name) . '!</h1>
+                        <h1>Status Pembayaran Kursus Online Kamu di Yuk-Mari Project !</h1>
                         <div class="content">
                             Terima kasih telah berminat untuk kursus online <b>"'.htmlspecialchars($_POST['judul_kursus']).'"</b> di Yuk-Mari Project.<br>
                             Berikut kami lampirkan status pembayaran Anda. Klik link berikut untuk melihatnya: <br/><br/>
