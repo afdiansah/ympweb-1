@@ -27,7 +27,7 @@ $_SESSION['captcha'] = $captcha_text;
 // Local
 //$font_path = $_SERVER['DOCUMENT_ROOT'] . '/ympweb/lib/captcha/font.ttf';
 // Online Hosting
-$font_path = $_SERVER['DOCUMENT_ROOT'] . '/lib/captcha/font.ttf';//
+$font_path = $_SERVER['DOCUMENT_ROOT'] . '/lib/captcha/font.ttf';
 
 imagettftext($image, 20, 0, 10, 30, $text_color, $font_path, $captcha_text);
 
