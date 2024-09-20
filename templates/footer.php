@@ -58,7 +58,7 @@
 				</div>
 
                 <div class="copyright-area">
-                    <p>Copyright @2020 - 2024 <a href="#">YM Project</a>. All rights reserved</p>
+                    <p>Copyright @2020 - 2024 <a href="#">PT. YUKMARI PROJECT INDONESIA</a>. All rights reserved</p>
                 </div>
             </div>
             
