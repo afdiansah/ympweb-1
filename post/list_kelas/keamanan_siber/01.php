@@ -85,7 +85,7 @@
                                         </div>
                                         <div class="row">
                                             <div class="col-md-6">
-                                                <h6><strong>Peserta Terdaftar: </strong>9 Peserta</h6>
+                                                <h6><strong>Peserta Terdaftar: </strong>10 Peserta</h6>
                                             </div>
                                             <div class="col-md-6">
                                                 <h6><strong>Benefit Akhir:</strong> Ilmu & Sertifikat</h6>
