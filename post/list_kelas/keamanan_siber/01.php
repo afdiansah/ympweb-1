@@ -16,7 +16,7 @@
 							<div class="blog-post-content">
 								<h3><a href="#">Keamanan Siber untuk Pemula: Hacking hingga Forensik</a></h3>
 
-								<span><b>Harga: </b><del><font color="red">Rp135.000</font></del> Rp35.000<br/><b>Total Materi:</b> 5 Materi<br/><b>Durasi Materi:</b> 68:65 Menit<br/><b>Level Kelas:</b> Pemula<br/><b>Peserta Terdaftar:</b> 9 Peserta</span>
+								<span><b>Harga: </b><del><font color="red">Rp135.000</font></del> Rp35.000<br/><b>Total Materi:</b> 5 Materi<br/><b>Durasi Materi:</b> 68:65 Menit<br/><b>Level Kelas:</b> Pemula<br/><b>Peserta Terdaftar:</b> 10 Peserta</span>
 
 								<p style="text-align:justify">Dengan materi yang komprehensif praktis ini, Kamu akan siap menghadapi tantangan keamanan siber dengan pengetahuan yang kuat dan keterampilan praktis bagi seorang pemula, mulai dari teknik hacking hingga digital forensik</p>
 
