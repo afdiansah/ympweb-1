@@ -11,7 +11,7 @@
             <div class="container">
                 <div class="page-title-content">
                     <h2>Tentang Kami</h2>
-                    <p>Story of Yuk-Mari Project - Visi & Misi</p>
+                    <p>Latar Belakang - Visi & Misi</p>
                 </div>
             </div>
         </div>
@@ -24,7 +24,7 @@
                     <div class="col-lg-12 col-md-12">
                         <div class="about-content">
                             <span>Sekilas Tentang Kami</span>
-                            <h2>Berawal dari aktifitas Mahasiswa/i Kota Bandung</h2>
+                            <h2>Latar Belakang</h2>
                             <p style="text-align: justify;">Yuk-Mari Project atau disingkat YMP merupakan media perkumpulan rintisan mahasiswa Bandung Raya (seperti ITB, UIN SGD, UPI, UNPAD) yang bertujuan untuk membantu masyarakat maupun pelajar dalam bidang teknologi berbasis "Software House" maupun program-program lainnya, yang diantaranya seperti pembuatan / maintenance website, analisis / pengamanan website dalam bentuk project atau produk, pengadaan pelatihan / bimbingan belajar (Offline Mode, Live Class, atau Self-Learning Video), Konsultasi Akademik / Permagangan, dan Komunitas Keamanan Siber.</p>
                             <p style="text-align: justify;">
                                 Kami berdomisili di Kota Bandung, Jawa Barat. Secara mayoritas, tim kami terdiri dari mahasiswa/pelajar dari beberapa kampus yang disebutkan diatas. Perjalanan membentuk YMP dimulai dari konsep Yuk-Mari Kuliner (2020 - 2022), kemudian Yuk-Mari Indonesia (2022 - 2023), dan Yuk-Mari Project Indonesia (2023 - sekarang) yang terlegalisasi oleh hukum dengan nomor : <b>AHU-055747.AH.01.30.Tahun 2024</b>
