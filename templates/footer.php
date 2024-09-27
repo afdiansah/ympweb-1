@@ -7,7 +7,7 @@
 						<div class="single-footer-widget">
 							<div class="logo">
 								<a href="#"><img src="assets/img/black-logo.png" alt="logo"></a>
-                                <p>Yuk-Mari Project atau disingkat YMP merupakan media perkumpulan rintisan mahasiswa se-Bandung Raya (seperti ITB, UIN SGD, UPI, UNPAD) yang bertujuan untuk membantu masyarakat ataupun pelajar dalam bidang teknologi website.</p>
+                                <p>Yuk-Mari Project atau disingkat YMP merupakan media perkumpulan rintisan mahasiswa se-Bandung Raya (seperti ITB, UIN SGD, UPI, UNPAD) yang bertujuan untuk membantu masyarakat ataupun pelajar dalam bidang teknologi website dan program lainnya.</p>
                                 <p><a href="https://pse.kominfo.go.id/tdpse-detail/20491" target="_blank"><img src="assets/img/pse-terdaftar.png" width="70" alt="pse"></a></p>
 							</div>
                             

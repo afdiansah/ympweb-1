@@ -25,11 +25,11 @@
                         <div class="about-content">
                             <span>Sekilas Tentang Kami</span>
                             <h2>Berawal dari aktifitas Mahasiswa/i Kota Bandung</h2>
-                            <p style="text-align: justify;">Yuk-Mari Project atau disingkat YMP merupakan media perkumpulan rintisan mahasiswa Bandung Raya (seperti ITB, UIN SGD, UPI, UNPAD) yang bertujuan untuk membantu masyarakat maupun pelajar dalam bidang teknologi berbasis "Software House", yaitu pembuatan / maintenance website, analisis dan pengamanan website, dan pengadaan pelatihan / bimbingan belajar (Offline Mode, Live Class, atau Self-Learning Video) seputar teknologi website.</p>
+                            <p style="text-align: justify;">Yuk-Mari Project atau disingkat YMP merupakan media perkumpulan rintisan mahasiswa Bandung Raya (seperti ITB, UIN SGD, UPI, UNPAD) yang bertujuan untuk membantu masyarakat maupun pelajar dalam bidang teknologi berbasis "Software House" maupun program-program lainnya, yang diantaranya seperti pembuatan / maintenance website, analisis / pengamanan website dalam bentuk project atau produk, pengadaan pelatihan / bimbingan belajar (Offline Mode, Live Class, atau Self-Learning Video), Konsultasi Akademik / Permagangan, dan Komunitas Keamanan Siber.</p>
                             <p style="text-align: justify;">
-                                Kami berdomisili di Kota Bandung, Jawa Barat. Secara mayoritas, tim kami merupakan mahasiswa/pelajar dari beberapa kampus di Bandung.
+                                Kami berdomisili di Kota Bandung, Jawa Barat. Secara mayoritas, tim kami terdiri dari mahasiswa/pelajar dari beberapa kampus yang disebutkan diatas. Perjalanan membentuk YMP dimulai dari konsep Yuk-Mari Kuliner (2020 - 2022), kemudian Yuk-Mari Indonesia (2022 - 2023), dan Yuk-Mari Project Indonesia (2023 - sekarang) yang terlegalisasi oleh hukum dengan nomor : <b>AHU-055747.AH.01.30.Tahun 2024</b>
                             </p>
-                            <p style="text-align: justify;">Kami tergabung dilatarbelakangi oleh keinginan yang kuat dan sama untuk selalu mengembangkan diri menjadi pribadi yang handal, kompeten, serta disiplin terhadap tugas yang ada di Yuk-Mari Project ini. Jangan ragu dan sungkan untuk mengenal lebih dalam tentang kami, kontak kami jika anda membutuhkan sesuatu. 
+                            <p style="text-align: justify;">Kami tergabung dilatarbelakangi oleh keinginan /  prinsip yang kuat dan sama untuk selalu mengembangkan diri menjadi pribadi yang handal, kompeten, serta disiplin terhadap tugas yang ada di Yuk-Mari Project ini. Jangan ragu dan sungkan untuk mengenal lebih dalam tentang kami, kontak kami jika kamu membutuhkan sesuatu. 
                             </p>
                             <br/>
                             <h2>Visi & Misi Kami</h2>
@@ -38,6 +38,8 @@
                             <p style="text-align: justify;">2. Berkomitmen mengikuti perkembangan teknologi terbaru, terdepan, dan terpercaya sebagai keunggulan dalam layanan kami
                             </p>
                             <p style="text-align: justify;">3. Berkomitmen memupuk hubungan jangka panjang dengan klien kami dan menjadi mitra yang dapat diandalkan dalam situasi dan kondisi apapun
+                            </p>
+                            <p style="text-align: justify;">4. Memfasilitasi pelajar, mahasiswa, dan instansi pendidikan lainnya terhadap kepentingan yang mereka butuhkan, yang bersinergis dengan program - program yang ada di Yuk-Mari Project
                             </p>
                         </div>
                     </div>
