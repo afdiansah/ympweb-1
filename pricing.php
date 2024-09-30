@@ -16,16 +16,78 @@
         <div class="page-title-area item-bg1 jarallax" data-jarallax='{"speed": 0.3}'>
             <div class="container">
                 <div class="page-title-content">
-                    <h2>Paket & Harga</h2>
-                    <p>Mulai dari harga Rp50.000,-</p>
+                    <h2>Project Program & Bimbingan Belajar</h2>
+                    <p>Solusi Teknologi Web Milenial dengan Harga Terjangkau</p>
                 </div>
             </div>
         </div>
         <!-- End Page Title Area -->
+        
+        
+        <section class="comparisons-area ptb-70 bg-f7fafd">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Keunggulan Kami</h2>
+                    <div class="bar"></div>
+                    <p>Kami mengutamakan serba terjangkau untuk mengutamakan kepuasan pelanggan. Lihat perbandingan dibawah ini.</p>
+                </div>
+
+                <div class="comparisons-table table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Fitur</th>
+                                <th scope="col">Jasa Kami</th>
+                                <th scope="col">Bukan Jasa Kami</th>
+                            </tr>
+                        </thead>
+                        
+                        <tbody>
+                            <tr>
+                                <td>Berlaku DP Awal 30% - 50% untuk sistem pembayaran</td>
+                                <td><i class="flaticon-check-mark"></i></td>
+                                <td><i class="flaticon-cancel"></i></td>
+                            </tr>
+                            <tr>
+                                <td>Gratis Subdomain yuk-mari.com dan Hosting (12 Bulan Pertama)</td>
+                                <td><i class="flaticon-check-mark"></i></td>
+                                <td><i class="flaticon-cancel"></i></td>
+                            </tr>
+                            <tr>
+                                <td>Pengerjaan Min. 5 Hari, Maks. 7 Hari sudah Selesai</td>
+                                <td><i class="flaticon-check-mark"></i></td>
+                                <td><i class="flaticon-cancel"></i></td>
+                            </tr>
+                            <tr>
+                                <td>Free Revisi, Perawatan, dan Pengamanan Website (1 Bulan Pertama / Disesuaikan Kesepakatan)</td>
+                                <td><i class="flaticon-check-mark"></i></td>
+                                <td><i class="flaticon-cancel"></i></td>
+                            </tr>
+                            <tr>
+                                <td>Fast Respon, Konsultasi Terbuka 24 Jam</td>
+                                <td><i class="flaticon-check-mark"></i></td>
+                                <td><i class="flaticon-cancel"></i></td>
+                            </tr>
+                            <tr>
+                                <td>Bimbel / Pelatihan - Source Materi Internasional/ Nasional </td>
+                                <td><i class="flaticon-check-mark"></i></td>
+                                <td><i class="flaticon-cancel"></i></td>
+                            </tr>
+                            <tr>
+                                <td>Bimbel / Pelatihan - Fleksibel Waktu & Tempat (Offline / Live Class / Self-Learning Video)</td>
+                                <td><i class="flaticon-check-mark"></i></td>
+                                <td><i class="flaticon-cancel"></i></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
 
         <!-- Start Pricing Area -->
         <section class="pricing-area ptb-70">
             <div class="container">
+
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <div class="single-pricing-box">
@@ -38,9 +100,13 @@
                                 Rp207.000 - Rp2.159.500<span>,-</span>
                             </div>
 
-                            <div class="buy-btn">
-                                <a target="_blank" href="https://api.whatsapp.com/send/?phone=6282295603115&text=Permisi+Saya+Ingin+Membuat+Website" class="btn btn-primary">Pilih dan Pesan Paket Ini</a>
+                            <div class="btn-primay">
+                                <a href="layanan" style="margin-bottom:10px;" class="btn btn-primary">Ketahui Layanan Ini</a>
+                                <a href="fitur" style="margin-bottom:10px;" class="btn btn-primary">Fitur Produk</a>
+                                <a href="portofolio" style="margin-bottom:10px;" class="btn btn-primary">Portofolio</a>
                             </div>
+
+                            <br/>
 
                             <ul class="pricing-features">
                                 <li><i class="fas fa-check"></i>Tersedia Pilihan Paket 1 (Paket Murah - Hosting Gratis Yuk-Mari dan SubDomain Yuk-Mari)</li>
@@ -49,6 +115,12 @@
                                 <li><i class="fas fa-check"></i>Tersedia Pilihan Paket 4 (Paket Reguler - Hosting Berbayar & Domain .TLD)</li>
                                 <li><i class="fas fa-check"></i>Tersedia Pilihan Paket 5 (Paket Resmi - Hosting Berbayar & Domain .TLD)</li>           
                             </ul>
+
+                            <br/>                            
+
+                            <div class="buy-btn">
+                                <a target="_blank" href="https://api.whatsapp.com/send/?phone=6282295603115&text=Permisi+Saya+Ingin+Membuat+Website" class="btn btn-primary">Pilih dan Pesan Paket Ini</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -95,9 +167,13 @@
                                 Rp529.750
                             </div>
 
-                            <div class="buy-btn">
-                                <a target="_blank" href="https://api.whatsapp.com/send/?phone=6282295603115&text=Permisi,+saya+ingin+mengetahui+kerentanan+website+yang+saya+kelola+dan+mengamankannya." class="btn btn-primary">Pesan Paket Ini</a>
+                            <div class="btn-primay">
+                                <a href="layanan" style="margin-bottom:10px;" class="btn btn-primary">Ketahui Layanan Ini</a>
+                                <a href="fitur" style="margin-bottom:10px;" class="btn btn-primary">Fitur Produk</a>
+                                <a target="_blank" href="https://api.whatsapp.com/send/?phone=6282295603115&text=Permisi,+saya+ingin+melihat+portofolio+yang+sudah+dikerjakan+untuk+keamanan+aplikasi+atau+website" style="margin-bottom:10px;" class="btn btn-primary">Portofolio</a>
                             </div>
+
+                            <br/>
 
                             <ul class="pricing-features">
                                 <li><i class="fas fa-check"></i> Sistem SAST & DAST</li>
@@ -110,9 +186,17 @@
                                 <br/>
                                 <!--<a href="https://drive.google.com/file/d/1_83WY5UifWN0uYr-20aWjcholVDQyJVa/view?usp=sharing" target="_blank">>> Lihat tabel harga sesuai dengan kategori Instansi</a>-->
                             </ul>
+
+                            <br/>  
+
+                            <div class="buy-btn">
+                                <a target="_blank" href="https://api.whatsapp.com/send/?phone=6282295603115&text=Permisi,+saya+ingin+mengetahui+kerentanan+website+yang+saya+kelola+dan+mengamankannya." class="btn btn-primary">Pesan Paket Ini</a>
+                            </div>
+
                         </div>
                     </div>
                 </div>
+
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <div class="single-pricing-box">
@@ -125,9 +209,14 @@
                                 Rp50.000 - Rp150.000<span> / orang dalam 1 minggu</span>
                             </div>
 
-                            <div class="buy-btn">
-                                <a target="_blank" href="https://api.whatsapp.com/send/?phone=6282295603115&text=Pesan+Kelas+Pelatihan+Web+(Offline+Class/Live+Class)" class="btn btn-primary">Pesan Produk</a>
+                            <div class="btn-primay">
+                                <a href="layanan" style="margin-bottom:10px;" class="btn btn-primary">Ketahui Layanan Ini</a>
+                                <a href="fitur" style="margin-bottom:10px;" class="btn btn-primary">Fitur Produk</a>
+                                <a target="_blank" href="https://api.whatsapp.com/send/?phone=6282295603115&text=Permisi,+saya+ingin+melihat+portofolio+yang+sudah+dikerjakan+untuk+bimbingan+belajar" style="margin-bottom:10px;" class="btn btn-primary">Portofolio</a>
+                                <a href="silabus" style="margin-bottom:10px;" class="btn btn-primary">Silabus Pembelajaran</a>
                             </div>
+
+                            <br/>
 
                             <ul class="pricing-features">
                                 <li><i class="fas fa-check"></i><a target="_blank" href="silabus"><u>Lihat Silabus / Materi</u></a></li>
@@ -143,14 +232,30 @@
                                 <li><i class="fas fa-check"></i> Berlaku mix / gabungan materi (disepakati)</li>
                                 <li><i class="fas fa-check"></i> Harga disepakati jika mengambil 2 pilihan materi ajar (Pembuatan Web dan Pengamanan Web)</li>
                               </ul>
+
+                            <br/>                            
+
+                            <div class="buy-btn">
+                                <a target="_blank" href="https://api.whatsapp.com/send/?phone=6282295603115&text=Pesan+Kelas+Pelatihan+Web+(Offline+Class/Live+Class)" class="btn btn-primary">Pesan Produk</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        
+        <section class="account-create-area">
+            <div class="container">
+                <div class="account-create-content">
+                    <h2>ANDA MAHASISWA? ATAU ALUMNI? INGIN MENJADI BAGIAN DARI KAMI?</h2>
+                    <p>Tambah pengalaman menarik anda dan jadikan ini sebagai penghasilan sampingan anda!</p>
+                    <a target="_blank" href="https://api.whatsapp.com/send/?phone=6282295603115&text=Izin%20Bergabung%20kedalam%20Tim&type=phone_number&app_absent=0" class="btn btn-primary">DAFTARKAN DIRIMU</a>
+                </div>
+            </div>
+        </section>
         <!-- End Pricing Area -->
-<?php include 'templates/footer.php'; ?>
 
+    <?php include 'templates/footer.php'; ?>
 
     </body>
 

@@ -7,9 +7,9 @@
                 <div class="d-table-cell">
                     <div class="container">
                         <div class="main-banner-content">
-                            <h1>Solusi Teknologi Web Milenial dengan Harga Terjangkau</h1>
-                            <p>Melayani jasa pembuatan / maintenance website, analisis dan pengamanan website, dan pengadaan pelatihan / bimbingan belajar (Offline Mode, Live Class, atau Self-Learning Video) seputar teknologi website. </p>
-                            <!-- REDIRECT TO PAKET AREA --> <a href="pricing" class="btn btn-primary">Mari Memulai</a>
+                            <h1>Raih Kesempatan Belajar dan Berkarya bersama Yuk-Mari Project</h1>
+                            <p>Mari Belajar dan Berkarya bersama dalam Program Kami sampai kamu Bisa dan Berpengalaman di Dunia sesungguhnya!</p>
+                            <!-- REDIRECT TO PAKET AREA --> <a href="about" class="btn btn-primary">Mari Memulai</a>
                         </div>
                     </div>
                 </div>
@@ -25,52 +25,52 @@
                         <div class="col-lg-3 col-sm-6 col-md-6 p-0">
                             <div class="single-featured-box">
                                 <div class="icon color-fb7756">
-                                    <i class="flaticon-piggy-bank"></i>
+                                    <i class="flaticon-data-encryption"></i>
                                 </div>
 
-                                <h3>Harga Terjangkau</h3>
-                                <p>Kami menawarkan harga dengan harga yang paling murah dibandingkan dengan penyedia jasa lainnya.</p>
+                                <h3>Virtual Classroom</h3>
+                                <p>Kursus Online dalam Bidang Teknologi maupun Non Teknologi. Harga Terjangkau dan menggunakan sistem perlindungan transaksi One Tap Payment.</p>
 
-                                <a href="pricing" class="read-more-btn">Lihat Paket</a>
+                                <a href="virtual-classroom" class="read-more-btn">Lihat Detail</a>
                             </div>
                         </div>
 
                         <div class="col-lg-3 col-sm-6 col-md-6 p-0">
                             <div class="single-featured-box">
                                 <div class="icon color-facd60">
-                                    <i class="flaticon-data-encryption"></i>
+                                    <i class="flaticon-menu"></i>
                                 </div>
 
-                                <h3>Data Terjamin</h3>
-                                <p>Sistem dan data - data yang anda miliki terjamin aman dan terawat. Kami memiliki ahli yang berlisensi Internasional.</p>
+                                <h3>Komunitas Siber</h3>
+                                <p>Offline Gathering di Wilayah Bandung dan Sekitarnya, sharing seputar topik - topik menarik terkini, baik di bidang teknologi (DevApp / DevSec) maupun Non-Teknologi.</p>
 
-                                <a href="pricing" class="read-more-btn">Lihat Paket</a>
+                                <a href="https://www.instagram.com/stories/highlights/17958712385815198/" target="_blank" class="read-more-btn">Lihat Detail</a>
                             </div>
                         </div>
 
                         <div class="col-lg-3 col-sm-6 col-md-6 p-0">
                             <div class="single-featured-box">
                                 <div class="icon color-1ac0c6">
-                                    <i class="flaticon-wallet"></i>
+                                    <i class="flaticon-check-mark"></i>
                                 </div>
 
-                                <h3>Sistem Terawat</h3>
-                                <p>Kami memberikan paket jasa secara GRATIS di bulan pertama. Selain itu, kami menerima sistem DP yang terjangkau, yaitu 30% dari harga total.</p>
+                                <h3>Konsultan Akademik</h3>
+                                <p>Membantu Pelajar / Mahasiswa terkait tugas sehari - harinya di bidang Pendidikan yang diampunya, seputar tugas harian, Quiz, UTS, UAS, maupun Skripsi.</p>
 
-                                <a href="pricing" class="read-more-btn">Lihat Paket</a>
+                                <a href="konsul-akademik" class="read-more-btn">Lihat Detail</a>
                             </div>
                         </div>
 
                         <div class="col-lg-3 col-sm-6 col-md-6 p-0">
                             <div class="single-featured-box">
                                 <div class="icon">
-                                    <i class="flaticon-shield"></i>
+                                    <i class="flaticon-envelope-of-white-paper"></i>
                                 </div>
 
-                                <h3>Handal dan Kompeten</h3>
-                                <p>Zero Mistake atau Nol Kesalahan merupakan prinsip kami ketika memulai pekerjaan.</p>
+                                <h3>Magang / Internship</h3>
+                                <p>Adakalanya Pelajar / Mahasiswa membutuhkan tempat magang dan belum mendapatkan tempatnya, Kami hadir untuk membantu kalian dalam Program Internship.</p>
 
-                                <a href="pricing" class="read-more-btn">Lihat Paket</a>
+                                <a target="_blank" href="https://api.whatsapp.com/send/?phone=6282295603115&text=Permisi+Admin,+info+teknis+magangnya+dong?" class="read-more-btn">Lihat Detail</a>
                             </div>
                         </div>
                     </div>
@@ -88,13 +88,13 @@
                         <div class="col-lg-3 col-sm-6 col-md-6 p-0">
                             <div class="single-featured-box">
                                 <div class="icon color-fb7756">
-                                    <i class="flaticon-settings"></i>
+                                    <i class="flaticon-user"></i>
                                 </div>
 
-                                <h3>Up-to-Date Technology</h3>
-                                <p>Teknologi yang kami gunakan dipastikan mengikuti perkembangan saat ini.</p>
+                                <h3>Bimbingan Belajar Online</h3>
+                                <p>Kami menyediakan fasilitas bimbingan belajar secara online melalui aplikasi Zoom, Gmeet, atau sejenisnya. Berbentuk Live Class dengan Silabus yang ditentukan oleh Kami atau Disesuaikan.</p>
 
-                                <a href="pricing" class="read-more-btn">Lihat Paket</a>
+                                <a href="pricing" class="read-more-btn">Lihat Detail</a>
                             </div>
                         </div>
 
@@ -104,36 +104,36 @@
                                     <i class="flaticon-user"></i>
                                 </div>
 
-                                <h3>On-time Delivered</h3>
-                                <p>Waktu penyelesaian project yang kami kerjakan dipastikan sesuai waktu yang telah disepakati.</p>
+                                <h3>Bimbingan Belajar Offline</h3>
+                                <p>Kami menyediakan fasilitas bimbingan belajar secara offline dengan tempat yang dinamis, ditentukan atas hasil kesepakatan bersama. Materi Silabus ditentukan oleh Kami atau Disesuaikan.</p>
 
-                                <a href="pricing" class="read-more-btn">Lihat Paket</a>
+                                <a href="pricing" class="read-more-btn">Lihat Detail</a>
                             </div>
                         </div>
 
                         <div class="col-lg-3 col-sm-6 col-md-6 p-0">
                             <div class="single-featured-box">
                                 <div class="icon color-1ac0c6">
-                                    <i class="flaticon-cursor"></i>
+                                    <i class="flaticon-play-store"></i>
                                 </div>
 
-                                <h3>Realtime Tracking</h3>
-                                <p>Proses pengerjaan / pengembangan sistem yang kami kerjakan dapat di pantau secara berkala oleh client.</p>
+                                <h3>Product Yuk-Mari Project</h3>
+                                <p>Belajar dan Berkarya bersama Kami untuk mengembangkan Produk dari Yuk-Mari Project. Pengembangan produk dilakukan secara offline maupun online, lintas pesan grup WhatsApp.</p>
 
-                                <a href="pricing" class="read-more-btn">Lihat Paket</a>
+                                <a target="_blank" href="https://chat.whatsapp.com/D3RIeMhbC3dHb87NuWeFSB" class="read-more-btn">Lihat Detail</a>
                             </div>
                         </div>
 
                         <div class="col-lg-3 col-sm-6 col-md-6 p-0">
                             <div class="single-featured-box">
                                 <div class="icon">
-                                    <i class="flaticon-alarm"></i>
+                                    <i class="flaticon-settings"></i>
                                 </div>
 
-                                <h3>Free Maintenance</h3>
-                                <p>Lifetime support. Artinya, kami selalu standby dan hadir untuk memenuhi kebutuhan client selama 24 jam.</p>
+                                <h3>Project Program (DevApp/DevSec)</h3>
+                                <p>Fasilitas bagi siapa saja yang ingin mengambil projek dalam Pembuatan, Maintenance, Pengujian, atau Pengamanan suatu aplikasi, baik berbentuk website maupun mobile.</p>
 
-                                <a href="pricing" class="read-more-btn">Lihat Paket</a>
+                                <a href="pricing" class="read-more-btn">Lihat Detail</a>
                             </div>
                         </div>
                     </div>
@@ -148,9 +148,9 @@
                 <div class="overview-box">
                     <div class="overview-content">
                         <div class="content left-content">
-                            <h2>Ruang Lingkup Pasar / Pengerjaan</h2>
+                            <h2>Ruang Lingkup Instansi</h2>
                             <div class="bar"></div>
-                            <p>Kami menerima beberapa instansi yang berkeinginan terhadap paket jasa kami melalui ruang lingkup dibawah ini</p>
+                            <p>Kami menerima kerjasama dalam ruang lingkup Instansi dibawah ini melalui kesepakatan <i>Link and Match</i></p>
 
                             <ul class="services-list">
                                 <li><span><i class="flaticon-check-mark"></i> Perusahaan Resmi atau Terlegalisasi Hukum berskala Kecil / Menengah / Besar</span></li>
@@ -198,14 +198,16 @@
                         <div class="content">
                             <h2>Fokus Kami</h2>
                             <div class="bar"></div>
-                            <p>Berikut paket - paket jasa yang kami tawarkan untuk kebutuhanmu.</p>
+                            <p>Berikut fasilitas / program yang kami sediakan</p>
 
                             <ul class="services-list">
-                                <li><span><i class="flaticon-check-mark"></i> Pembuatan Website</span></li>
-                                <li><span><i class="flaticon-check-mark"></i> Maintenance Website</span></li>
-                                <li><span><i class="flaticon-check-mark"></i> Analisis dan Pengamanan Website</span></li>
-                                <li><span><i class="flaticon-check-mark"></i> Pelatihan / Kursus Pembangunan Website</span></li>
-                                <li><span><i class="flaticon-check-mark"></i> Pelatihan / Kursus Pengujian atau Pengamanan Website</span></li>
+                                <li><span><i class="flaticon-check-mark"></i> Menyediakan Fasilitas Kursus Online</span></li>
+                                <li><span><i class="flaticon-check-mark"></i> Menyediakan Fasilitas Sharing di Komunitas Siber</span></li>
+                                <li><span><i class="flaticon-check-mark"></i> Menjadi Fasilitator dalam Tugas-Tugas Pelajar/Mahasiswa</span></li>
+                                <li><span><i class="flaticon-check-mark"></i> Menyediakan Jasa Penyaluran untuk Magang/Internship</span></li>
+                                <li><span><i class="flaticon-check-mark"></i> Menyediakan Fasilitas Bimbingan Belajar secara Online / Offline</span></li>
+                                <li><span><i class="flaticon-check-mark"></i> Menyediakan Fasilitas untuk Mengembangkan Produk Aplikasi Yuk-Mari Project</span></li>
+                                <li><span><i class="flaticon-check-mark"></i> Membuka Jasa Pembuatan, Maintenance, dan Analisis/Pengamanan Aplikasi</span></li>
                             </ul>
                         </div>
                     </div>
@@ -213,183 +215,6 @@
             </div>
         </section>
         <!-- End Services Area -->
-
-        <!-- Start Services Area -->
-        <!--<section class="services-area ptb-70">
-            <div class="container-fluid p-0">
-                <div class="overview-box">
-                    <div class="overview-content">
-                        <div class="content left-content">
-                            <h2>Large or enterprise level businesses</h2>
-                            <div class="bar"></div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-                            <ul class="services-list">
-                                <li><span><i class="flaticon-check-mark"></i> Corporate Cards</span></li>
-                                <li><span><i class="flaticon-check-mark"></i> International Payments</span></li>
-                                <li><span><i class="flaticon-check-mark"></i> Automated accounting</span></li>
-                                <li><span><i class="flaticon-check-mark"></i> Request Features</span></li>
-                                <li><span><i class="flaticon-check-mark"></i> Premium Support</span></li>
-                                <li><span><i class="flaticon-check-mark"></i> Direct Debit</span></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="overview-image">
-                        <div class="image">
-                            <img src="assets/img/3.png" alt="image">
-
-                            <div class="circle-img">
-                                <img src="assets/img/circle.png" alt="image">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>-->
-        <!-- End Services Area -->
-
-        <!-- Start Comparisons Area -->
-        <section class="comparisons-area ptb-70 bg-f7fafd">
-            <div class="container">
-                <div class="section-title">
-                    <h2>Perbandingan Paket</h2>
-                    <div class="bar"></div>
-                    <p>Kami mengutamakan serba terjangkau untuk mengutamakan kepuasan pelanggan. Lihat perbandingan dibawah ini.</p>
-                </div>
-
-                <div class="comparisons-table table-responsive">
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th scope="col">Fitur</th>
-                                <th scope="col">Jasa Kami</th>
-                                <th scope="col">Bukan Jasa Kami</th>
-                            </tr>
-                        </thead>
-                        
-                        <tbody>
-                            <tr>
-                                <td>Berlaku DP Awal 30% - 50% untuk sistem pembayaran</td>
-                                <td><i class="flaticon-check-mark"></i></td>
-                                <td><i class="flaticon-cancel"></i></td>
-                            </tr>
-                            <tr>
-                                <td>Gratis Subdomain yuk-mari.com dan Hosting (12 Bulan Pertama)</td>
-                                <td><i class="flaticon-check-mark"></i></td>
-                                <td><i class="flaticon-cancel"></i></td>
-                            </tr>
-                            <tr>
-                                <td>Pengerjaan Min. 5 Hari, Maks. 7 Hari sudah Selesai</td>
-                                <td><i class="flaticon-check-mark"></i></td>
-                                <td><i class="flaticon-cancel"></i></td>
-                            </tr>
-                            <tr>
-                                <td>Free Revisi, Perawatan, dan Pengamanan Website (1 Bulan Pertama / Disesuaikan Kesepakatan)</td>
-                                <td><i class="flaticon-check-mark"></i></td>
-                                <td><i class="flaticon-cancel"></i></td>
-                            </tr>
-                            <tr>
-                                <td>Fast Respon, Konsultasi Terbuka 24 Jam</td>
-                                <td><i class="flaticon-check-mark"></i></td>
-                                <td><i class="flaticon-cancel"></i></td>
-                            </tr>
-                            <tr>
-                                <td>Bimbel / Pelatihan - Source Materi Internasional/ Nasional </td>
-                                <td><i class="flaticon-check-mark"></i></td>
-                                <td><i class="flaticon-cancel"></i></td>
-                            </tr>
-                            <tr>
-                                <td>Bimbel / Pelatihan - Fleksibel Waktu & Tempat (Offline / Live Class / Self-Learning Video)</td>
-                                <td><i class="flaticon-check-mark"></i></td>
-                                <td><i class="flaticon-cancel"></i></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </section>
-        <!-- End Comparisons Area -->
-
-        <!-- Start Features Area -->
-        <!--<section class="features-area ptb-70 bg-f6f4f8">
-            <div class="container">
-                <div class="section-title">
-                    <h2>Our Features</h2>
-                    <div class="bar"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-4 col-sm-6 col-md-6">
-                        <div class="single-features-box">
-                            <div class="icon">
-                                <i class="flaticon-settings"></i>
-                            </div>
-
-                            <h3>Incredible infrastructure</h3>
-                            <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6 col-md-6">
-                        <div class="single-features-box">
-                            <div class="icon bg-f78acb">
-                                <i class="flaticon-envelope-of-white-paper"></i>
-                            </div>
-
-                            <h3>Email notifications</h3>
-                            <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6 col-md-6">
-                        <div class="single-features-box">
-                            <div class="icon bg-cdf1d8">
-                                <i class="flaticon-menu"></i>
-                            </div>
-
-                            <h3>Simple dashboard</h3>
-                            <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6 col-md-6">
-                        <div class="single-features-box">
-                            <div class="icon bg-c679e3">
-                                <i class="flaticon-info"></i>
-                            </div>
-
-                            <h3>Information retrieval</h3>
-                            <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6 col-md-6">
-                        <div class="single-features-box">
-                            <div class="icon bg-eb6b3d">
-                                <i class="flaticon-cursor"></i>
-                            </div>
-
-                            <h3>Drag and drop functionality</h3>
-                            <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6 col-md-6">
-                        <div class="single-features-box">
-                            <div class="icon">
-                                <i class="flaticon-alarm"></i>
-                            </div>
-
-                            <h3>Deadline reminders</h3>
-                            <p>Lorem ipsum dolor amet, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>-->
-        <!-- End Features Area -->
 
         <!-- Start Invoicing Area -->
         <section class="invoicing-area ptb-70">
@@ -397,9 +222,9 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-12">
                         <div class="invoicing-content">
-                            <h2>Eiitss.. butuh pemateri seminar teknologi website? Undang kami menjadi bagian dari pemateri seminar !!! </h2>
+                            <h2>Yuk, Mari kita bekerjasama untuk saling melengkapi kebutuhan di masing - masing kita!!! </h2>
                             <div class="bar"></div>
-                            <p>Jika kalian dari instansi seperti sekolah / kampus / perusahaan dan sedang mencari seorang pemateri, kami siap menjadi bagian dari kebutuhan kalian.</p>
+                            <p>Beri kabar kepada kami agar kami dapat menghubungi anda untuk mengetahui kebutuhanmu dan melakukan kerjasama secara professional</p>
                             <a target="_blank" href="https://api.whatsapp.com/send/?phone=6282295603115&text=Permisi,+saya+dari+salah+satu+instansi+ingin+mengundang+anda+sebagai+pemateri+seminar,+berminat+kah+bapak/ibu+ditempat+?&type=phone_number&app_absent=0" class="btn btn-primary">HUBUNGI KAMI SEKARANG JUGA!</a>
                         </div>
                     </div>
@@ -408,9 +233,6 @@
                         <div class="invoicing-image">
                             <div class="main-image">
                                 <img src="assets/img/invoicing-image/eits.jpg" class="wow zoomIn" data-wow-delay="0.7s" alt="image">
-                                <!--<img src="assets/img/invoicing-image/2.png" class="wow fadeInLeft" data-wow-delay="1s" alt="image">
-                                <img src="assets/img/invoicing-image/3.png" class="wow fadeInLeft" data-wow-delay="1.3s" alt="image">
-                                <img src="assets/img/invoicing-image/4.png" class="wow fadeInRight" data-wow-delay="1s" alt="image">-->
                             </div>
 
                             <div class="main-mobile-image">
@@ -432,30 +254,30 @@
 		<section class="funfacts-area ptb-70 pt-0">
 			<div class="container">
 				<div class="section-title">
-					<h2>Kami selalu mengutamakan kebutuhan pelanggan dengan paket jasa yang serba terjangkau</h2>
+					<h2>Data Statistik Kami</h2>
 					<div class="bar"></div>
-					<p>Statistik kami selama kurang lebih 12 tahun yang sudah melayani beberapa pelanggan. Semoga anda menjadi yang selanjutnya !</p>
+					<p>Data Statistik kami bersama pihak instansi terkait selama kurang lebih 4 tahun. Semoga anda menjadi yang selanjutnya !</p>
 				</div>
 
 				<div class="row">
 					<div class="col-lg-3 col-sm-3 col-md-3 col-6">
 						<div class="funfact">
 							<h3><span class="odometer" data-count="40">00</span>+</h3>
-							<p>Pribadi / Personal</p>
+							<p>Pelajar/Mahasiswa</p>
 						</div>
 					</div>
 
 					<div class="col-lg-3 col-sm-3 col-md-3 col-6">
 						<div class="funfact">
-							<h3><span class="odometer" data-count="25">00</span>+</h3>
+							<h3><span class="odometer" data-count="5">00</span>+</h3>
 							<p>Sekolah</p>
 						</div>
 					</div>
 
 					<div class="col-lg-3 col-sm-3 col-md-3 col-6">
 						<div class="funfact">
-							<h3><span class="odometer" data-count="15">00</span>+</h3>
-							<p>Bisnis UMKM</p>
+							<h3><span class="odometer" data-count="20">00</span>+</h3>
+							<p>Perusahaan & Bisnis UMKM</p>
 						</div>
 					</div>
 
@@ -484,9 +306,9 @@
 		<section class="feedback-area ptb-70 bg-f7fafd">
 			<div class="container">
 				<div class="section-title">
-					<h2>Apa kata mereka terhadap penawaran kami</h2>
+					<h2>Apa kata mereka terhadap layanan Yuk-Mari Project?</h2>
 					<div class="bar"></div>
-					<p>Berikut adalah orang - orang ternama yang telah bekerjasama dengan penawaran kami.</p>
+					<p>Berikut adalah orang - orang ternama yang telah bekerjasama dengan kami.</p>
 				</div>
 
 				<div class="feedback-slides">
@@ -551,18 +373,6 @@
 									<p>Tetap semangat YMP, maju terus dengan karya - karyanya. Terimakasih sudah bantu SMAN 5 Cimahi untuk web quis nya.</p>
 								</div>
 							</div>
-
-                            <!--<div class="item">
-								<div class="single-feedback">
-									<div class="client-img">
-										<img src="assets/img/client-image/6.jpg" alt="image">
-									</div>
-
-									<h3>Kang Haqeem Luqman</h3>
-									<span>Project Leader - Diarium Telkom Indonesia</span>
-									<p>Pelaporan keamanan / Auditnya rapih dan merinci. Jelas dan mudah untuk dipahami.</p>
-								</div>
-							</div>-->
 
                             <div class="item">
 								<div class="single-feedback">
@@ -659,10 +469,6 @@
 							<div class="item">
 								<div class="img-fill"><img src="assets/img/client-image/5.jpg" alt="client"></div>
 							</div>
-							
-							<!--<div class="item">
-								<div class="img-fill"><img src="assets/img/client-image/6.jpg" alt="client"></div>
-							</div>-->
 
                             <div class="item">
 								<div class="img-fill"><img src="assets/img/client-image/7.jpg" alt="client"></div>
@@ -687,14 +493,6 @@
 							<div class="item">
 								<div class="img-fill"><img src="assets/img/client-image/12.jpg" alt="client"></div>
 							</div>
-							<!--
-							<div class="item">
-								<div class="img-fill"><img src="assets/img/client-image/2.jpg" alt="client"></div>
-							</div>
-							
-							<div class="item">
-								<div class="img-fill"><img src="assets/img/client-image/3.jpg" alt="client"></div>
-							</div>-->
 						</div>
 
 						<button class="prev-arrow slick-arrow">
@@ -714,8 +512,8 @@
 		<section class="ready-to-talk">
 			<div class="container">
 				<div class="ready-to-talk-content">
-                    <h3>"<i>Jika bisnismu tidak ada di internet, maka bisnismu akan tutup.</i>" - Bill Gates</h3>
-                    <p>Siap untuk mendiskusikan terkait penawaran ini ?</p>
+                    <h3>"<i>Bergegaslah kawan, tuk sambut masa depan, tetap berpegang tangan, dan saling berpelukan</i>" - Bondan Prakoso</h3>
+                    <p>Siap untuk melakukan kerjasama dengan Kami?</p>
                     <a target="_blank" href="https://api.whatsapp.com/send/?phone=6282295603115&text=Mau+Pesan+di+Yuk-Mari+Project&type=phone_number&app_absent=0" class="btn btn-primary">Hubungi Kami</a>
                     <!--<span><a href="#">Atau, coba hubungi kami dengan penawaran Gratis</a></span>-->
                 </div>
@@ -727,7 +525,7 @@
 		<div class="partner-area">
 			<div class="container">
 
-                <h3>Project Instansi Kami dalam bidang Pembuata, Pengujian, dan Pengamanan Website / Aplikasi Mobile</h3>
+                <h3>Instansi terkait yang telah bekerjasama dengan Kami</h3>
 
 				<div class="partner-inner">
 					<div class="row align-items-center">
@@ -898,66 +696,7 @@
 		</div>
         <!-- End Partner Area -->
 
-        <!-- Start App Download Area -->
-        <!-- <section class="app-download-area">
-            <div class="container">
-                <div class="row align-items-center">
-                  <div class="col-lg-6 col-md-12">
-                        <div class="app-image">
-                            <div class="main-image">
-                                <img src="assets/img/mobile-app1.png" class="wow fadeInLeft" data-wow-delay="0.6s" alt="image">
-                                <img src="assets/img/mobile-app2.png" class="wow fadeInUp" data-wow-delay="0.9s" alt="image">
-                            </div>
-
-                            <div class="main-mobile-image">
-                                <img src="assets/img/main-mobile.png" class="wow fadeInUp" data-wow-delay="0.6s" alt="image">
-                            </div>
-
-                            <div class="circle-img">
-                                <img src="assets/img/circle.png" alt="image">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 col-md-12">
-                        <div class="app-download-content">
-                            <h2>You can find all the thing you need to payout</h2>
-                            <div class="bar"></div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-
-                            <div class="btn-box">
-                                <a href="#" class="app-store-btn">
-                                    <i class="flaticon-apple"></i>
-                                    Download on
-                                    <span>App Store</span>
-                                </a>
-
-                                <a href="#" class="play-store-btn">
-                                    <i class="flaticon-play-store"></i>
-                                    Download on
-                                    <span>Google play</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>-->
-        <!-- End App Download Area -->
-
-        <!-- Start Account Create Area -->
-        <section class="account-create-area">
-            <div class="container">
-                <div class="account-create-content">
-                    <h2>ANDA MAHASISWA? ATAU ALUMNI? INGIN MENJADI BAGIAN DARI KAMI?</h2>
-                    <p>Tambah pengalaman menarik anda dan jadikan ini sebagai penghasilan sampingan anda!</p>
-                    <a target="_blank" href="https://api.whatsapp.com/send/?phone=6282295603115&text=Izin%20Bergabung%20kedalam%20Tim&type=phone_number&app_absent=0" class="btn btn-primary">DAFTARKAN DIRIMU</a>
-                </div>
-            </div>
-        </section>
-        <!-- End Account Create Area -->
-<?php include 'templates/footer.php'; ?>
-
+    <?php include 'templates/footer.php'; ?>
 
     </body>
 

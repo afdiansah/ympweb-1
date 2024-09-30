@@ -7,7 +7,7 @@
 						<div class="single-footer-widget">
 							<div class="logo">
 								<a href="#"><img src="assets/img/black-logo.png" alt="logo"></a>
-                                <p>Yuk-Mari Project atau disingkat YMP merupakan media perkumpulan rintisan mahasiswa se-Bandung Raya (seperti ITB, UIN SGD, UPI, UNPAD) yang bertujuan untuk membantu masyarakat ataupun pelajar dalam bidang teknologi website dan program lainnya.</p>
+                                <p style="text-align: justify">Yuk-Mari Project atau disingkat YMP merupakan media perkumpulan yang dirintis oleh Mahasiswa Kota Bandung, meliputi Kampus ternama seperti ITB, UIN SGD, UPI, UNPAD, yang bertujuan untuk membantu masyarakat maupun pelajar (siswa / mahasiswa) dalam meningkatkan kualitas dan kapasitasnya.</p>
                                 <p><a href="https://pse.kominfo.go.id/tdpse-detail/20491" target="_blank"><img src="assets/img/pse-terdaftar.png" width="70" alt="pse"></a></p>
 							</div>
                             
@@ -36,11 +36,9 @@
                             <h3>Bantuan</h3>
                             
 							<ul class="list">
-                                <li><a target="_blank" href="https://api.whatsapp.com/send/?phone=6281386369207&text=Permisi..+Ingin+Konsultasi,+Boleh?">Konsultasi Gratis</a></li>
-                                <li><a href="http://yuk-mari.com/Brosur_YukMariProject.pdf">Download Brosur</a></li>
+                                <li><a target="_blank" href="https://api.whatsapp.com/send/?phone=6282295603115&text=Permisi..+Ingin+Konsultasi,+Boleh?">Konsultasi Gratis</a></li>
                                 <li><a href="http://yuk-mari.com/Comprof_Yuk-Mari_Project.pdf">Download Company Profile</a></li>
-                                <li><a href="silabus">Silabus Pembuatan Web</a></li>
-                                <li><a href="silabus">Silabus Pengamanan Web</a></li>
+                                <li><a href="http://yuk-mari.com/Brosur_YukMariProject.pdf">Download Brosur (Project Program)</a></li>
 							</ul>
 						</div>
 					</div>
@@ -59,7 +57,7 @@
 				</div>
 
                 <div class="copyright-area">
-                    <p>Copyright @2020 - 2024 <a href="#">PT. YUKMARI PROJECT INDONESIA</a>. All rights reserved</p>
+                    <p>Copyright est.2020 - <a href="#">PT. YUKMARI PROJECT INDONESIA</a>. All rights reserved.</p>
                 </div>
             </div>
             

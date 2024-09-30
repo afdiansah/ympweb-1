@@ -5,7 +5,7 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-         <meta name="description" content="Melayani jasa pembuatan / maintenance website, analisis dan pengamanan website, dan pengadaan pelatihan / bimbingan belajar (Offline Mode, Live Class, atau Self-Learning Video) seputar teknologi website. ">
+         <meta name="description" content="Mari Belajar dan Berkarya bersama dalam Program Kami sampai kamu Bisa dan Berpengalaman di Dunia sesungguhnya! ">
 
         <!-- Bootstrap Min CSS -->
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -30,7 +30,7 @@
         <!-- Responsive CSS -->
         <link rel="stylesheet" href="assets/css/responsive.css">
 
-        <title>YM Project - Solusi Teknologi Web Milenial dengan Harga Terjangkau</title>
+        <title>YM Project - Raih Kesempatan Belajar dan Berkarya bersama Yuk-Mari Project</title>
 
         <link rel="icon" type="image/png" href="assets/img/favicon.png">
         
