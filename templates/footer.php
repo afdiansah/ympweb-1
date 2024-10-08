@@ -9,6 +9,7 @@
 								<a href="#"><img src="assets/img/black-logo.png" alt="logo"></a>
                                 <p style="text-align: justify">Yuk-Mari Project atau disingkat YMP merupakan media perkumpulan yang dirintis oleh Mahasiswa Kota Bandung, meliputi Kampus ternama seperti ITB, UIN SGD, UPI, UNPAD, yang bertujuan untuk membantu masyarakat maupun pelajar (siswa / mahasiswa) dalam meningkatkan kualitas dan kapasitasnya.</p>
                                 <p><a href="https://pse.kominfo.go.id/tdpse-detail/20491" target="_blank"><img src="assets/img/pse-terdaftar.png" width="70" alt="pse"></a></p>
+                                <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="http://yuk-mari.com">YUK-MARI PROJECT</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="http://yuk-mari.com">PT. YUKMARI PROJECT INDONESIA</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""></a></p>
 							</div>
                             
 							<ul class="social-links">
@@ -45,7 +46,7 @@
 
 					<div class="col-lg-4 col-sm-6 col-md-6">
 						<div class="single-footer-widget">
-							<h3>Alamat</h3>
+							<h3>Detail Kontak</h3>
 							
 							<ul class="footer-contact-info">
 								<li><span>Lokasi:</span> Komplek Bandung Indah Raya, Blok C13/No.17, Kelurahan Mekarjaya, Kecamatan Rancasari, Kota Bandung, Jawa Barat 40286</li>
