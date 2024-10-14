@@ -13,6 +13,181 @@
         </div>
         <!-- End Page Title Area -->
 
+                <!-- Start Feedback Area -->
+		<section class="feedback-area ptb-70 bg-f7fafd">
+			<div class="container">
+				<div class="section-title">
+					<h2>Apa kata mereka terhadap layanan Konsultasi Akademik Yuk-Mari Project?</h2>
+					<div class="bar"></div>
+					<p>Berikut adalah mahasiswa /mahasiswi yang telah bekerjasama dengan kami.</p>
+				</div>
+
+				<div class="feedback-slides">
+					<div class="client-feedback">
+						<div>
+                            <div class="item">
+								<div class="single-feedback">
+									<div class="client-img">
+										<img src="assets/img/client-image/8.jpg" alt="image">
+									</div>
+
+									<h3>Kang Erwin Guna Setiawan</h3>
+									<span>Tugas Skripsi S1 Teknik Komputer - UNIKOM</span>
+									<p>Terimakasih atas bantuannya untuk melengkapi projek saya di laboratorium, sekaligus menambahkan kekurangan dalam skripsi saya. </p>
+								</div>
+							</div>
+
+                            <div class="item">
+								<div class="single-feedback">
+									<div class="client-img">
+										<img src="assets/img/client-image/4.jpg" alt="image">
+									</div>
+
+									<h3>Fali Falyaoma</h3>
+									<span>Tugas Skripsi S1 Teknik Informatika - UNIKOM</span>
+									<p> Melalui konsep data mining, website saya bisa mudah digunakan berkat YM Project. Terimakasih YMP.</p>
+								</div>
+							</div>
+
+                            <div class="item">
+								<div class="single-feedback">
+									<div class="client-img">
+										<img src="assets/img/client-image/5.jpg" alt="image">
+									</div>
+
+									<h3>Teh Shofi</h3>
+									<span>Tugas Skripsi S1 Sistem Informasi - UNIKOM</span>
+									<p>Tetap semangat YMP, maju terus dengan karya - karyanya. Terimakasih sudah bantu SMAN 5 Cimahi untuk web quis nya.</p>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="single-feedback">
+									<div class="client-img">
+										<img src="assets/img/konsul-image/1.jpg" alt="image">
+									</div>
+
+									<h3>Ali</h3>
+									<span>Tugas Skripsi S1 Teknik Informatika - UNIKOM</span>
+									<p>Syukur bisa lulus di tahun 2019, terimakasih Yuk Mari Project sudah mendampingi sampai bisa lulus</p>
+								</div>
+							</div>
+							
+                            <div class="item">
+								<div class="single-feedback">
+									<div class="client-img">
+										<img src="assets/img/konsul-image/2.jpg" alt="image">
+									</div>
+
+									<h3>Kang Aswil</h3>
+									<span>Tugas Skripsi S1 Teknik Informatika - UNIKOM</span>
+									<p>Awalnya ga nyangka dan mau nyerah buat skripsi Machine Learning, tapi dengan bantuan Yuk Mari Project, semua lancar</p>
+								</div>
+							</div>
+
+                            <div class="item">
+								<div class="single-feedback">
+									<div class="client-img">
+										<img src="assets/img/konsul-image/3.jpg" alt="image">
+									</div>
+
+									<h3>Rharaaa</h3>
+									<span>Tugas Kuliah S1 Manajemen - UNIKOM</span>
+									<p>Tugas mata kuliah Kewirausahaan bikin bete, soalnya buat website, tapi bisa nemu Yuk Mari Project. Makasih Ya.</p>
+								</div>
+							</div>
+
+                            <div class="item">
+								<div class="single-feedback">
+									<div class="client-img">
+										<img src="assets/img/konsul-image/4.jpg" alt="image">
+									</div>
+
+									<h3>Elisa</h3>
+									<span>Tugas Skripsi S1 PGSD - UPI Bumi Siliwangi</span>
+									<p>Ga nyangka banget bisa lulus dan wisuda juga sesuai harapan. Padahal gak ngerti banget tentang Aplikasi Web dan Android. Btw makasih ya YMP.</p>
+								</div>
+							</div>
+
+                            <div class="item">
+								<div class="single-feedback">
+									<div class="client-img">
+										<img src="assets/img/konsul-image/5.jpg" alt="image">
+									</div>
+
+									<h3>Aca</h3>
+									<span>Tugas Akhir D3 Kebidanan - Poltekes TNI AU Cimbuleuit</span>
+									<p>Makasih YMP udah bantuin Aca buat tugas bimbingan sama dosen nya (jurnal). Huft.. lumayan juga hehe</p>
+								</div>
+							</div>
+
+                            <div class="item">
+								<div class="single-feedback">
+									<div class="client-img">
+										<img src="assets/img/konsul-image/6.jpg" alt="image">
+									</div>
+
+									<h3>Alfa</h3>
+									<span>Tugas UAS S1 Ilmu Komputer - UBP Karawang Ilmu Komputer</span>
+									<p>Sumnpah ga ngerti banget n**r ngoding android. Tapi dengan arahan dan bantuan Yuk Mari Project, beres juga.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="client-thumbnails">
+						<div>
+							<div class="item">
+								<div class="img-fill"><img src="assets/img/client-image/8.jpg" alt="client"></div>
+							</div>
+							
+							<div class="item">
+								<div class="img-fill"><img src="assets/img/client-image/4.jpg" alt="client"></div>
+							</div>
+							
+							<div class="item">
+								<div class="img-fill"><img src="assets/img/client-image/5.jpg" alt="client"></div>
+							</div>
+							
+							<div class="item">
+								<div class="img-fill"><img src="assets/img/konsul-image/1.jpg" alt="client"></div>
+							</div>
+							
+							<div class="item">
+								<div class="img-fill"><img src="assets/img/konsul-image/2.jpg" alt="client"></div>
+							</div>
+
+                            <div class="item">
+								<div class="img-fill"><img src="assets/img/konsul-image/3.jpg" alt="client"></div>
+							</div>
+
+                            <div class="item">
+								<div class="img-fill"><img src="assets/img/konsul-image/4.jpg" alt="client"></div>
+							</div>
+
+                            <div class="item">
+								<div class="img-fill"><img src="assets/img/konsul-image/5.jpg" alt="client"></div>
+							</div>
+
+                            <div class="item">
+								<div class="img-fill"><img src="assets/img/konsul-image/6.jpg" alt="client"></div>
+							</div>
+
+						</div>
+
+						<button class="prev-arrow slick-arrow">
+							<i class="fas fa-arrow-left"></i>
+						</button>
+						
+						<button class="next-arrow slick-arrow">
+							<i class="fas fa-arrow-right"></i>
+						</button>
+					</div>
+				</div>
+			</div>
+		</section>
+        <!-- End Feedback Area -->
+
         <!-- Start App Download Area -->
         <section class="app-download-area">
             <div class="container">

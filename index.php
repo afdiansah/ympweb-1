@@ -9,7 +9,7 @@
                         <div class="main-banner-content">
                             <h1>Raih Kesempatan Belajar dan Berkarya bersama Yuk-Mari Project</h1>
                             <p>Mari Belajar dan Berkarya bersama dalam Program Kami sampai kamu Bisa dan Berpengalaman di Dunia sesungguhnya!</p>
-                            <!-- REDIRECT TO PAKET AREA --> <a href="about" class="btn btn-primary">Mari Memulai</a>
+                            <!-- REDIRECT TO PAKET AREA --> <a href="about" class="btn btn-primary">BERKENALAN DENGAN KAMI</a>
                         </div>
                     </div>
                 </div>
@@ -302,219 +302,13 @@
 		</section>
         <!-- End Fun Facts Area -->
         
-        <!-- Start Feedback Area -->
-		<section class="feedback-area ptb-70 bg-f7fafd">
-			<div class="container">
-				<div class="section-title">
-					<h2>Apa kata mereka terhadap layanan Yuk-Mari Project?</h2>
-					<div class="bar"></div>
-					<p>Berikut adalah orang - orang ternama yang telah bekerjasama dengan kami.</p>
-				</div>
-
-				<div class="feedback-slides">
-					<div class="client-feedback">
-						<div>
-							<div class="item">
-								<div class="single-feedback">
-									<div class="client-img">
-										<img src="assets/img/client-image/1.jpg" alt="image">
-									</div>
-
-									<h3>Kiki Wahyudi</h3>
-									<span>Founder Ciungwanara Adventure - Jasa Event Outbond</span>
-									<p>Kerja keras dan tuntas, terimakasih Yuk-Mari Project atas pembuatan websitenya, sudah memudahkan kami untuk mempromosikan event organizer kami.</p>
-								</div>
-							</div>
-							
-							<div class="item">
-								<div class="single-feedback">
-									<div class="client-img">
-										<img src="assets/img/client-image/2.jpg" alt="image">
-									</div>
-
-									<h3>Abdul Jawad</h3>
-									<span>Founder UMKM WuFi Food - Suplier Bubuk Cabe</span>
-									<p> Terimakasih Yuk-Mari Project, mudah – mudahan selalu terus berkembang dan sukses. Jangan Menyerah. .</p>
-								</div>
-							</div>
-							
-							<div class="item">
-								<div class="single-feedback">
-									<div class="client-img">
-										<img src="assets/img/client-image/3.jpg" alt="image">
-									</div>
-
-									<h3>Teh Alya</h3>
-									<span>Founder UMKM BnC Cookies - Cookies and Pastry</span>
-									<p>Dengan adanya website BnC Cookies ini kami jadi terbantu dalam proses Marketing Product nya, terimakasih Yuk-Mari Project.</p>
-								</div>
-							</div>
-							
-							<div class="item">
-								<div class="single-feedback">
-									<div class="client-img">
-										<img src="assets/img/client-image/4.jpg" alt="image">
-									</div>
-
-									<h3>Fali Falyaoma</h3>
-									<span>Project Inisiator Web Data Mining - PT. Galma</span>
-									<p> Melalui konsep data mining, website saya bisa mudah digunakan berkat YM Project. Terimakasih YMP.</p>
-								</div>
-							</div>
-							
-							<div class="item">
-								<div class="single-feedback">
-									<div class="client-img">
-										<img src="assets/img/client-image/5.jpg" alt="image">
-									</div>
-
-									<h3>Teh Shofi</h3>
-									<span>Project Inisiator Web Quiz - SMAN 4 Cimahi</span>
-									<p>Tetap semangat YMP, maju terus dengan karya - karyanya. Terimakasih sudah bantu SMAN 5 Cimahi untuk web quis nya.</p>
-								</div>
-							</div>
-
-                            <div class="item">
-								<div class="single-feedback">
-									<div class="client-img">
-										<img src="assets/img/client-image/7.jpg" alt="image">
-									</div>
-
-									<h3>Ibu Maida Wahyuningsih</h3>
-									<span>Direktur - Makmur Jaya Tekstil, Ruko Taman Holis Cimahi</span>
-									<p>Saya cukup senang dengn adanya aplikasi untuk pengelolaan jenis kain, karena merasa dimudahkan, terimakasih. </p>
-								</div>
-							</div>
-
-                            <div class="item">
-								<div class="single-feedback">
-									<div class="client-img">
-										<img src="assets/img/client-image/8.jpg" alt="image">
-									</div>
-
-									<h3>Kang Erwin Guna Setiawan</h3>
-									<span>Juara Robogames dan Applicative Robot 2013  - Mahasiswa Semester Akhir UNIKOM</span>
-									<p>Terimakasih atas bantuannya untuk melengkapi projek saya di laboratorium, sekaligus menambahkan kekurangan dalam skripsi saya. </p>
-								</div>
-							</div>
-
-                            <div class="item">
-								<div class="single-feedback">
-									<div class="client-img">
-										<img src="assets/img/client-image/9.jpg" alt="image">
-									</div>
-
-									<h3>Pa Helmi Hariyadi</h3>
-									<span>Operator  - Balai Besar Logam dan Mesin, Bandung</span>
-									<p>Bapa tidak mengerti apa itu CMS (Content Management System), yang penting aplikasi bisa dipakai dan aplikatif. Nuhun ya. </p>
-								</div>
-							</div>
-
-                            <div class="item">
-								<div class="single-feedback">
-									<div class="client-img">
-										<img src="assets/img/client-image/10.jpg" alt="image">
-									</div>
-
-									<h3>Pahmi</h3>
-									<span>Founder  - CV. Shover</span>
-									<p>Pengerjaan lumayan cepat dan terhitung jari. Mudah - mudahan sukses terus Yuk-Mari Project. </p>
-								</div>
-							</div>
-
-                            <div class="item">
-								<div class="single-feedback">
-									<div class="client-img">
-										<img src="assets/img/client-image/11.jpg" alt="image">
-									</div>
-
-									<h3>Edy Ashari</h3>
-									<span>Founder  - CV. Cipta Anugerah Arsitektur</span>
-									<p>Bagus, tingkatkan lagi kualitas, khususnya dari segi pembayarannya. </p>
-								</div>
-							</div>
-							
-							<div class="item">
-								<div class="single-feedback">
-									<div class="client-img">
-										<img src="assets/img/client-image/12.jpg" alt="image">
-									</div>
-
-									<h3>Pa Tantan</h3>
-									<span>Agency Indihome Telkomsel</span>
-									<p>Aammmiinn a nuhunnya tos di bantosan 🙏🙏🙏 </p>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="client-thumbnails">
-						<div>
-							<div class="item">
-								<div class="img-fill"><img src="assets/img/client-image/1.jpg" alt="client"></div>
-							</div>
-							
-							<div class="item">
-								<div class="img-fill"><img src="assets/img/client-image/2.jpg" alt="client"></div>
-							</div>
-							
-							<div class="item">
-								<div class="img-fill"><img src="assets/img/client-image/3.jpg" alt="client"></div>
-							</div>
-							
-							<div class="item">
-								<div class="img-fill"><img src="assets/img/client-image/4.jpg" alt="client"></div>
-							</div>
-							
-							<div class="item">
-								<div class="img-fill"><img src="assets/img/client-image/5.jpg" alt="client"></div>
-							</div>
-
-                            <div class="item">
-								<div class="img-fill"><img src="assets/img/client-image/7.jpg" alt="client"></div>
-							</div>
-
-                            <div class="item">
-								<div class="img-fill"><img src="assets/img/client-image/8.jpg" alt="client"></div>
-							</div>
-
-                            <div class="item">
-								<div class="img-fill"><img src="assets/img/client-image/9.jpg" alt="client"></div>
-							</div>
-
-                            <div class="item">
-								<div class="img-fill"><img src="assets/img/client-image/10.jpg" alt="client"></div>
-							</div>
-
-                            <div class="item">
-								<div class="img-fill"><img src="assets/img/client-image/11.jpg" alt="client"></div>
-							</div>
-							
-							<div class="item">
-								<div class="img-fill"><img src="assets/img/client-image/12.jpg" alt="client"></div>
-							</div>
-						</div>
-
-						<button class="prev-arrow slick-arrow">
-							<i class="fas fa-arrow-left"></i>
-						</button>
-						
-						<button class="next-arrow slick-arrow">
-							<i class="fas fa-arrow-right"></i>
-						</button>
-					</div>
-				</div>
-			</div>
-		</section>
-        <!-- End Feedback Area -->
-        
         <!-- Start Ready To Talk Area -->
 		<section class="ready-to-talk">
 			<div class="container">
 				<div class="ready-to-talk-content">
                     <h3>"<i>Bergegaslah kawan, tuk sambut masa depan, tetap berpegang tangan, dan saling berpelukan</i>" - Bondan Prakoso</h3>
-                    <p>Siap untuk melakukan kerjasama dengan Kami?</p>
-                    <a target="_blank" href="https://api.whatsapp.com/send/?phone=6282295603115&text=Mau+Pesan+di+Yuk-Mari+Project&type=phone_number&app_absent=0" class="btn btn-primary">Hubungi Kami</a>
+                    <p>Siap untuk menjadi bagian dari koneksi Kami?</p>
+                    <a target="_blank" href="https://api.whatsapp.com/send/?phone=6282295603115&text=Permisi..+saya+ingin+bekerjasama+dan+membangun+koneksi+bersama+Yuk-Mari+Project&type=phone_number&app_absent=0" class="btn btn-primary">Hubungi Kami</a>
                     <!--<span><a href="#">Atau, coba hubungi kami dengan penawaran Gratis</a></span>-->
                 </div>
 			</div>
@@ -525,11 +319,53 @@
 		<div class="partner-area">
 			<div class="container">
 
-                <h3>Instansi terkait yang telah bekerjasama dengan Kami</h3>
+                <h3>Organisasi / Instansi yang menjadi koneksi Kami</h3>
 
 				<div class="partner-inner">
 					<div class="row align-items-center">
 						<div class="col-lg-2 col-sm-4 col-md-3 col-6">
+							<a href="#">
+								<img src="assets/img/koneksi-kami/01-hover.png" alt="partner">
+								<img src="assets/img/koneksi-kami/01.png" alt="partner">
+							</a>
+						</div>
+
+						<div class="col-lg-2 col-sm-4 col-md-3 col-6">
+							<a href="#">
+								<img src="assets/img/koneksi-kami/03-hover.png" alt="partner">
+								<img src="assets/img/koneksi-kami/03.png" alt="partner">
+							</a>
+						</div>
+
+						<div class="col-lg-2 col-sm-4 col-md-3 col-6">
+							<a href="#">
+								<img src="assets/img/koneksi-kami/04-hover.png" alt="partner">
+								<img src="assets/img/koneksi-kami/04.png" alt="partner">
+							</a>
+						</div>
+
+						<div class="col-lg-2 col-sm-4 col-md-3 col-6">
+							<a href="#">
+								<img src="assets/img/koneksi-kami/05-hover.png" alt="partner">
+								<img src="assets/img/koneksi-kami/05.png" alt="partner">
+							</a>
+						</div>
+
+						<div class="col-lg-2 col-sm-4 col-md-3 col-6">
+							<a href="#">
+								<img src="assets/img/koneksi-kami/06-hover.png" alt="partner">
+								<img src="assets/img/koneksi-kami/06.png" alt="partner">
+							</a>
+						</div>
+
+						<div class="col-lg-2 col-sm-4 col-md-3 col-6">
+							<a href="#">
+								<img src="assets/img/koneksi-kami/07-hover.png" alt="partner">
+								<img src="assets/img/koneksi-kami/07.png" alt="partner">
+							</a>
+						</div>
+
+                        <div class="col-lg-2 col-sm-4 col-md-3 col-6">
 							<a href="#">
 								<img src="assets/img/partner-image/partner-1.png" alt="partner">
 								<img src="assets/img/partner-image/partner-hover1.png" alt="partner">
@@ -629,6 +465,13 @@
 						
 						<div class="col-lg-2 col-sm-4 col-md-3 col-6">
 							<a href="#">
+								<img src="assets/img/partner-image/partner-hover25.png" alt="partner">
+								<img src="assets/img/partner-image/partner-25.png" alt="partner">
+							</a>
+						</div>
+
+                        <div class="col-lg-2 col-sm-4 col-md-3 col-6">
+							<a href="#">
 								<img src="assets/img/partner-image/partner-hover16.png" alt="partner">
 								<img src="assets/img/partner-image/partner-16.png" alt="partner">
 							</a>
@@ -682,11 +525,11 @@
 								<img src="assets/img/partner-image/partner-23.png" alt="partner">
 							</a>
 						</div>
-						
-						<div class="col-lg-2 col-sm-4 col-md-3 col-6">
+
+                        <div class="col-lg-2 col-sm-4 col-md-3 col-6">
 							<a href="#">
-								<img src="assets/img/partner-image/partner-hover25.png" alt="partner">
-								<img src="assets/img/partner-image/partner-25.png" alt="partner">
+								<img src="assets/img/koneksi-kami/09-hover.png" alt="partner">
+								<img src="assets/img/koneksi-kami/09.png" alt="partner">
 							</a>
 						</div>
 
