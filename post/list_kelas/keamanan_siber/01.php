@@ -32,7 +32,7 @@
                                     <h2>Keamanan Siber untuk Pemula: Hacking hingga Forensik</h2>
                                     <div class="container mt-4">
                                     <img 
-                                        src="https://media.licdn.com/dms/image/D5603AQE2eapWdp8lsw/profile-displayphoto-shrink_400_400/0/1706537297942?e=1729728000&v=beta&t=F-FDH4ERgihRCYELI0dyLdy2XU3LRz4shhR67glbxmo" 
+                                        src="https://media.licdn.com/dms/image/v2/D5603AQE2eapWdp8lsw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1706537297942?e=1735776000&v=beta&t=uC8cP5NMDvmis-TLQIHLc27-sJz-OCmkYjoDcO32U4A" 
                                         alt="Pemateri" 
                                         class="img-fluid" 
                                         style="width: 200px; height: auto; border: 2px solid #ddd; box-shadow: 0 4px 8px rgba(0,0,0,0.2);"
