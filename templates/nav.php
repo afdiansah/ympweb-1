@@ -36,8 +36,12 @@
                                 <li class="nav-item"><a href="index" class="nav-link">Home</a>
                                 </li>
 
-                                <li class="nav-item"><a href="about" class="nav-link">Tentang Kami</a></li>
-                                <li class="nav-item"><a href="virtual-classroom" class="nav-link">Kursus Online</a></li>
+                                <li class="nav-item"><a href="about" class="nav-link">Tentang Kami</a></li>                                
+                                <li class="nav-item"><a href="#" class="nav-link">Kursus Online<i class="fas fa-chevron-down"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item"><a href="virtual-classroom" class="nav-link">Keamanan Siber</a></li>
+                                    </ul>
+                                </li>
                                 <li class="nav-item"><a href="konsul-akademik" class="nav-link">Konsultasi</a></li>
                                 <li class="nav-item"><a href="pricing" class="nav-link">Project & Bimbel</a></li>
                                 <li class="nav-item"><a href="#" class="nav-link">Program Lainnya<i class="fas fa-chevron-down"></i></a>
