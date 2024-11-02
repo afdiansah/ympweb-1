@@ -16,7 +16,7 @@
 							<div class="blog-post-content">
 								<h3><a href="#">Keamanan Siber untuk Pemula: Hacking hingga Forensik</a></h3>
 
-								<span><b>Harga: </b><del><font color="red">Rp135.000</font></del> Rp35.000<br/><b>Total Materi:</b> 5 Materi<br/><b>Durasi Materi:</b> 68:65 Menit<br/><b>Level Kelas:</b> Pemula<br/><b>Peserta Terdaftar:</b> 10 Peserta</span>
+								<span><b>Harga: </b><del><font color="red">Rp150.000</font></del> Rp100.000<br/><b>Total Materi:</b> 5 Materi<br/><b>Durasi Materi:</b> 68:65 Menit<br/><b>Level Kelas:</b> Pemula<br/><b>Peserta Terdaftar:</b> 10 Peserta</span>
 
 								<p style="text-align:justify">Dengan materi yang komprehensif praktis ini, Kamu akan siap menghadapi tantangan keamanan siber dengan pengetahuan yang kuat dan keterampilan praktis bagi seorang pemula, mulai dari teknik hacking hingga digital forensik</p>
 
@@ -80,7 +80,7 @@
                                                 <h6><strong>Tanggal Pembuatan:</strong> 18 Agustus 2024</h6>
                                             </div>
                                             <div class="col-md-6">
-                                                <h6><strong>Harga Total:</strong> <del><font color="red">Rp135.000</font></del> Rp35.000</h6>
+                                                <h6><strong>Harga Total:</strong> <del><font color="red">Rp150.000</font></del> Rp100.000</h6>
                                             </div>
                                         </div>
                                         <div class="row">
@@ -273,7 +273,7 @@
         </div>
         
         <!-- INPUT MANUAL -->
-        <input value="35000" class="form-control" type="hidden" name="harga" id="harga" style="border-radius: 15px; padding: 10px; border: 1px solid #343a40;">
+        <input value="100000" class="form-control" type="hidden" name="harga" id="harga" style="border-radius: 15px; padding: 10px; border: 1px solid #343a40;">
         <input value="pemula" class="form-control" type="hidden" name="level" id="level" style="border-radius: 15px; padding: 10px; border: 1px solid #343a40;">
         <input value="Keamanan Siber untuk Pemula: Hacking hingga Forensik" class="form-control" type="hidden" name="judul_kursus" id="judul_kursus" style="border-radius: 15px; padding: 10px; border: 1px solid #343a40;">
         <input value="firdamdamsasmita@upi.edu" class="form-control" type="hidden" name="email_pemateri" id="email_pemateri" style="border-radius: 15px; padding: 10px; border: 1px solid #343a40;">

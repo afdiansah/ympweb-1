@@ -1,0 +1,6 @@
+projectKey=yukmariproject123
+serverUrl=http://localhost:9000
+serverVersion=10.7.0.96327
+dashboardUrl=http://localhost:9000/dashboard?id=yukmariproject123
+ceTaskId=7494bf0a-6c64-4209-8a0f-1475d758ec74
+ceTaskUrl=http://localhost:9000/api/ce/task?id=7494bf0a-6c64-4209-8a0f-1475d758ec74

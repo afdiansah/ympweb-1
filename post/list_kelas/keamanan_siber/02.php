@@ -16,7 +16,7 @@
 							<div class="blog-post-content">
 								<h3><a href="#">Fondasi dalam Keamanan Website Sebelum Memulai Penetrasi Sistem</a></h3>
 
-								<span><b>Harga: </b><del><font color="red">Rp155.000</font></del> Rp55.000<br/><b>Total Materi:</b> 5 Materi<br/><b>Durasi Materi:</b> 63:96 Menit<br/><b>Level Kelas:</b> Menengah<br/><b>Peserta Terdaftar:</b> 5 Peserta</span>
+								<span><b>Harga: </b><del><font color="red">Rp200.000</font></del> Rp150.000<br/><b>Total Materi:</b> 5 Materi<br/><b>Durasi Materi:</b> 63:96 Menit<br/><b>Level Kelas:</b> Menengah<br/><b>Peserta Terdaftar:</b> 5 Peserta</span>
 
 								<p style="text-align:justify">Materi yang disampaikan ini cukup kental dengan best practices karena didampingi dengan simulasi penetrasi sistem. Alangkah baiknya jika ingin terjun ke dunia Penetrasi Sistem, khususnya bidang Website, harus memahami fondasi.</p>
 
@@ -80,7 +80,7 @@
                                                 <h6><strong>Tanggal Pembuatan:</strong> 01 September 2024</h6>
                                             </div>
                                             <div class="col-md-6">
-                                                <h6><strong>Harga Total:</strong> <del><font color="red">Rp155.000</font></del> Rp55.000</h6>
+                                                <h6><strong>Harga Total:</strong> <del><font color="red">Rp200.000</font></del> Rp150.000</h6>
                                             </div>
                                         </div>
                                         <div class="row">
@@ -273,7 +273,7 @@
         </div>
         
         <!-- INPUT MANUAL -->
-        <input value="55000" class="form-control" type="hidden" name="harga" id="harga" style="border-radius: 15px; padding: 10px; border: 1px solid #343a40;">
+        <input value="150000" class="form-control" type="hidden" name="harga" id="harga" style="border-radius: 15px; padding: 10px; border: 1px solid #343a40;">
         <input value="menengah" class="form-control" type="hidden" name="level" id="level" style="border-radius: 15px; padding: 10px; border: 1px solid #343a40;">
         <input value="Fondasi dalam Keamanan Website Sebelum Memulai Penetrasi Sistem" class="form-control" type="hidden" name="judul_kursus" id="harga" style="border-radius: 15px; padding: 10px; border: 1px solid #343a40;">
         <input value="firdamdamsasmita@upi.edu" class="form-control" type="hidden" name="email_pemateri" id="email_pemateri" style="border-radius: 15px; padding: 10px; border: 1px solid #343a40;">
