@@ -39,7 +39,7 @@
 							<ul class="list">
                                 <li><a target="_blank" href="https://api.whatsapp.com/send/?phone=6282295603115&text=Permisi..+Ingin+Konsultasi,+Boleh?">Konsultasi Gratis</a></li>
                                 <li><a href="http://yuk-mari.com/Comprof_Yuk-Mari_Project.pdf">Download Company Profile</a></li>
-                                <li><a href="http://yuk-mari.com/Brosur_YukMariProject.pdf">Download Brosur (Project Program)</a></li>
+                                <li><a href="http://yuk-mari.com/Brosur_YukMariProject.pdf">Download Brosur - Project & Bimbel Program</a></li>
 							</ul>
 						</div>
 					</div>

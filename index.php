@@ -7,9 +7,9 @@
                 <div class="d-table-cell">
                     <div class="container">
                         <div class="main-banner-content">
-                            <h1>Raih Kesempatan Belajar dan Berkarya bersama Yuk-Mari Project</h1>
-                            <p>Mari Belajar dan Berkarya bersama dalam Program Kami sampai kamu Bisa dan Berpengalaman di Dunia sesungguhnya!</p>
-                            <!-- REDIRECT TO PAKET AREA --> <a href="about" class="btn btn-primary">BERKENALAN DENGAN KAMI</a>
+                            <h1>Layanan Digital Terbaik, Kreativitas Mahasiswa Bersatu!</h1>
+                            <p>Menghadirkan Solusi Digital unggulan dari kolaborasi kreatif mahasiswa, untuk mendukung kemajuan dan kebutuhan teknologi di Indonesia dengan Harga Terjangkau</p>
+                            <!-- REDIRECT TO PAKET AREA<a href="about" class="btn btn-primary">BERKENALAN DENGAN KAMI</a> --> 
                         </div>
                     </div>
                 </div>

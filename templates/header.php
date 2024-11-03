@@ -5,7 +5,25 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-         <meta name="description" content="Mari Belajar dan Berkarya bersama dalam Program Kami sampai kamu Bisa dan Berpengalaman di Dunia sesungguhnya! ">
+        <meta name="description" content="Mari Belajar dan Berkarya bersama dalam Program Kami sampai kamu Bisa dan Berpengalaman di Dunia sesungguhnya! ">
+        <meta name="keywords" content="Layanan Digital, Layanan Teknologi, Jasa Pembuatan Website, Jasa Pengamanan Website, Jasa Maintenance Website, Bimbingan Belajar, Kursus Online, Les Private, Tutoring Teknologi, Komunitas Siber, Jasa Konsultan Akademik, Internship, Magang, PKL, Jasa Teknologi Digital di Bandung, Perusahaan IT di Bandung, Perusahaan Keamanan Siber di Bandung">
+        <meta name="author" content="Yuk-Mari Project">
+
+        <!-- Open Graph untuk Berbagi di Media Sosial -->
+        <meta property="og:title" content="Layanan Digital Terbaik, Kreativitas Mahasiswa Bersatu!">
+        <meta property="og:description" content="Menghadirkan Solusi Digital unggulan dari kolaborasi kreatif mahasiswa, untuk mendukung kemajuan dan kebutuhan teknologi di Indonesia dengan Harga Terjangkau">
+        <meta property="og:image" content="http://localhost/ympweb/assets/img/1.jpg">
+        <meta property="og:url" content="https://yuk-mari.com">
+        <meta property="og:type" content="website">
+        
+        <!-- Twitter Card untuk Twitter Sharing -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Layanan Digital Terbaik, Kreativitas Mahasiswa Bersatu!">
+        <meta name="twitter:description" content="Menghadirkan Solusi Digital unggulan dari kolaborasi kreatif mahasiswa, untuk mendukung kemajuan dan kebutuhan teknologi di Indonesia dengan Harga Terjangkau">
+        <meta name="twitter:image" content="http://localhost/ympweb/assets/img/1.jpg">
+        
+        <!-- Robots untuk Pengaturan Indexing -->
+        <meta name="robots" content="index, follow">
 
         <!-- Bootstrap Min CSS -->
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -30,7 +48,7 @@
         <!-- Responsive CSS -->
         <link rel="stylesheet" href="assets/css/responsive.css">
 
-        <title>YM Project - Raih Kesempatan Belajar dan Berkarya bersama Yuk-Mari Project</title>
+        <title>YM Project | Layanan Digital Terbaik, Kreativitas Mahasiswa Bersatu!</title>
 
         <link rel="icon" type="image/png" href="assets/img/favicon.png">
         
