@@ -310,6 +310,28 @@
 							</div>
 						</div>
 					</div>
+
+					<div class="col-lg-4 col-md-6">
+						<div class="single-blog-post">
+							<div class="blog-image">
+								<a href="#">
+									<img src="assets/img/blog-image/sekolah/5.jpg" alt="image">
+								</a>
+
+								<div class="date">
+									<i class="far fa-calendar-alt"></i> Dibuat: November 10, 2024
+								</div>
+							</div>
+
+							<div class="blog-post-content">
+								<h3><a href="#">Tk Al Kahfi Cabang Bandung Indah Raya, Bandung</a></h3>
+
+								<span>by <a href="#">Yuk-Mari Project</a></span>
+
+								<p>Informasi website tentang sekolah TK Al Kahfi berbentuk Microsite. Mulai dari alamat, kontak, whatsapp, dan lain - lain.</p>
+							</div>
+						</div>
+					</div>
 				</div>
 				
 				<div class="section-title">
