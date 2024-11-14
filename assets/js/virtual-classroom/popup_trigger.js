@@ -67,6 +67,29 @@ $(document).ready(function() {
                 removalDelay: 300, 
                 mainClass: 'mfp-fade'
             });
+
+            //KELAS KE 4
+            $('.popup-trigger4').magnificPopup({
+                items: {
+                    src: '#popup-content4',
+                    type: 'inline'
+                },
+                closeBtnInside: true,
+                fixedContentPos: true,
+                removalDelay: 300, 
+                mainClass: 'mfp-fade'
+            });
+            
+            $('.popup-trigger-beli4').magnificPopup({
+                items: {
+                    src: '#popup-content-beli4',
+                    type: 'inline'
+                },
+                closeBtnInside: true,
+                fixedContentPos: true,
+                removalDelay: 300, 
+                mainClass: 'mfp-fade'
+            });          
             
             $('.popup-trigger-persyaratan').magnificPopup({
                 items: {

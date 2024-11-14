@@ -44,6 +44,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             'price' => 150000,
             'titles' => ['Fondasi dalam Keamanan Website Sebelum Memulai Penetrasi Sistem', 'Memulai Perjalanan dalam Keamanan Website Membangun Pengalaman Praktis'] // Variasi judul
         ],
+        'diskon' => [
+            'price' => 1,
+            'titles' => ['Langkah Awal Bounty Hunting Simulasi 5 Teknik Eksploit Terpopuler']
+        ],
     ];
 
     // Pastikan 'level', 'harga', dan 'judul_kelas' ada di $_POST

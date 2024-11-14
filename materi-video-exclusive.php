@@ -284,6 +284,10 @@ try {
                     case "Memulai Perjalanan dalam Keamanan Website Membangun Pengalaman Praktis":
                         include 'post/list_kelas/keamanan_siber/pilihan-jawaban/03.php';
                         break;
+
+                    case "Langkah Awal Bounty Hunting Simulasi 5 Teknik Eksploit Terpopuler":
+                        include 'post/list_kelas/keamanan_siber/pilihan-jawaban/04.php';
+                        break;
                 
                     default:
                         // Opsional: Tambahkan kode di sini untuk menangani kasus jika tidak ada kecocokan.
@@ -449,6 +453,10 @@ try {
                     case "Memulai Perjalanan dalam Keamanan Website Membangun Pengalaman Praktis":
                         include 'post/list_kelas/keamanan_siber/materi/03.php';
                         break;
+                    
+                    case "Langkah Awal Bounty Hunting Simulasi 5 Teknik Eksploit Terpopuler":
+                        include 'post/list_kelas/keamanan_siber/materi/04.php';
+                        break;
                 
                     default:
                         // Opsional: Tambahkan kode di sini untuk menangani kasus jika tidak ada kecocokan.
@@ -604,6 +612,10 @@ try {
                         
                     case "Memulai Perjalanan dalam Keamanan Website Membangun Pengalaman Praktis":
                         echo '<script src="assets/js/materi-video-exclusive/link-video03.js"></script>';
+                        break;
+
+                    case "Langkah Awal Bounty Hunting Simulasi 5 Teknik Eksploit Terpopuler":
+                        echo '<script src="assets/js/materi-video-exclusive/link-video04.js"></script>';
                         break;
                 
                     default:

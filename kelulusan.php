@@ -83,6 +83,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         case "Memulai Perjalanan dalam Keamanan Website Membangun Pengalaman Praktis":
             $filename = 'jawaban-kursus-online/Memulai Perjalanan dalam Keamanan Website Membangun Pengalaman Praktis.txt';
         break;
+
+        case "Langkah Awal Bounty Hunting Simulasi 5 Teknik Eksploit Terpopuler":
+            $filename = 'jawaban-kursus-online/Langkah Awal Bounty Hunting Simulasi 5 Teknik Eksploit Terpopuler.txt';
+        break;
                 
         default:
         // Opsional: Tambahkan kode di sini untuk menangani kasus jika tidak ada kecocokan.
@@ -597,6 +601,37 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 var player = new YT.Player('video-placeholder', {
                   // Hapus pengaturan height dan width agar video responsif
                   videoId: 'OoD-GgGX9xU',
+                  playerVars: {
+                    'autoplay': 1,
+                    'controls': 0,
+                    'modestbranding': 1,
+                    'rel': 0,
+                    'showinfo': 0,
+                    'iv_load_policy': 3
+                  },
+                  events: {
+                    'onReady': onPlayerReady
+                  }
+                });
+              }
+            
+              // Fungsi dipanggil ketika video siap diputar
+              function onPlayerReady(event) {
+                event.target.playVideo();
+              }
+            </script>
+            <?php
+        break;
+
+        case "Langkah Awal Bounty Hunting Simulasi 5 Teknik Eksploit Terpopuler":
+            ?>
+            <!-- VIDEO BIMBEL 4 -->
+            <script>
+              // Fungsi dipanggil ketika API YouTube siap
+              function onYouTubeIframeAPIReady() {
+                var player = new YT.Player('video-placeholder', {
+                  // Hapus pengaturan height dan width agar video responsif
+                  videoId: 'cWA-L8ZHMz0',
                   playerVars: {
                     'autoplay': 1,
                     'controls': 0,

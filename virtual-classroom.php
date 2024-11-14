@@ -150,6 +150,7 @@ error_log(print_r($_POST, true));
 				        include 'post/list_kelas/keamanan_siber/01.php';
 				        include 'post/list_kelas/keamanan_siber/02.php'; 
 				        include 'post/list_kelas/keamanan_siber/03.php'; 
+                        include 'post/list_kelas/keamanan_siber/04.php'; 
 				    ?>
 				</div>
 			<hr>
