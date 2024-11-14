@@ -273,7 +273,7 @@
         </div>
         
         <!-- INPUT MANUAL -->
-        <input value="1" class="form-control" type="hidden" name="harga" id="harga" style="border-radius: 15px; padding: 10px; border: 1px solid #343a40;">
+        <input value="75000" class="form-control" type="hidden" name="harga" id="harga" style="border-radius: 15px; padding: 10px; border: 1px solid #343a40;">
         <input value="diskon" class="form-control" type="hidden" name="level" id="level" style="border-radius: 15px; padding: 10px; border: 1px solid #343a40;">
         <input value="Langkah Awal Bounty Hunting Simulasi 5 Teknik Eksploit Terpopuler" class="form-control" type="hidden" name="judul_kursus" id="harga" style="border-radius: 15px; padding: 10px; border: 1px solid #343a40;">
         <input value="firdamdamsasmita@upi.edu" class="form-control" type="hidden" name="email_pemateri" id="email_pemateri" style="border-radius: 15px; padding: 10px; border: 1px solid #343a40;">

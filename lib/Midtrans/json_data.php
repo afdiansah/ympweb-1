@@ -45,7 +45,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             'titles' => ['Fondasi dalam Keamanan Website Sebelum Memulai Penetrasi Sistem', 'Memulai Perjalanan dalam Keamanan Website Membangun Pengalaman Praktis'] // Variasi judul
         ],
         'diskon' => [
-            'price' => 1,
+            'price' => 75000,
             'titles' => ['Langkah Awal Bounty Hunting Simulasi 5 Teknik Eksploit Terpopuler']
         ],
     ];
