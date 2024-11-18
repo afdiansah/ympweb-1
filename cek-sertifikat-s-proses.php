@@ -1,7 +1,9 @@
 <?php
+//041711202406-Ahmad Firdaus-LULUS
+//nomortanggalseminarberapa-Nama
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $certificateID = $_POST['certificateID'];
-    $file = 'cek-lulus.txt';
+    $file = 'cek-lulus-seminar.txt';
 
     if (preg_match('/^YMP-S-\d+$/', $certificateID)) {
         $numericID = preg_replace('/\D/', '', $certificateID);
