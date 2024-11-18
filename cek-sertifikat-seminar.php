@@ -107,8 +107,8 @@ error_log(print_r($_POST, true));
         <div class="page-title-area item-bg1 jarallax" data-jarallax='{"speed": 0.3}'>
             <div class="container">
                 <div class="page-title-content">
-                    <h2>Virtual Classroom</h2>
-                    <p>Salah satu media bantu Kelas Maya / Kelas Virtual yang diperuntukan untuk Pelajar (kalangan siswa maupun mahasiswa) maupun Umum dalam meningkatkan kapasitas keilmuan dan keterampilannya hanya melalui Device. Device apapun dan kapanpun waktunya.</p>
+                    <h2>Cek Sertifikat Seminar</h2>
+                    <p>Tempat pengecekan kode sertifikat seminar yang diterbitkan oleh Yuk-Mari Project. Halaman ini digunakan untuk membantu kalian mengecek kevalidan dari suatu sertifikat seminar / untuk menghindari pemalsuan sertifikat seminar.</p>
                 </div>
             </div>
         </div>
