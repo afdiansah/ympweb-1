@@ -50,11 +50,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             if (array_key_exists($kode_voucher, $available_vouchers)) {
                 $discount = $available_vouchers[$kode_voucher];
             } else {
-                echo json_encode(['error' => 'Error: Kode voucher tidak valid.']);
+                $discount = $available_vouchers[$kode_voucher] * 0;
                 exit();
             }
         } else {
-            echo json_encode(['error' => 'Error: Format kode voucher salah.']);
+            $discount = $available_vouchers[$kode_voucher] * 0;
             exit();
         }
     }
