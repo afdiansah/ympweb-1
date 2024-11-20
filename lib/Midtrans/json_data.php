@@ -44,17 +44,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     ];
 
     // Validasi kode voucher
-    $discount = 1; // Default tanpa diskon
+    $discount = 0; // Default tanpa diskon
     if (!empty($kode_voucher)) {
         if (preg_match('/^ymp_\w{7}$/', $kode_voucher)) {
             if (array_key_exists($kode_voucher, $available_vouchers)) {
                 $discount = $available_vouchers[$kode_voucher];
             } else {
-                $discount = $available_vouchers[$kode_voucher] * 0;
+                echo json_encode(['error' => 'Error: Kode voucher tidak valid.']);
                 exit();
             }
         } else {
-            $discount = $available_vouchers[$kode_voucher] * 0;
+            echo json_encode(['error' => 'Error: Format kode voucher salah.']);
             exit();
         }
     }
@@ -102,7 +102,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     
     // Validasi harga
     if ($harga !== $discounted_price) {
-        echo json_encode(['error' => 'Error: Terjadi manipulasi harga. ']);
+        echo json_encode(['error' => 'Error: Terjadi manipulasi harga. ' . $harga . ' + ' . $discounted_price]);
         exit();
     }
 
