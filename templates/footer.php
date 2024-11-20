@@ -67,7 +67,7 @@
         <!-- End Footer Area -->
         
         <div class="go-top"><i class="fas fa-arrow-up"></i></div>
-
+        
         <!-- jQuery Min JS -->
         <script src="assets/js/jquery.min.js"></script>
         <!-- Popper Min JS -->
@@ -98,3 +98,5 @@
         <script src="assets/js/main.js"></script>
         <!-- Main JS -->
         <script src="assets/js/preloader-percent.js"></script>
+        <!-- Cek Kode Voucher -->
+        <script src="assets/js/cek-kode-voucher.js"></script>

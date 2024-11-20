@@ -258,6 +258,20 @@
             <small>Harap di isi dengan benar, karena link materi video akan dikirimkan ke email setelah proses pembayaran berhasil. Masukkan alamat email (contoh: ahmad@gmail.com)</small>
         </div>
         <div class="form-group">
+            <label for="kode_voucher" style="font-weight: bold; color: #343a40;">Kode Voucher</label>
+            <div style="display: flex; align-items: center; gap: 10px; margin-top: 10px;">
+        <input 
+            type="text" 
+            class="form-control" 
+            name="kode_voucher" 
+            id="kode_voucher" 
+            placeholder="Masukkan kode voucher"
+            style="flex: 1; border-radius: 15px; padding: 10px; border: 1px solid #343a40;"
+        >
+        <button type="button" id="cekVoucher2" class="btn btn-primary">Cek Kode</button>
+    </div>            <small>Masukan Kode Voucher yang Benar (contoh: ymp_*******). Kosongkan jika tidak ada kode voucher</small>
+        </div>
+        <div class="form-group">
             <label for="alamat_domisili" style="font-weight: bold; color: #343a40;">Alamat Lengkap Domisili</label>
             <input type="text" class="form-control" name="alamat_domisili" id="alamat_domisili" placeholder="Masukkan Alamat Lengkap Domisili kamu" style="border-radius: 15px; padding: 10px; border: 1px solid #343a40;" required>
             <small>Masukkan alamat lengkap domisili kamu (contoh: Komplek Bandung Indah Raya No.17 Blok C13, Mekarjaya, Kec. Rancasari, Kota Bandung, Jawa Barat 40286)</small>
@@ -274,7 +288,7 @@
         
         <!-- INPUT MANUAL -->
         <input value="150000" class="form-control" type="hidden" name="harga" id="harga" style="border-radius: 15px; padding: 10px; border: 1px solid #343a40;">
-        <input value="menengah" class="form-control" type="hidden" name="level" id="level" style="border-radius: 15px; padding: 10px; border: 1px solid #343a40;">
+        <input value="menengah" data-price="150000" class="form-control" type="hidden" name="level" id="level" style="border-radius: 15px; padding: 10px; border: 1px solid #343a40;">
         <input value="Fondasi dalam Keamanan Website Sebelum Memulai Penetrasi Sistem" class="form-control" type="hidden" name="judul_kursus" id="harga" style="border-radius: 15px; padding: 10px; border: 1px solid #343a40;">
         <input value="firdamdamsasmita@upi.edu" class="form-control" type="hidden" name="email_pemateri" id="email_pemateri" style="border-radius: 15px; padding: 10px; border: 1px solid #343a40;">
         <button type="button" id="buy-button2" style="width: 100%; border-radius: 15px;" class="btn btn-primary me-2"><i class="fas fa-shopping-cart"></i> Beli</button>

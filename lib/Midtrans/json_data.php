@@ -1,8 +1,9 @@
 <?php
-error_reporting(0);
-ini_set('display_errors', 0);
+error_reporting(1);
+ini_set('display_errors', 1);
 session_start(); // Memulai sesi untuk akses CAPTCHA yang disimpan
 
+// Pastikan tidak ada output sebelum header
 header('Content-Type: application/json');
 
 // Pastikan file Midtrans dan JWT library sudah di-load dengan benar
@@ -34,7 +35,31 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         exit();
     }
 
-    // Daftar level, harga, dan judul kelas yang valid (judul kelas bisa dalam bentuk array)
+    // Ambil dan sanitasi data kode voucher
+    $kode_voucher = isset($_POST['kode_voucher']) ? htmlspecialchars(trim($_POST['kode_voucher'])) : '';
+
+    // Simulasi data voucher dari database
+    $available_vouchers = [
+        'ymp_bersatu' => 0.75, // Diskon 75%
+    ];
+
+    // Validasi kode voucher
+    $discount = 1; // Default tanpa diskon
+    if (!empty($kode_voucher)) {
+        if (preg_match('/^ymp_\w{7}$/', $kode_voucher)) {
+            if (array_key_exists($kode_voucher, $available_vouchers)) {
+                $discount = $available_vouchers[$kode_voucher];
+            } else {
+                echo json_encode(['error' => 'Error: Kode voucher tidak valid.']);
+                exit();
+            }
+        } else {
+            echo json_encode(['error' => 'Error: Format kode voucher salah.']);
+            exit();
+        }
+    }
+
+    // Data daftar kelas dan harga valid di server
     $valid_classes = [
         'pemula' => [
             'price' => 100000,
@@ -42,46 +67,57 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         ],
         'menengah' => [
             'price' => 150000,
-            'titles' => ['Fondasi dalam Keamanan Website Sebelum Memulai Penetrasi Sistem', 'Memulai Perjalanan dalam Keamanan Website Membangun Pengalaman Praktis'] // Variasi judul
+            'titles' => ['Fondasi dalam Keamanan Website Sebelum Memulai Penetrasi Sistem', 'Memulai Perjalanan dalam Keamanan Website Membangun Pengalaman Praktis']
         ],
-        'diskon' => [
+        'terbaru' => [
             'price' => 75000,
             'titles' => ['Langkah Awal Bounty Hunting Simulasi 5 Teknik Eksploit Terpopuler']
         ],
     ];
 
-    // Pastikan 'level', 'harga', dan 'judul_kelas' ada di $_POST
+    // Pastikan semua data POST tersedia
     if (!isset($_POST['level'], $_POST['harga'], $_POST['judul_kursus'])) {
         echo json_encode(['error' => 'Error: Data tidak lengkap.']);
         exit();
     }
 
-    // Ambil data dari POST
-    $level = $_POST['level'];
-    $harga = (int)$_POST['harga'];
-    $judul_kursus = $_POST['judul_kursus'];
+    // Ambil dan sanitasi data dari POST
+    $level = htmlspecialchars(trim($_POST['level']));
+    $harga = (float) $_POST['harga'];
+    $judul_kursus = htmlspecialchars(trim($_POST['judul_kursus']));
 
-    // Cek apakah level yang dikirim ada di daftar kelas yang valid
+    // Validasi level kelas
     if (!array_key_exists($level, $valid_classes)) {
         echo json_encode(['error' => 'Error: Level kelas tidak valid.']);
         exit();
     }
 
-    // Ambil data valid berdasarkan level yang dikirim
+    // Ambil data valid berdasarkan level
     $fixed_price = $valid_classes[$level]['price'];
     $valid_titles = $valid_classes[$level]['titles']; // Judul kelas bisa banyak
 
+    // Hitung harga setelah diskon
+    $discounted_price = $fixed_price * (1 - $discount);
+    $discounted_price = (float) $discounted_price;
+    
     // Validasi harga
-    if ($harga !== $fixed_price) {
-        echo json_encode(['error' => 'Error: Terjadi manipulasi Harga.']);
+    if ($harga !== $discounted_price) {
+        echo json_encode(['error' => 'Error: Terjadi manipulasi harga. ']);
         exit();
     }
 
-    // Validasi judul kelas (cek apakah judul kelas yang dikirim ada dalam array valid titles)
+    // Validasi judul kelas
     if (!in_array($judul_kursus, $valid_titles)) {
-        echo json_encode(['error' => 'Error: Terjadi manipulasi Judul Kursus.']);
+        echo json_encode(['error' => 'Error: Judul kursus tidak valid.']);
         exit();
     }
+
+    // Lanjutkan pemrosesan jika validasi berhasil
+    $response = [
+        'success' => true,
+        'harga' => $harga,
+        'judul_kursus' => $judul_kursus
+    ];
 
     // Set Midtrans Server Key
     \Midtrans\Config::$serverKey = 'Mid-server-nQ40waJaQMihHi-DnUtxndLH';
@@ -92,11 +128,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Buat parameter transaksi
     $transaction_details = array(
         'order_id' => rand(),
-        'gross_amount' => $fixed_price, // Total pembayaran tetap
+        'gross_amount' => $discounted_price, // Total pembayaran tetap
         'first_name' => $_POST['nama_lengkap'],
         'email' => $_POST['alamat_email'],
         'phone' => $_POST['nomor_whatsapp'],
-        'judul_kursus' => $_POST['judul_kursus'],
+        'judul_kursus' => $judul_kursus,
         'email_pemateri' => $_POST['email_pemateri']
     );
 
@@ -131,15 +167,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             'snapToken' => $snapToken
         ];
         
-        // Kirim token ke client
-        echo json_encode([
-            'snapToken' => $snapToken,
-            'first_name' => $_POST['nama_lengkap'],
-            'email' => $_POST['alamat_email'],
-            'phone' => $_POST['nomor_whatsapp'],
-            'judul_kursus' => $_POST['judul_kursus'],
-            'email_pemateri' => $_POST['email_pemateri']
-        ]);
+        // Gabungkan response dan kirimkan token
+        $response['snapToken'] = $snapToken;
+        $response['first_name'] = $_POST['nama_lengkap'];
+        $response['email'] = $_POST['alamat_email'];
+        $response['phone'] = $_POST['nomor_whatsapp'];
+        $response['judul_kursus'] = $_POST['judul_kursus'];
+        $response['email_pemateri'] = $_POST['email_pemateri'];
+
+        // Kirim response ke client
+        echo json_encode($response);
         
         /* ---------------------------------------------------------------------- */
         // Kirim email dengan link pembayaran
@@ -256,12 +293,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->isHTML(true); // Pastikan email dikirim sebagai HTML
         
         $mail->send();
-        /* ---------------------------------------------------------------------- */
     } catch (Exception $e) {
-        // Menangani kesalahan
-        echo json_encode(['error' => $e->getMessage()]);
+        echo json_encode(['error' => 'Mail gagal dikirim. Error: ' . $mail->ErrorInfo]);
     }
-} else {
-    echo json_encode(['error' => 'Request tidak valid.']);
 }
-?>
