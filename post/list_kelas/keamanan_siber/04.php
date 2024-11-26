@@ -16,7 +16,7 @@
 							<div class="blog-post-content">
 								<h3><a href="#">Langkah Awal Bounty Hunting: Simulasi 5 Teknik Eksploit Terpopuler</a></h3>
 
-								<span><b>Harga: </b><del><font color="red">Rp100.000</font></del> Rp75.000<br/><b>Total Materi:</b> 5 Materi<br/><b>Durasi Materi:</b> 85:58 Menit<br/><b>Level Kelas:</b> Menengah<br/><b>Peserta Terdaftar:</b> 0 Peserta</span>
+								<span><b>Harga: </b><del><font color="red">Rp100.000</font></del> Rp75.000<br/><b>Total Materi:</b> 5 Materi<br/><b>Durasi Materi:</b> 85:58 Menit<br/><b>Level Kelas:</b> Menengah<br/><b>Peserta Terdaftar:</b> 1 Peserta</span>
 
 								<p style="text-align:justify">Materi yang disampaikan cukup kental dengan best practices dan simulasi penetrasi. Ini merupakan langkah awal masuk Bounty Hunting, metode yang jarang diketahui namun sedang menjadi tren di kalangan dunia maya.</p>
 
