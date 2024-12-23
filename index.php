@@ -225,7 +225,7 @@
                             <h2>Yuk, Mari kita bekerjasama untuk saling melengkapi kebutuhan di masing - masing kita!!! </h2>
                             <div class="bar"></div>
                             <p>Beri kabar kepada kami agar kami dapat menghubungi anda untuk mengetahui kebutuhanmu dan melakukan kerjasama secara professional</p>
-                            <a target="_blank" href="https://api.whatsapp.com/send/?phone=6282295603115&text=Permisi,+saya+dari+salah+satu+instansi+ingin+mengundang+anda+sebagai+pemateri+seminar,+berminat+kah+bapak/ibu+ditempat+?&type=phone_number&app_absent=0" class="btn btn-primary">HUBUNGI KAMI SEKARANG JUGA!</a>
+                            <a target="_blank" href="https://api.whatsapp.com/send/?phone=6282295603115&text=Permisi,+saya+ingin+mengadakan+kerjasama+bersama+Yuk-Mari+Project,+berminat+kah+bapak/ibu+ditempat+?&type=phone_number&app_absent=0" class="btn btn-primary">HUBUNGI KAMI SEKARANG JUGA!</a>
                         </div>
                     </div>
 

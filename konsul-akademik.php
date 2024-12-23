@@ -1,4 +1,101 @@
 <?php include 'templates/header.php'; ?>
+
+<!-- CSS Styling -->
+<style>
+        .mfp-content {
+            border-radius: 10px;
+            padding: 20px;
+        }
+        .mfp-bg {
+            background: rgba(0, 0, 0, 0.8);
+        }
+        .mfp-wrap {
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+            background: #ffffff;
+        }
+        .white-popup {
+            position: relative;
+            background: #FFF;
+            padding: 20px;
+            width: auto;
+            max-width: 500px;
+            margin: 20px auto;
+            text-align: center;
+            border-radius: 10px;
+        }
+        </style>
+        
+        <style>
+            .embed-responsive {
+                position: relative;
+                padding-bottom: 56.25%; /* Aspect ratio 16:9 */
+                height: 0;
+                overflow: hidden;
+                background: #000;
+            }
+            .embed-responsive iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+        </style>
+        
+        <style>
+        .social-icon {
+            font-size: 24px;
+            color: #333;
+            margin: 0 10px;
+            transition: color 0.3s;
+        }
+        .social-icon:hover {
+            color: #fec809;
+        }
+        </style>
+        <style>
+        .whatsapp-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            background-color: #25D366; /* Warna hijau WhatsApp */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            transition: background-color 0.3s;
+        }
+        .whatsapp-button:hover {
+            background-color: #128C7E; /* Warna hijau WhatsApp gelap */
+            color:#fff;
+        }
+        .whatsapp-button i {
+            margin-right: 10px;
+        }
+        </style>
+
+        <style>
+        .captcha-container {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .refresh-btn {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            font-size: 1.5rem;
+        }
+        .refresh-btn:hover {
+            color: #fdc609;
+        }
+        </style>
+
 <?php include 'templates/nav.php'; ?>
 
         <!-- Start Page Title Area -->
@@ -237,6 +334,31 @@
                         </div>
                     </div>
                 </div>
+
+				<hr>
+			
+			<div class="row">
+					<div class="col-lg-12 col-md-12">
+					    <div class="container mt-5" style="margin-top:0rem !important;">
+                            <div class="alert alert-info" role="alert">
+                                <h4 class="alert-heading">Kerjasama Menjadi Fasilitator Tugas Akademik</h4>
+                                <hr>
+                                <p style="text-align:justify">Kami sangat antusias jika kami dapat bekerjasama dengan kamu untuk menjadi fasilitator tugas akademik di konsultasi tugas akademik Yuk-Mari Project ini. Kami yakin pengalaman dan pengetahuan kamu akan sangat bermanfaat bagi yang membutuhkan jasa konsultasi akademik. Yuk, gabung dan bantu mereka di konsultasi tugas - tugas Yuk-Mari Project!</p>
+                                <hr>
+                                <p class="mb-0">
+                                    <a href="https://api.whatsapp.com/send/?phone=6282295603115&text=Saya%20ingin%20menjadi%20Fasilitator%20tugas-tugas%20akademik%20di%20Yuk-Mari%20Project%20ini&type=phone_number&app_absent=0" class="whatsapp-button" target="_blank">
+                                        <i class="fab fa-whatsapp"></i>&nbsp; Hubungi Kami 
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+					</div>
+				</div>
+						</div>
+					</div>
+					
+			</div>
+
             </div>
         </section>
         <!-- End App Download Area -->
