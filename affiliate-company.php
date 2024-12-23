@@ -154,13 +154,6 @@ error_log(print_r($_POST, true));
                                         
                                         <div class="col-lg-2 col-sm-4 col-md-3 col-6">
                                             <a href="#">
-                                                <img src="assets/img/partner-image/partner-hover14.png" alt="partner">
-                                                <img src="assets/img/partner-image/partner-14.png" alt="partner">
-                                            </a>
-                                        </div>
-                                        
-                                        <div class="col-lg-2 col-sm-4 col-md-3 col-6">
-                                            <a href="#">
                                                 <img src="assets/img/partner-image/partner-hover15.png" alt="partner">
                                                 <img src="assets/img/partner-image/partner-15.png" alt="partner">
                                             </a>
