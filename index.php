@@ -44,7 +44,7 @@
                                 <h3>Komunitas Siber</h3>
                                 <p>Offline Gathering di Wilayah Bandung dan Sekitarnya, sharing seputar topik - topik menarik terkini, baik di bidang teknologi (DevApp / DevSec) maupun Non-Teknologi.</p>
 
-                                <a href="https://www.instagram.com/stories/highlights/17958712385815198/" target="_blank" class="read-more-btn">Lihat Detail</a>
+                                <a href="komunitas-siber" target="_blank" class="read-more-btn">Lihat Detail</a>
                             </div>
                         </div>
 
@@ -70,7 +70,7 @@
                                 <h3>Magang / Internship</h3>
                                 <p>Adakalanya Pelajar / Mahasiswa membutuhkan tempat magang dan belum mendapatkan tempatnya, Kami hadir untuk membantu kalian dalam Program Internship.</p>
 
-                                <a target="_blank" href="https://api.whatsapp.com/send/?phone=6282295603115&text=Permisi+Admin,+info+teknis+magangnya+dong?" class="read-more-btn">Lihat Detail</a>
+                                <a target="_blank" href="internship" class="read-more-btn">Lihat Detail</a>
                             </div>
                         </div>
                     </div>
