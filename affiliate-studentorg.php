@@ -235,6 +235,13 @@ error_log(print_r($_POST, true));
                                                 <img src="assets/img/afiliate-image/partner-hover16.png" alt="HIMATEK TEL-U">
                                             </a>
                                         </div>
+
+                                        <div class="col-lg-2 col-sm-4 col-md-3 col-6">
+                                            <a href="#">
+                                                <img src="assets/img/koneksi-kami/09-hover.png" alt="partner">
+                                                <img src="assets/img/koneksi-kami/09.png" alt="partner">
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

@@ -126,57 +126,120 @@ error_log(print_r($_POST, true));
                                     <div class="row align-items-center">
                                         <div class="col-lg-2 col-sm-4 col-md-3 col-6">
                                             <a href="#">
-                                                <img src="assets/img/partner-image/partner-2.png" alt="partner">
-                                                <img src="assets/img/partner-image/partner-hover2.png" alt="partner">
+                                                <img src="assets/img/partner-image/partner-2.png" alt="BnC Cookies">
+                                                <img src="assets/img/partner-image/partner-hover2.png" alt="BnC Cookies">
                                             </a>
                                         </div>
 
                                         <div class="col-lg-2 col-sm-4 col-md-3 col-6">
                                             <a href="#">
-                                                <img src="assets/img/partner-image/partner-11.png" alt="partner">
-                                                <img src="assets/img/partner-image/partner-hover11.png" alt="partner">
+                                                <img src="assets/img/partner-image/partner-11.png" alt="Cabe Pa Abdul">
+                                                <img src="assets/img/partner-image/partner-hover11.png" alt="Cabe Pa Abdul">
                                             </a>
                                         </div>
                                         
                                         <div class="col-lg-2 col-sm-4 col-md-3 col-6">
                                             <a href="#">
-                                                <img src="assets/img/partner-image/partner-hover5.png" alt="partner">
-                                                <img src="assets/img/partner-image/partner-5.png" alt="partner">
+                                                <img src="assets/img/partner-image/partner-hover5.png" alt="Ciungwanara Adventure">
+                                                <img src="assets/img/partner-image/partner-5.png" alt="Ciungwanara Adventure">
                                             </a>
                                         </div>
                                         
                                         <div class="col-lg-2 col-sm-4 col-md-3 col-6">
                                             <a href="#">
-                                                <img src="assets/img/partner-image/partner-hover7.png" alt="partner">
-                                                <img src="assets/img/partner-image/partner-7.png" alt="partner">
+                                                <img src="assets/img/partner-image/partner-hover7.png" alt="Sinai Adventure">
+                                                <img src="assets/img/partner-image/partner-7.png" alt="Sinai Adventure">
                                             </a>
                                         </div>
                                         
                                         <div class="col-lg-2 col-sm-4 col-md-3 col-6">
                                             <a href="#">
-                                                <img src="assets/img/partner-image/partner-hover15.png" alt="partner">
-                                                <img src="assets/img/partner-image/partner-15.png" alt="partner">
+                                                <img src="assets/img/partner-image/partner-hover15.png" alt="Phi Education Center">
+                                                <img src="assets/img/partner-image/partner-15.png" alt="Phi Education Center">
                                             </a>
                                         </div>
                                         
                                         <div class="col-lg-2 col-sm-4 col-md-3 col-6">
                                             <a href="#">
-                                                <img src="assets/img/partner-image/partner-hover25.png" alt="partner">
-                                                <img src="assets/img/partner-image/partner-25.png" alt="partner">
+                                                <img src="assets/img/partner-image/partner-hover25.png" alt="Panus Rescue Indonesia">
+                                                <img src="assets/img/partner-image/partner-25.png" alt="Panus Rescue Indonesia">
                                             </a>
                                         </div>
 
                                         <div class="col-lg-2 col-sm-4 col-md-3 col-6">
                                             <a href="#">
-                                                <img src="assets/img/koneksi-kami/03-hover.png" alt="partner">
-                                                <img src="assets/img/koneksi-kami/03.png" alt="partner">
+                                                <img src="assets/img/koneksi-kami/03-hover.png" alt="Waroeng Catering SR">
+                                                <img src="assets/img/koneksi-kami/03.png" alt="Waroeng Catering SR">
                                             </a>
                                         </div>
 
                                         <div class="col-lg-2 col-sm-4 col-md-3 col-6">
                                             <a href="#">
-                                                <img src="assets/img/koneksi-kami/04-hover.png" alt="partner">
-                                                <img src="assets/img/koneksi-kami/04.png" alt="partner">
+                                                <img src="assets/img/koneksi-kami/04-hover.png" alt="Anugrah Cipta Arsitektur">
+                                                <img src="assets/img/koneksi-kami/04.png" alt="Anugrah Cipta Arsitektur">
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-2 col-sm-4 col-md-3 col-6">
+                                            <a href="#">
+                                                <img src="assets/img/koneksi-kami/26-hover.png" alt="SIJAKI">
+                                                <img src="assets/img/koneksi-kami/partner-26.png" alt="SIJAKI">
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-2 col-sm-4 col-md-3 col-6">
+                                            <a href="#">
+                                                <img src="assets/img/koneksi-kami/27-hover.png" alt="Waroeng Catering Pahlawan">
+                                                <img src="assets/img/koneksi-kami/partner-27.png" alt="Waroeng Catering Pahlawan">
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-2 col-sm-4 col-md-3 col-6">
+                                            <a href="#">
+                                                <img src="assets/img/koneksi-kami/28-hover.png" alt="Goyobod Laris">
+                                                <img src="assets/img/koneksi-kami/partner-28.png" alt="Goyobod Laris">
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-2 col-sm-4 col-md-3 col-6">
+                                            <a href="#">
+                                                <img src="assets/img/koneksi-kami/29-hover.png" alt="MBN Optic">
+                                                <img src="assets/img/koneksi-kami/partner-29.png" alt="MBN Optic">
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-2 col-sm-4 col-md-3 col-6">
+                                            <a href="#">
+                                                <img src="assets/img/koneksi-kami/30-hover.png" alt="Raindooms">
+                                                <img src="assets/img/koneksi-kami/partner-30.png" alt="Raindooms">
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-2 col-sm-4 col-md-3 col-6">
+                                            <a href="#">
+                                                <img src="assets/img/koneksi-kami/31-hover.png" alt="Bundadari Daycare">
+                                                <img src="assets/img/koneksi-kami/partner-31.png" alt="Bundadari Daycare">
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-2 col-sm-4 col-md-3 col-6">
+                                            <a href="#">
+                                                <img src="assets/img/koneksi-kami/01-hover.png" alt="Moodapreneur.Id">
+                                                <img src="assets/img/koneksi-kami/01.png" alt="Moodapreneur.Id">
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-2 col-sm-4 col-md-3 col-6">
+                                            <a href="#">
+                                                <img src="assets/img/koneksi-kami/05-hover.png" alt="Adiguna Official Store">
+                                                <img src="assets/img/koneksi-kami/05.png" alt="Adiguna Official Store">
+                                            </a>
+                                        </div>
+
+                                        <div class="col-lg-2 col-sm-4 col-md-3 col-6">
+                                            <a href="#">
+                                                <img src="assets/img/koneksi-kami/06-hover.png" alt="Master TPB">
+                                                <img src="assets/img/koneksi-kami/06.png" alt="Master TPB">
                                             </a>
                                         </div>
                                     </div>
