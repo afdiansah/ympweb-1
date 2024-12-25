@@ -46,7 +46,7 @@
                                 <li class="nav-item"><a href="pricing" class="nav-link">Project & Bimbel</a></li>
                                 <li class="nav-item"><a href="#" class="nav-link">Program Lainnya<i class="fas fa-chevron-down"></i></a>
                                     <ul class="dropdown-menu">
-                                        <li class="nav-item"><a href="keamanan-siber" class="nav-link">Komunitas Siber</a></li>
+                                        <li class="nav-item"><a href="komunitas-siber" class="nav-link">Komunitas Siber</a></li>
                                         <li class="nav-item"><a href="internship" class="nav-link">Magang / Internship</a></li>
                                         <li class="nav-item"><a href="https://chat.whatsapp.com/D3RIeMhbC3dHb87NuWeFSB" class="nav-link" target="_blank">Product Yuk-Mari Project</a></li>
                                         <li class="nav-item"><a href="cek-sertifikat-seminar" class="nav-link" target="_blank">Cek Sertifikat Seminar</a></li>
