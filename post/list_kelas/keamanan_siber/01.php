@@ -287,8 +287,8 @@
         </div>
         
         <!-- INPUT MANUAL -->
-        <input value="2" class="form-control" type="hidden" name="harga" id="harga" style="border-radius: 15px; padding: 10px; border: 1px solid #343a40;">
-        <input value="pemula" data-price="2" class="form-control" type="hidden" name="level" id="level" style="border-radius: 15px; padding: 10px; border: 1px solid #343a40;">
+        <input value="100000" class="form-control" type="hidden" name="harga" id="harga" style="border-radius: 15px; padding: 10px; border: 1px solid #343a40;">
+        <input value="pemula" data-price="100000" class="form-control" type="hidden" name="level" id="level" style="border-radius: 15px; padding: 10px; border: 1px solid #343a40;">
         <input value="Keamanan Siber untuk Pemula: Hacking hingga Forensik" class="form-control" type="hidden" name="judul_kursus" id="judul_kursus" style="border-radius: 15px; padding: 10px; border: 1px solid #343a40;">
         <input value="firdamdamsasmita@upi.edu" class="form-control" type="hidden" name="email_pemateri" id="email_pemateri" style="border-radius: 15px; padding: 10px; border: 1px solid #343a40;">
         <button type="button" id="buy-button" style="width: 100%; border-radius: 15px;" class="btn btn-primary me-2"><i class="fas fa-shopping-cart"></i> Beli</button>
