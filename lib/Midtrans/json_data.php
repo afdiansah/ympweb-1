@@ -189,8 +189,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->SMTPAuth = true;
         $mail->Username = 'yukmari2211@gmail.com'; // Ganti dengan email Gmail Anda
         $mail->Password = 'lhxsjghbydcawxmz'; // Ganti dengan password aplikasi Gmail Anda
-        $mail->SMTPSecure = 'tls'; // Aktifkan enkripsi TLS
-        $mail->Port = 587; // Port untuk TLS
+        $mail->SMTPSecure = 'ssl'; // Aktifkan enkripsi TLS
+        $mail->Port = 465; // Port untuk TLS
         
         // Recipients
         $mail->setFrom('yukmari2211@gmail.com', 'Yuk-Mari Project');

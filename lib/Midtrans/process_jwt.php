@@ -44,8 +44,8 @@ if ($order_id) {
         $mail->SMTPAuth = true;
         $mail->Username = 'yukmari2211@gmail.com';
         $mail->Password = 'lhxsjghbydcawxmz';
-        $mail->SMTPSecure = 'tls';
-        $mail->Port = 587;
+        $mail->SMTPSecure = 'ssl';
+        $mail->Port = 465;
 
         $mail->setFrom('yukmari2211@gmail.com', 'Yuk-Mari Project');
         $mail->addAddress($email); // Ganti dengan email pelanggan dari database atau notifikasi
@@ -178,8 +178,8 @@ if ($order_id) {
     $mail2->SMTPAuth = true;
     $mail2->Username = 'yukmari2211@gmail.com'; // Ganti dengan email Gmail Anda
     $mail2->Password = 'lhxsjghbydcawxmz'; // Ganti dengan password aplikasi Gmail Anda
-    $mail2->SMTPSecure = 'tls'; // Aktifkan enkripsi TLS
-    $mail2->Port = 587; // Port untuk TLS
+    $mail2->SMTPSecure = 'ssl'; // Aktifkan enkripsi TLS
+    $mail2->Port = 465; // Port untuk TLS
     
     // Recipients
     $mail2->setFrom('yukmari2211@gmail.com', 'Yuk-Mari Project');
