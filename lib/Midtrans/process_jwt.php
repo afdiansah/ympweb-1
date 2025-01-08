@@ -49,7 +49,7 @@ if ($order_id) {
         $mail->Port = 465;
         */
 
-        $mail->Host = 'mail.yuk-mari.com'; // Set the SMTP server to send through
+        $mail->Host = 'idn101.haiserver.com'; // Set the SMTP server to send through
         $mail->SMTPAuth = true;
         $mail->Username = 'admin@yuk-mari.com'; // Ganti dengan email Gmail Anda
         $mail->Password = 'kmzwa8awaa'; // Ganti dengan password aplikasi Gmail Anda
@@ -193,7 +193,7 @@ if ($order_id) {
     $mail2->Port = 465; // Port untuk TLS
     */
 
-    $mail2->Host = 'mail.yuk-mari.com'; // Set the SMTP server to send through
+    $mail2->Host = 'idn101.haiserver.com'; // Set the SMTP server to send through
     $mail2->SMTPAuth = true;
     $mail2->Username = 'admin@yuk-mari.com'; // Ganti dengan email Gmail Anda
     $mail2->Password = 'kmzwa8awaa'; // Ganti dengan password aplikasi Gmail Anda

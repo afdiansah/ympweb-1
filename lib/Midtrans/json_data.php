@@ -193,7 +193,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->Port = 465; // Port untuk TLS
         */
 
-        $mail->Host = 'mail.yuk-mari.com'; // Set the SMTP server to send through
+        $mail->Host = 'idn101.haiserver.com'; // Set the SMTP server to send through
         $mail->SMTPAuth = true;
         $mail->Username = 'admin@yuk-mari.com'; // Ganti dengan email Gmail Anda
         $mail->Password = 'kmzwa8awaa'; // Ganti dengan password aplikasi Gmail Anda
