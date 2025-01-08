@@ -102,10 +102,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $discounted_price = (float) $discounted_price;
     
     // Validasi harga
-    if ($harga !== $discounted_price) {
-        echo json_encode(['error' => 'Error: Terjadi manipulasi harga. ' . $harga . ' + ' . $discounted_price]);
-        exit();
-    }
+    //if ($harga !== $discounted_price) {
+    //    echo json_encode(['error' => 'Error: Terjadi manipulasi harga. ' . $harga . ' + ' . $discounted_price]);
+    //    exit();
+    //}
 
     // Validasi judul kelas
     if (!in_array($judul_kursus, $valid_titles)) {
