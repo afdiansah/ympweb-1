@@ -193,16 +193,16 @@ if ($order_id) {
     $mail2->Port = 465; // Port untuk TLS
     */
 
-    $mail->Host = 'mail.yuk-mari.com'; // Set the SMTP server to send through
-    $mail->SMTPAuth = true;
-    $mail->Username = 'admin@yuk-mari.com'; // Ganti dengan email Gmail Anda
-    $mail->Password = 'kmzwa8awaa'; // Ganti dengan password aplikasi Gmail Anda
-    $mail->SMTPSecure = 'tls'; // Aktifkan enkripsi TLS
-    $mail->Port = 587; // Port untuk TLS
+    $mail2->Host = 'mail.yuk-mari.com'; // Set the SMTP server to send through
+    $mail2->SMTPAuth = true;
+    $mail2->Username = 'admin@yuk-mari.com'; // Ganti dengan email Gmail Anda
+    $mail2->Password = 'kmzwa8awaa'; // Ganti dengan password aplikasi Gmail Anda
+    $mail2->SMTPSecure = 'tls'; // Aktifkan enkripsi TLS
+    $mail2->Port = 587; // Port untuk TLS
 
     // Recipients
     $mail2->setFrom('admin@yuk-mari.com', 'Yuk-Mari Project');
-    $mail->addReplyTo('admin@yuk-mari.com', 'Yuk-Mari Project');
+    $mail2->addReplyTo('admin@yuk-mari.com', 'Yuk-Mari Project');
     $mail2->addAddress($email);
     $mail2->addAddress('firdamdamsasmita@upi.edu'); // Email kedua, ganti dengan email yang diinginkan
     
