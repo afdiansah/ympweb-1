@@ -122,7 +122,7 @@ error_log(print_r($_POST, true));
                         <form id="form-cek-sertifikat-seminar">
                             <div class="mb-3">
                                 <label for="certificateID" class="form-label">Cek Sertifikat Seminar/Webinar:</label>
-                                <input type="text" class="form-control" id="certificateID" placeholder="Masukkan ID Sertifikat" required>
+                                <input type="text" class="form-control" id="certificateID" placeholder="Masukkan ID Sertifikat. Contoh: YMP-S-011711202406" required>
                             </div>
                             <button type="submit" class="btn btn-primary">Cek Sertifikat</button>
                         </form>
