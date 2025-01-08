@@ -43,7 +43,7 @@ if ($order_id) {
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
         $mail->Username = 'yukmari2211@gmail.com';
-        $mail->Password = 'vmbbqvdritmwavsq';
+        $mail->Password = 'lhxsjghbydcawxmz';
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
@@ -177,7 +177,7 @@ if ($order_id) {
     $mail2->Host = 'smtp.gmail.com'; // Set the SMTP server to send through
     $mail2->SMTPAuth = true;
     $mail2->Username = 'yukmari2211@gmail.com'; // Ganti dengan email Gmail Anda
-    $mail2->Password = 'vmbbqvdritmwavsq'; // Ganti dengan password aplikasi Gmail Anda
+    $mail2->Password = 'lhxsjghbydcawxmz'; // Ganti dengan password aplikasi Gmail Anda
     $mail2->SMTPSecure = 'tls'; // Aktifkan enkripsi TLS
     $mail2->Port = 587; // Port untuk TLS
     

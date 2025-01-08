@@ -188,7 +188,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->Host = 'smtp.gmail.com'; // Set the SMTP server to send through
         $mail->SMTPAuth = true;
         $mail->Username = 'yukmari2211@gmail.com'; // Ganti dengan email Gmail Anda
-        $mail->Password = 'vmbbqvdritmwavsq'; // Ganti dengan password aplikasi Gmail Anda
+        $mail->Password = 'lhxsjghbydcawxmz'; // Ganti dengan password aplikasi Gmail Anda
         $mail->SMTPSecure = 'tls'; // Aktifkan enkripsi TLS
         $mail->Port = 587; // Port untuk TLS
         
