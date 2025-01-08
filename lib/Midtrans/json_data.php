@@ -184,16 +184,24 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail = new PHPMailer(true); // Passing `true` enables exceptions
         
         //Server settings
-        $mail->isSMTP();
+        /*$mail->isSMTP();
         $mail->Host = 'smtp.gmail.com'; // Set the SMTP server to send through
         $mail->SMTPAuth = true;
         $mail->Username = 'yukmari2211@gmail.com'; // Ganti dengan email Gmail Anda
         $mail->Password = 'lhxsjghbydcawxmz'; // Ganti dengan password aplikasi Gmail Anda
         $mail->SMTPSecure = 'ssl'; // Aktifkan enkripsi TLS
         $mail->Port = 465; // Port untuk TLS
+        */
+
+        $mail->Host = 'mail.yuk-mari.com'; // Set the SMTP server to send through
+        $mail->SMTPAuth = true;
+        $mail->Username = 'admin@yuk-mari.com'; // Ganti dengan email Gmail Anda
+        $mail->Password = 'kmzwa8awaa'; // Ganti dengan password aplikasi Gmail Anda
+        $mail->SMTPSecure = 'tls'; // Aktifkan enkripsi TLS
+        $mail->Port = 587; // Port untuk TLS
         
         // Recipients
-        $mail->setFrom('yukmari2211@gmail.com', 'Yuk-Mari Project');
+        $mail->setFrom('admin@yuk-mari.com', 'Yuk-Mari Project');
         $mail->addAddress($_POST['alamat_email']);
         
         // Content

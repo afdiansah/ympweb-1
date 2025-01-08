@@ -40,14 +40,23 @@ if ($order_id) {
         // Mengirim email dengan JWT Token
         $mail = new PHPMailer(true);
         $mail->isSMTP();
+        /*
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
         $mail->Username = 'yukmari2211@gmail.com';
         $mail->Password = 'lhxsjghbydcawxmz';
         $mail->SMTPSecure = 'ssl';
         $mail->Port = 465;
+        */
 
-        $mail->setFrom('yukmari2211@gmail.com', 'Yuk-Mari Project');
+        $mail->Host = 'mail.yuk-mari.com'; // Set the SMTP server to send through
+        $mail->SMTPAuth = true;
+        $mail->Username = 'admin@yuk-mari.com'; // Ganti dengan email Gmail Anda
+        $mail->Password = 'kmzwa8awaa'; // Ganti dengan password aplikasi Gmail Anda
+        $mail->SMTPSecure = 'tls'; // Aktifkan enkripsi TLS
+        $mail->Port = 587; // Port untuk TLS
+
+        $mail->setFrom('mail.yuk-mari.com', 'Yuk-Mari Project');
         $mail->addAddress($email); // Ganti dengan email pelanggan dari database atau notifikasi
 
         $mail->isHTML(true);
@@ -173,6 +182,7 @@ if ($order_id) {
     $mail2 = new PHPMailer(true); // Passing `true` enables exceptions
     
     //Server settings
+    /*
     $mail2->isSMTP();
     $mail2->Host = 'smtp.gmail.com'; // Set the SMTP server to send through
     $mail2->SMTPAuth = true;
@@ -180,9 +190,17 @@ if ($order_id) {
     $mail2->Password = 'lhxsjghbydcawxmz'; // Ganti dengan password aplikasi Gmail Anda
     $mail2->SMTPSecure = 'ssl'; // Aktifkan enkripsi TLS
     $mail2->Port = 465; // Port untuk TLS
-    
+    */
+
+    $mail->Host = 'mail.yuk-mari.com'; // Set the SMTP server to send through
+    $mail->SMTPAuth = true;
+    $mail->Username = 'admin@yuk-mari.com'; // Ganti dengan email Gmail Anda
+    $mail->Password = 'kmzwa8awaa'; // Ganti dengan password aplikasi Gmail Anda
+    $mail->SMTPSecure = 'tls'; // Aktifkan enkripsi TLS
+    $mail->Port = 587; // Port untuk TLS
+
     // Recipients
-    $mail2->setFrom('yukmari2211@gmail.com', 'Yuk-Mari Project');
+    $mail2->setFrom('admin@yuk-mari.com', 'Yuk-Mari Project');
     $mail2->addAddress($email);
     $mail2->addAddress('firdamdamsasmita@upi.edu'); // Email kedua, ganti dengan email yang diinginkan
     
