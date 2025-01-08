@@ -63,7 +63,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Data daftar kelas dan harga valid di server
     $valid_classes = [
         'pemula' => [
-            'price' => 100000,
+            'price' => 2,
             'titles' => ['Keamanan Siber untuk Pemula: Hacking hingga Forensik']
         ],
         'menengah' => [

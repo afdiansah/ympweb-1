@@ -9,7 +9,7 @@ $available_vouchers = [
 
 // Data daftar kelas dan harga valid
 $valid_classes = [
-    'pemula' => 100000,
+    'pemula' => 2,
     'menengah' => 150000,
     'terbaru' => 75000,
 ];
