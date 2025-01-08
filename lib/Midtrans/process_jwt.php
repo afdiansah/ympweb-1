@@ -56,7 +56,8 @@ if ($order_id) {
         $mail->SMTPSecure = 'tls'; // Aktifkan enkripsi TLS
         $mail->Port = 587; // Port untuk TLS
 
-        $mail->setFrom('mail.yuk-mari.com', 'Yuk-Mari Project');
+        $mail->setFrom('admin@yuk-mari.com', 'Yuk-Mari Project');
+        $mail->addReplyTo('admin@yuk-mari.com', 'Yuk-Mari Project');
         $mail->addAddress($email); // Ganti dengan email pelanggan dari database atau notifikasi
 
         $mail->isHTML(true);
@@ -201,6 +202,7 @@ if ($order_id) {
 
     // Recipients
     $mail2->setFrom('admin@yuk-mari.com', 'Yuk-Mari Project');
+    $mail->addReplyTo('admin@yuk-mari.com', 'Yuk-Mari Project');
     $mail2->addAddress($email);
     $mail2->addAddress('firdamdamsasmita@upi.edu'); // Email kedua, ganti dengan email yang diinginkan
     

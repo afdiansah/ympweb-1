@@ -202,6 +202,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         
         // Recipients
         $mail->setFrom('admin@yuk-mari.com', 'Yuk-Mari Project');
+        $mail->addReplyTo('admin@yuk-mari.com', 'Yuk-Mari Project');
         $mail->addAddress($_POST['alamat_email']);
         
         // Content
