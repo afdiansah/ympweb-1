@@ -40,8 +40,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Simulasi data voucher dari database
     $available_vouchers = [
-        'ymp_bersatu' => 0.75, // Diskon 75%
-        //'C0fnR!23C9W*ox' => 0.75, // Diskon 75%
+        //'ymp_bersatu' => 0.75, // Diskon 75%
+        'C0fnR!23C9W*ox' => 0.75, // Diskon 75%
     ];
 
     // Validasi kode voucher
