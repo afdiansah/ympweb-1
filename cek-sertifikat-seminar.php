@@ -107,8 +107,8 @@ error_log(print_r($_POST, true));
         <div class="page-title-area item-bg1 jarallax" data-jarallax='{"speed": 0.3}'>
             <div class="container">
                 <div class="page-title-content">
-                    <h2>Cek Sertifikat Seminar</h2>
-                    <p>Tempat pengecekan kode sertifikat seminar yang diterbitkan oleh Yuk-Mari Project. Halaman ini digunakan untuk membantu kalian mengecek kevalidan dari suatu sertifikat seminar / untuk menghindari pemalsuan sertifikat seminar.</p>
+                    <h2>Cek Sertifikat</h2>
+                    <p>Tempat pengecekan kode sertifikat seminar dan internship/magang yang diterbitkan oleh Yuk-Mari Project. Halaman ini digunakan untuk membantu kalian mengecek kevalidan / keaslian dari suatu sertifikat seminar untuk menghindari pemalsuan sertifikat seminar.</p>
                 </div>
             </div>
         </div>
@@ -121,7 +121,7 @@ error_log(print_r($_POST, true));
                     <div class="container mt-5">
                         <form id="form-cek-sertifikat-seminar">
                             <div class="mb-3">
-                                <label for="certificateID" class="form-label">Cek Sertifikat Seminar/Webinar:</label>
+                                <label for="certificateID" class="form-label">Cek Sertifikat Seminar/Webinar/Magang/Internship:</label>
                                 <input type="text" class="form-control" id="certificateID" placeholder="Masukkan ID Sertifikat. Contoh: YMP-S-011711202406" required>
                             </div>
                             <button type="submit" class="btn btn-primary">Cek Sertifikat</button>
