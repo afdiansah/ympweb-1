@@ -107,7 +107,7 @@ error_log(print_r($_POST, true));
         <div class="page-title-area item-bg1 jarallax" data-jarallax='{"speed": 0.3}'>
             <div class="container">
                 <div class="page-title-content">
-                    <h2>Affiliate Company</h2>
+                    <h2>Affiliate Company / UMKM</h2>
                     <p>Company / Perusahaan yang bekerjasama dengan kami dalam konsep win-win solution. Baik itu UMKM, Middle to Top Company, dan lain - lain.</p>
                 </div>
             </div>

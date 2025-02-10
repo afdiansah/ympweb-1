@@ -46,8 +46,9 @@
                             <br/><br/>
                             <h3>Affiliate</h3>
                             <ul class="list">
-                                <li><a href="affiliate-company">Affiliate Company</a></li>
-                                <li><a href="affiliate-studentorg">Affiliate Student Organization</a></li>
+                                <li><a href="affiliate-company">Affiliate Company/UMKM</a></li>
+                                <li><a href="affiliate-universityschool">Affiliate University/School</a></li>
+                                <li><a href="affiliate-studentorg">Affiliate Student/Ext. Organization</a></li>
                             </ul>
 						</div>
 					</div>
@@ -66,7 +67,7 @@
 				</div>
 
                 <div class="copyright-area">
-                    <p>Copyright est.2020 - 2025<a href="#">PT. YUKMARI PROJECT INDONESIA</a>. All rights reserved.</p>
+                    <p>Copyright © 2020 - 2025. <a href="index.php">PT. YUKMARI PROJECT INDONESIA</a>. Hak Cipta Dilindungi.</p>
                 </div>
             </div>
             

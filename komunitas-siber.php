@@ -68,6 +68,20 @@
                                                             <img src="assets/img/cybermeetup/4.jpg" alt="CyberMeetUp">
                                                         </a>
                                                     </div>
+
+                                                    <div class="col-lg-2 col-sm-4 col-md-3 col-6">
+                                                        <a href="#">
+                                                            <img src="assets/img/cybermeetup/5.jpg" alt="CyberMeetUp">
+                                                            <img src="assets/img/cybermeetup/5.jpg" alt="CyberMeetUp">
+                                                        </a>
+                                                    </div>
+
+                                                    <div class="col-lg-2 col-sm-4 col-md-3 col-6">
+                                                        <a href="#">
+                                                            <img src="assets/img/cybermeetup/6.jpg" alt="CyberMeetUp">
+                                                            <img src="assets/img/cybermeetup/6.jpg" alt="CyberMeetUp">
+                                                        </a>
+                                                    </div>
                                                     
                                                 </div>
                                             </div>
