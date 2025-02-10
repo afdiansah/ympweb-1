@@ -34,12 +34,14 @@
 
 					<div class="col-lg-4 col-sm-6 col-md-6">
 						<div class="single-footer-widget">
-                            <h3>Quick Help</h3>
+                            <h3>Quick Help & Download</h3>
                             
 							<ul class="list">
                                 <li><a target="_blank" href="https://api.whatsapp.com/send/?phone=6282295603115&text=Permisi..+Ingin+Konsultasi,+Boleh?">Konsultasi Gratis</a></li>
                                 <li><a target="_blank" href="https://api.whatsapp.com/send/?phone=6282295603115&text=Permisi..+Ingin+Kontribusi+Karya+dan+menjadi+Member..">Kontribusi Karya (Membership)</a></li>
-                                <li><a href="http://yuk-mari.com/Comprof_Yuk-Mari_Project.pdf">Download Company Profile</a></li>
+                                <li><a href="http://yuk-mari.com/Comprof_Yuk-Mari_Project.pdf">Company Profile Yuk-Mari Project</a></li>
+                                <li><a href="https://api.whatsapp.com/send/?phone=6282295603115&text=Izin+meminta+dokumen+partnership+cyber+security&type=phone_number&app_absent=0">Partnership Cyber Security</a></li>
+                                <li><a href="https://api.whatsapp.com/send/?phone=6282295603115&text=Izin+meminta+dokumen+proposal+CSR&type=phone_number&app_absent=0">Corporate Social Responsibility</a></li>
 							</ul>
                             <br/><br/>
                             <h3>Affiliate</h3>
