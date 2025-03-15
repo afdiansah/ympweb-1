@@ -377,7 +377,7 @@
 
 <script>
 // Set waktu berakhir (ganti dengan tanggal akhir pendaftaran)
-var countDownDate = new Date("March 15, 2025 18:00:00").getTime();
+var countDownDate = new Date("March 17, 2025 18:00:00").getTime();
 
 var x = setInterval(function() {
     var now = new Date().getTime();
