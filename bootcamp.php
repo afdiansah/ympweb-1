@@ -201,6 +201,7 @@
                         <th>Tanggal</th>
                         <th>Mentor</th>
                         <th class="text-start">Pokok Bahasan</th>
+                        <th class="text-start">Status Terselenggara</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -215,6 +216,9 @@
                             🔹 Framework Keamanan (NIST, MITRE ATT&CK) <br>
                             🔹 Tools Dasar yang Digunakan
                         </td>
+                        <td class="text-start">
+                            Selesai. Silahkan mendaftar untuk mendapatkan materi dan live recording.
+                        </td>
                     </tr>
                     <tr>
                         <td class="text-center">2</td>
@@ -225,6 +229,9 @@
                             🔹 OSINT & Passive Recon <br>
                             🔹 WHOIS, DNS Enum, Google Dorking <br>
                             🔹 Recon-ng & Maltego
+                        </td>
+                        <td class="text-start">
+                            Selesai. Silahkan mendaftar untuk mendapatkan materi dan live recording.
                         </td>
                     </tr>
                     <tr>
@@ -237,6 +244,9 @@
                             🔹 Metasploit & Exploitation <br>
                             🔹 Privilege Escalation
                         </td>
+                        <td class="text-start">
+                            Selesai. Silahkan mendaftar untuk mendapatkan materi dan live recording.
+                        </td>
                     </tr>
                     <tr>
                         <td class="text-center">4</td>
@@ -247,6 +257,9 @@
                             🔹 Firewall & IDS/IPS <br>
                             🔹 Network Segmentation <br>
                             🔹 Log Monitoring & SIEM
+                        </td>
+                        <td class="text-start">
+                            Selesai. Silahkan mendaftar untuk mendapatkan materi dan live recording.
                         </td>
                     </tr>
                     <tr>
@@ -259,6 +272,9 @@
                             🔹 Malware Reverse Engineering <br>
                             🔹 Incident Response
                         </td>
+                        <td class="text-start">
+                            Selesai. Silahkan mendaftar untuk mendapatkan materi dan live recording.
+                        </td>
                     </tr>
                     <tr>
                         <td class="text-center">6</td>
@@ -269,6 +285,9 @@
                             🔹 OWASP Top 10 <br>
                             🔹 Burp Suite & Manual Testing <br>
                             🔹 Exploiting Authentication & Web Shell
+                        </td>
+                        <td class="text-start">
+                            Belum Terselenggara
                         </td>
                     </tr>
                     <tr>
@@ -281,6 +300,9 @@
                             🔹 Analisis Log & Memory Dump <br>
                             🔹 Investigasi Jejak Hacker
                         </td>
+                        <td class="text-start">
+                            Belum Terselenggara
+                        </td>
                     </tr>
                     <tr>
                         <td class="text-center">8</td>
@@ -292,6 +314,9 @@
                             🔹 Teknik Evasion & Bypass Security <br>
                             🔹 Real-time Incident Handling
                         </td>
+                        <td class="text-start">
+                            Belum Terselenggara
+                        </td>
                     </tr>
                     <tr>
                         <td class="text-center">9</td>
@@ -302,6 +327,9 @@
                             🔹 Penyelesaian Mini Project <br>
                             🔹 Live Q&A <br>
                             🔹 Tips & Tricks Karir Cybersecurity
+                        </td>
+                        <td class="text-start">
+                            Belum Terselenggara
                         </td>
                     </tr>
                 </tbody>
