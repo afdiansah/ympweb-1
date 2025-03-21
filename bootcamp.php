@@ -25,7 +25,7 @@
 <div class="page-title-area item-bg1 jarallax" data-jarallax='{"speed": 0.3}'>
     <div class="container">
         <div class="page-title-content">
-            <h2>Bootcamp Cyber Security</h2>
+            <h2>Bootcamp Keamanan Siber</h2>
             <p>PT. YUKMARI PROJECT INDONESIA menghadirkan Bootcamp Red Team & Blue Team, Program intensif untuk membekali kamu dengan keterampilan dunia keamanan siber melalui pelatihan langsung bersama para ahli</p>
         </div>
     </div>
