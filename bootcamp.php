@@ -217,7 +217,7 @@
                             🔹 Tools Dasar yang Digunakan
                         </td>
                         <td class="text-start">
-                            Selesai. Silahkan mendaftar untuk mendapatkan materi dan live recording.
+                            <font color="green">Selesai. Silahkan mendaftar untuk mendapatkan materi dan live recording.</font>
                         </td>
                     </tr>
                     <tr>
@@ -231,7 +231,7 @@
                             🔹 Recon-ng & Maltego
                         </td>
                         <td class="text-start">
-                            Selesai. Silahkan mendaftar untuk mendapatkan materi dan live recording.
+                            <font color="green">Selesai. Silahkan mendaftar untuk mendapatkan materi dan live recording.</font>
                         </td>
                     </tr>
                     <tr>
@@ -245,7 +245,7 @@
                             🔹 Privilege Escalation
                         </td>
                         <td class="text-start">
-                            Selesai. Silahkan mendaftar untuk mendapatkan materi dan live recording.
+                            <font color="green">Selesai. Silahkan mendaftar untuk mendapatkan materi dan live recording.</font>
                         </td>
                     </tr>
                     <tr>
@@ -259,7 +259,7 @@
                             🔹 Log Monitoring & SIEM
                         </td>
                         <td class="text-start">
-                            Selesai. Silahkan mendaftar untuk mendapatkan materi dan live recording.
+                            <font color="green">Selesai. Silahkan mendaftar untuk mendapatkan materi dan live recording.</font>
                         </td>
                     </tr>
                     <tr>
@@ -273,7 +273,7 @@
                             🔹 Incident Response
                         </td>
                         <td class="text-start">
-                            Selesai. Silahkan mendaftar untuk mendapatkan materi dan live recording.
+                            <font color="green">Selesai. Silahkan mendaftar untuk mendapatkan materi dan live recording.</font>
                         </td>
                     </tr>
                     <tr>
@@ -287,7 +287,7 @@
                             🔹 Exploiting Authentication & Web Shell
                         </td>
                         <td class="text-start">
-                            Belum Terselenggara
+                            <font color="red">Belum Terselenggara</font>
                         </td>
                     </tr>
                     <tr>
@@ -301,7 +301,7 @@
                             🔹 Investigasi Jejak Hacker
                         </td>
                         <td class="text-start">
-                            Belum Terselenggara
+                            <font color="red">Belum Terselenggara</font>
                         </td>
                     </tr>
                     <tr>
@@ -315,7 +315,7 @@
                             🔹 Real-time Incident Handling
                         </td>
                         <td class="text-start">
-                            Belum Terselenggara
+                            <font color="red">Belum Terselenggara</font>
                         </td>
                     </tr>
                     <tr>
@@ -329,7 +329,7 @@
                             🔹 Tips & Tricks Karir Cybersecurity
                         </td>
                         <td class="text-start">
-                            Belum Terselenggara
+                            <font color="red">Belum Terselenggara</font>
                         </td>
                     </tr>
                 </tbody>
