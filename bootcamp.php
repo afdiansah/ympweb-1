@@ -301,7 +301,7 @@
                             🔹 Investigasi Jejak Hacker
                         </td>
                         <td class="text-start">
-                            <font color="red">Belum Terselenggara</font>
+                            <font color="green">Selesai. Silahkan mendaftar untuk mendapatkan materi dan live recording.</font>
                         </td>
                     </tr>
                     <tr>
