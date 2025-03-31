@@ -424,6 +424,22 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Testimoni 4 -->
+            <div class="col">
+                <div class="card border-0 shadow-lg text-center p-4">
+                    <img src="https://lh3.googleusercontent.com/d/1lT2nsHc_mHnnjjhuavTcVtrKCUCaOBBA=s1020?authuser=0" class="border border-3 mx-auto img-fluid" 
+                        style="width: 180px; height: 180px; object-fit: cover;" alt="Tuan Zulkifli bin Ahmad">
+                        <div class="mt-3">
+                    <button class="btn btn-primary" style="margin:5px" data-bs-toggle="modal" data-bs-target="#testimoniModal4">
+                        <i class="fas fa-comment-alt"></i> Show Testimoni
+                    </button>
+                    <button class="btn btn-primary">
+                        <i class="fas fa-download"></i> Download Sertifikat
+                    </button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -471,6 +487,23 @@
             Saya adalah seorang mahasiswa Teknik Informatika dan memiliki pengalaman kerja di bidang IT Support selama 1 tahun di SMK PGRI 11 Ciledug, serta IT Service Management selama 1 tahun di Lintasarta. Saya ingin beralih karier menjadi Cyber Security Engineer, tetapi saya tidak tahu harus mulai dari mana.<br/><br/>
             Sejak mengetahui Yuk-Mari Project melalui Instagram, saya akhirnya mendapatkan banyak ilmu yang terstruktur tentang Cyber Security. Yuk-Mari Project sangat direkomendasikan untuk pemula maupun bagi mereka yang ingin beralih karier menjadi Cyber Security Engineer.<br/><br/>
             Terima kasih, Yuk-Mari Project!
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Testimoni 3 -->
+<div class="modal fade" id="testimoniModal4" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Tuan Zulkifli bin Ahmad - IT Support (Malaysia)</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" style="text-align:justify">
+            Saya Zulkifli bin Ahmad dari Malaysia, Saya ingin mengucapkan ribuan terima kasih kepada pihak  Yuk-Mari Project atau singkatan nya YMP kerana mengizinkan saya menghadiri kursus Cyber security bersama pihak tuan, Di Malaysia tiada banyak kuursus/pelatihan seperti ini dan yuran nya agak mahal berbanding di Indonesia.<br/><br/>
+            Perlatihan/kursus yang diikuti agak menarik dan bagus untuk diri saya. Dengan Tamatnya kursus/pelatihan ini dapat memberikan banyak input tentang dunia keselamatan cyber terutamanya di negara Malaysia.<br/><br/>
+            Terima kasih pihak YMP.
             </div>
         </div>
     </div>
