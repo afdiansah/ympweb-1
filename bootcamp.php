@@ -408,6 +408,22 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Testimoni 3 -->
+            <div class="col">
+                <div class="card border-0 shadow-lg text-center p-4">
+                    <img src="https://lh3.googleusercontent.com/d/1J4x50qQpP_UrNiz_ZtRysBA1eGO71xKO=s1020?authuser=0" class="border border-3 mx-auto img-fluid" 
+                        style="width: 180px; height: 180px; object-fit: cover;" alt="Mas Abdul Muiz">
+                        <div class="mt-3">
+                    <button class="btn btn-primary" style="margin:5px" data-bs-toggle="modal" data-bs-target="#testimoniModal3">
+                        <i class="fas fa-comment-alt"></i> Show Testimoni
+                    </button>
+                    <button class="btn btn-primary">
+                        <i class="fas fa-download"></i> Download Sertifikat
+                    </button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -438,6 +454,23 @@
             </div>
             <div class="modal-body">
                 <center><iframe src="https://drive.google.com/file/d/1ZVp3bCunM33z-dsdjLkfj1Xy3yRC5j67/preview" width="400" height="360" allow="autoplay"></iframe></center>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Testimoni 3 -->
+<div class="modal fade" id="testimoniModal3" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Mas Abdul Muiz - Mahasiswa Universitas Pamulang</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" style="text-align:justify">
+            Saya adalah seorang mahasiswa Teknik Informatika dan memiliki pengalaman kerja di bidang IT Support selama 1 tahun di SMK PGRI 11 Ciledug, serta IT Service Management selama 1 tahun di Lintasarta. Saya ingin beralih karier menjadi Cyber Security Engineer, tetapi saya tidak tahu harus mulai dari mana.<br/><br/>
+            Sejak mengetahui Yuk-Mari Project melalui Instagram, saya akhirnya mendapatkan banyak ilmu yang terstruktur tentang Cyber Security. Yuk-Mari Project sangat direkomendasikan untuk pemula maupun bagi mereka yang ingin beralih karier menjadi Cyber Security Engineer.<br/><br/>
+            Terima kasih, Yuk-Mari Project!
             </div>
         </div>
     </div>
