@@ -484,9 +484,9 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body" style="text-align:justify">
-            Saya adalah seorang mahasiswa Teknik Informatika dan memiliki pengalaman kerja di bidang IT Support selama 1 tahun di SMK PGRI 11 Ciledug, serta IT Service Management selama 1 tahun di Lintasarta. Saya ingin beralih karier menjadi Cyber Security Engineer, tetapi saya tidak tahu harus mulai dari mana.<br/><br/>
-            Sejak mengetahui Yuk-Mari Project melalui Instagram, saya akhirnya mendapatkan banyak ilmu yang terstruktur tentang Cyber Security. Yuk-Mari Project sangat direkomendasikan untuk pemula maupun bagi mereka yang ingin beralih karier menjadi Cyber Security Engineer.<br/><br/>
-            Terima kasih, Yuk-Mari Project!
+            Saya Zulkifli bin Ahmad dari Malaysia, Saya ingin mengucapkan ribuan terima kasih kepada pihak  Yuk-Mari Project atau singkatan nya YMP kerana mengizinkan saya menghadiri kursus Cyber security bersama pihak tuan, Di Malaysia tiada banyak kursus/pelatihan seperti ini  berbanding  dengan Indonesia.<br/><br/>
+            Perlatihan/kursus yang diikuti agak menarik dan bagus untuk diri saya. Dengan Tamatnya kursus/pelatihan ini dapat memberikan banyak  input tentang dunia keselamatan cyber terutamanya di negara Malaysia.<br/><br/>
+            Terima kasih pihak YMP.
             </div>
         </div>
     </div>
