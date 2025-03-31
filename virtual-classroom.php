@@ -107,8 +107,8 @@ error_log(print_r($_POST, true));
         <div class="page-title-area item-bg1 jarallax" data-jarallax='{"speed": 0.3}'>
             <div class="container">
                 <div class="page-title-content">
-                    <h2>Virtual Classroom</h2>
-                    <p>Salah satu media bantu Kelas Maya / Kelas Virtual yang diperuntukan untuk Pelajar (kalangan siswa maupun mahasiswa) maupun Umum dalam meningkatkan kapasitas keilmuan dan keterampilannya hanya melalui Device. Device apapun dan kapanpun waktunya.</p>
+                <h2>Kelas Virtual - Keamanan Siber</h2>
+                <p>Platform pembelajaran online yang dirancang untuk Pelajar (siswa & mahasiswa) serta masyarakat umum guna meningkatkan pengetahuan dan keterampilan di bidang keamanan siber. Belajar kapan saja dan dari perangkat apa pun dengan fleksibilitas penuh.</p>
                 </div>
             </div>
         </div>

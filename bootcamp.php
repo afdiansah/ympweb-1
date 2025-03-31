@@ -25,8 +25,8 @@
 <div class="page-title-area item-bg1 jarallax" data-jarallax='{"speed": 0.3}'>
     <div class="container">
         <div class="page-title-content">
-            <h2>Bootcamp Keamanan Siber</h2>
-            <p>PT. YUKMARI PROJECT INDONESIA menghadirkan Bootcamp Red Team & Blue Team, Program intensif untuk membekali kamu dengan keterampilan dunia keamanan siber melalui pelatihan langsung bersama para ahli</p>
+            <h2>Bootcamp Keamanan Siber #1</h2>
+            <p>PT. YUKMARI PROJECT INDONESIA menghadirkan Bootcamp Red Team & Blue Team, Program intensif untuk membekali kamu dengan keterampilan dunia keamanan siber melalui pelatihan langsung bersama para ahli.</p>
         </div>
     </div>
 </div>
@@ -40,6 +40,7 @@
         <a href="#harga" class="btn btn-gradient flex-grow-1">Harga</a>
         <a href="#materi" class="btn btn-gradient flex-grow-1">Materi</a>
         <a href="#mentor" class="btn btn-gradient flex-grow-1">Mentor</a>
+        <a href="#testimoni" class="btn btn-gradient flex-grow-1">Testimoni</a>
     </div>
 </div>
 <!-- End Button Group -->
@@ -93,8 +94,8 @@
                         </div>
                     </div>
 
-                    <a href="https://api.whatsapp.com/send/?phone=6282295603115&text=Permisi..%20Izin%20daftar%20bootcamp%20IT&type=phone_number&app_absent=0" target="_blank" 
-                        class="btn btn-warning fw-bold mt-3 px-4 py-2 shadow-lg">🚀 Daftar Sekarang</a>
+                    <!--<a href="https://api.whatsapp.com/send/?phone=6282295603115&text=Permisi..%20Izin%20daftar%20bootcamp%20IT&type=phone_number&app_absent=0" target="_blank" 
+                        class="btn btn-warning fw-bold mt-3 px-4 py-2 shadow-lg">🚀 Daftar Sekarang</a>-->
                 </div>
             </div>
 
@@ -370,7 +371,77 @@
     </div>
 </section>
 
+<!-- Section Testimonial -->
+<section id="testimoni" class="bootcamp-section services-area ptb-70">
+    <div class="container">
+        <h2 class="text-center fw-bold mb-4">Testimoni Bootcamp</h2>
+        <p class="text-center mb-5">Apa menurut mereka yang sudah mengikuti tentang Bootcamp ini?</p>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+            <!-- Testimoni 1 -->
+            <div class="col">
+                <div class="card border-0 shadow-lg text-center p-4">
+                    <img src="https://lh3.googleusercontent.com/d/1DzqUpOqEOaG253Nk3MOLz4jnQGf5M0Jz=s1020?authuser=0" class="border border-3 mx-auto img-fluid" 
+                        style="width: 180px; height: 180px; object-fit: cover;" alt="Mbak Febi Anwar">
+                    <div class="mt-3">
+                    <button class="btn btn-primary" style="margin:5px" data-bs-toggle="modal" data-bs-target="#testimoniModal1">
+                        <i class="fas fa-comment-alt"></i> Show Testimoni
+                    </button>
+                    <button class="btn btn-primary">
+                        <i class="fas fa-download"></i> Download Sertifikat
+                    </button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Testimoni 2 -->
+            <div class="col">
+                <div class="card border-0 shadow-lg text-center p-4">
+                    <img src="https://lh3.googleusercontent.com/d/1xMPgTK-CUZ1h-nHFL8vIzhDG7TXZboEy=s1020?authuser=0" class="border border-3 mx-auto img-fluid" 
+                        style="width: 180px; height: 180px; object-fit: cover;" alt="Mas Ryan Prayoga">
+                        <div class="mt-3">
+                    <button class="btn btn-primary" style="margin:5px" data-bs-toggle="modal" data-bs-target="#testimoniModal2">
+                        <i class="fas fa-comment-alt"></i> Show Testimoni
+                    </button>
+                    <button class="btn btn-primary">
+                        <i class="fas fa-download"></i> Download Sertifikat
+                    </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
+<!-- Modal Testimoni 1 -->
+<div class="modal fade" id="testimoniModal1" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Mbak Febi Anwar - Mahasiswi Teknik Informatika</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" style="text-align:justify">
+                Saya seorang mahasiswa informatika dan hanya mendapat sedikit ilmu tentang Cyber Security untuk mempraktekkannya saja sangat terbatas , tetapi semenjak mengetahui Yuk-Mari Project melalui Instagram akhirnya saya mendapatkan banyak ilmu yang bisa dikatakan sangat banyak terlebih juga saya bisa ber eksperimen tools dengan baik . Yuk-mari Project sangat rekomen buat pemula seperti saya bisa explore banyak hal tentang Cyber Security serta ada Mentor yang bisa membimbing saya untuk mempelajari ilmu ini.
+                Terima Kasih Yuk-Mari Project.
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Testimoni 2 -->
+<div class="modal fade" id="testimoniModal2" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Mas Ryan Prayoga - Freelancer Personal Assistant</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <center><iframe src="https://drive.google.com/file/d/1ZVp3bCunM33z-dsdjLkfj1Xy3yRC5j67/preview" width="400" height="360" allow="autoplay"></iframe></center>
+            </div>
+        </div>
+    </div>
+</div>
 
 <style>
 /* Styling Countdown */
@@ -427,6 +498,9 @@ var x = setInterval(function() {
     }
 }, 1000);
 </script>
+
+<!-- Bootstrap JS (Popper.js + Bootstrap.js) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 <?php include 'templates/footer.php'; ?>
 
