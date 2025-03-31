@@ -94,7 +94,7 @@
                         </div>
                     </div>
 
-                    <a href="https://api.whatsapp.com/send/?phone=6282295603115&text=Permisi..%20Izin%20daftar%20bootcamp%20Cyber-Security%20#2&type=phone_number&app_absent=0" target="_blank" 
+                    <a href="https://api.whatsapp.com/send/?phone=6282295603115&text=Permisi..%20Izin%20daftar%20Bootcamp%20Cyber-Security%20ke-2&type=phone_number&app_absent=0" target="_blank" 
                         class="btn btn-warning fw-bold mt-3 px-4 py-2 shadow-lg">🚀 Daftar Sekarang</a>
                 </div>
             </div>
