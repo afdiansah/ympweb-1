@@ -39,7 +39,7 @@
                                 <li class="nav-item"><a href="about" class="nav-link">Tentang Kami</a></li>                                
                                 <li class="nav-item"><a href="#" class="nav-link">Kursus Online<i class="fas fa-chevron-down"></i></a>
                                     <ul class="dropdown-menu">
-                                        <li class="nav-item"><a href="virtual-classroom" class="nav-link">Keamanan Siber</a></li>
+                                        <li class="nav-item"><a href="virtual-classroom" class="nav-link">Cyber Security</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item"><a href="konsul-akademik" class="nav-link">Konsultasi</a></li>
