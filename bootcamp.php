@@ -316,7 +316,7 @@
                             🔹 Real-time Incident Handling
                         </td>
                         <td class="text-start">
-                            <font color="red">Belum Terselenggara</font>
+                            <font color="green">Selesai. Silahkan mendaftar untuk mendapatkan materi dan live recording.</font>
                         </td>
                     </tr>
                     <tr>
@@ -330,7 +330,7 @@
                             🔹 Tips & Tricks Karir Cybersecurity
                         </td>
                         <td class="text-start">
-                            <font color="red">Belum Terselenggara</font>
+                            <font color="green">Selesai. Silahkan mendaftar untuk mendapatkan materi dan live recording.</font>
                         </td>
                     </tr>
                 </tbody>
