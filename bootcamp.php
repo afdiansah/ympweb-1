@@ -441,6 +441,26 @@
                 </div>
             </div>
         </div>
+
+        <br/>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+            <!-- Testimoni 1 -->
+            <div class="col">
+                <div class="card border-0 shadow-lg text-center p-4">
+                    <img src="https://lh3.googleusercontent.com/d/18M-9rWOocoS6VhG3TLM2WpLPv7qgEfb0=s1020?authuser=0" class="border border-3 mx-auto img-fluid" 
+                        style="width: 180px; height: 180px; object-fit: cover;" alt="Mas Zaki Fadilah">
+                    <div class="mt-3">
+                    <button class="btn btn-primary" style="margin:5px" data-bs-toggle="modal" data-bs-target="#testimoniModal5">
+                        <i class="fas fa-comment-alt"></i> Show Testimoni
+                    </button>
+                    <button class="btn btn-primary">
+                        <i class="fas fa-download"></i> Download Sertifikat
+                    </button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -492,7 +512,7 @@
     </div>
 </div>
 
-<!-- Modal Testimoni 3 -->
+<!-- Modal Testimoni 4 -->
 <div class="modal fade" id="testimoniModal4" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -504,6 +524,21 @@
             Saya Zulkifli bin Ahmad dari Malaysia, Saya ingin mengucapkan ribuan terima kasih kepada pihak  Yuk-Mari Project atau singkatan nya YMP kerana mengizinkan saya menghadiri kursus Cyber security bersama pihak tuan, Di Malaysia tiada banyak kuursus/pelatihan seperti ini dan yuran nya agak mahal berbanding di Indonesia.<br/><br/>
             Perlatihan/kursus yang diikuti agak menarik dan bagus untuk diri saya. Dengan Tamatnya kursus/pelatihan ini dapat memberikan banyak input tentang dunia keselamatan cyber terutamanya di negara Malaysia.<br/><br/>
             Terima kasih pihak YMP.
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Testimoni 5 -->
+<div class="modal fade" id="testimoniModal5" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Mas Zaki Fadilah - Mahasiswa UPI Cibiru (Teknik Komputer)</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <center><iframe src="https://drive.google.com/file/d/1eYVJajQ-kzPZBpcypmeEnKLVRPFyH7pn/preview" width="400" height="360" allow="autoplay"></iframe></center>
             </div>
         </div>
     </div>
