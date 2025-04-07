@@ -218,7 +218,7 @@
                             🔹 Passive & Active Reconnaissance dengan Nmap, Sublist3r, dan TheHarvester
                         </td>
                         <td class="text-start">
-                            <font color="red">Belum Terselenggara</font>
+                            <font color="green">Selesai. Silahkan mendaftar untuk mendapatkan materi dan live recording.</font>
                         </td>
                     </tr>
                     <tr>
@@ -376,7 +376,7 @@
 
 <script>
 // Set waktu berakhir (ganti dengan tanggal akhir pendaftaran)
-var countDownDate = new Date("April 07, 2025 23:00:00").getTime();
+var countDownDate = new Date("April 08, 2025 23:00:00").getTime();
 
 var x = setInterval(function() {
     var now = new Date().getTime();
