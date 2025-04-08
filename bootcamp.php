@@ -576,7 +576,7 @@
     </div>
 </div>
 
-<!-- Modal Testimoni 6 -->
+<!-- Modal Testimoni 6 -->>
 <div class="modal fade" id="testimoniModal6" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
