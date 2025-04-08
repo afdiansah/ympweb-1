@@ -30,7 +30,7 @@
             </div>
     </div>
 </div>
-<!-- End Page Title Area -->
+<!-- End Page Title Areaa -->
 
 <!-- Button Group -->
 <div class="container mt-4 text-center">
