@@ -445,13 +445,45 @@
         <br/>
 
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
-            <!-- Testimoni 1 -->
+            <!-- Testimoni 5 -->
             <div class="col">
                 <div class="card border-0 shadow-lg text-center p-4">
                     <img src="https://lh3.googleusercontent.com/d/18M-9rWOocoS6VhG3TLM2WpLPv7qgEfb0=s1020?authuser=0" class="border border-3 mx-auto img-fluid" 
                         style="width: 180px; height: 180px; object-fit: cover;" alt="Mas Zaki Fadilah">
                     <div class="mt-3">
                     <button class="btn btn-primary" style="margin:5px" data-bs-toggle="modal" data-bs-target="#testimoniModal5">
+                        <i class="fas fa-comment-alt"></i> Show Testimoni
+                    </button>
+                    <button class="btn btn-primary">
+                        <i class="fas fa-download"></i> Download Sertifikat
+                    </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimoni 6 -->
+            <div class="col">
+                <div class="card border-0 shadow-lg text-center p-4">
+                    <img src="https://lh3.googleusercontent.com/d/1JepJ8edEjFfQnxwNWwtI8JtMk-5zvSUh=s1020?authuser=0" class="border border-3 mx-auto img-fluid" 
+                        style="width: 180px; height: 180px; object-fit: cover;" alt="Mas Rifqi">
+                    <div class="mt-3">
+                    <button class="btn btn-primary" style="margin:5px" data-bs-toggle="modal" data-bs-target="#testimoniModal6">
+                        <i class="fas fa-comment-alt"></i> Show Testimoni
+                    </button>
+                    <button class="btn btn-primary">
+                        <i class="fas fa-download"></i> Download Sertifikat
+                    </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimoni 7 -->
+            <div class="col">
+                <div class="card border-0 shadow-lg text-center p-4">
+                    <img src="https://lh3.googleusercontent.com/d/16D6PLA5qrJaH1Ns-hZGNbGBz5oM71sl2=s1020?authuser=0" class="border border-3 mx-auto img-fluid" 
+                        style="width: 180px; height: 180px; object-fit: cover;" alt="Mbak Zihan">
+                    <div class="mt-3">
+                    <button class="btn btn-primary" style="margin:5px" data-bs-toggle="modal" data-bs-target="#testimoniModal7">
                         <i class="fas fa-comment-alt"></i> Show Testimoni
                     </button>
                     <button class="btn btn-primary">
@@ -539,6 +571,46 @@
             </div>
             <div class="modal-body">
                 <center><iframe src="https://drive.google.com/file/d/1eYVJajQ-kzPZBpcypmeEnKLVRPFyH7pn/preview" width="400" height="360" allow="autoplay"></iframe></center>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Testimoni 6 -->
+<div class="modal fade" id="testimoniModal6" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Mas Rifqi - IT Support</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" style="text-align:justify">
+            Nama saya Muhammad Rifqi Syah, seorang freshgraduate dari jurusan Ilmu Komunikasi. Jujur, sebelum mengikuti bootcamp cyber security di Yuk-Mari Project, dunia teknologi informasi, apalagi keamanan siber, terasa sangat asing dan menakutkan. Saya pikir latar belakang ilmu sosial saya akan menjadi penghalang besar.<br/>
+            <br/>
+Namun, bootcamp ini benar-benar mengubah perspektif saya. Materi yang disampaikan sangat terstruktur, dimulai dari dasar-dasar jaringan, sistem operasi, hingga konsep-konsep cyber security yang lebih mendalam. Instruktur tidak hanya ahli di bidangnya, tetapi juga sangat sabar dan efektif dalam menyampaikan materi kepada kami yang notabene berasal dari berbagai latar belakang. Mereka berhasil memecah konsep-konsep kompleks menjadi lebih mudah dipahami, bahkan bagi seseorang seperti saya yang tidak memiliki background IT.<br/>
+<br/>
+Yang paling saya rasakan manfaatnya adalah pendekatan hands-on yang intensif. Kami tidak hanya mendengarkan teori, tetapi juga langsung praktik melalui berbagai studi kasus dan simulasi serangan. Ini membantu saya untuk tidak hanya memahami konsep, tetapi juga memiliki keterampilan praktis yang relevan dengan dunia kerja cyber security.<br/>
+<br/>
+Awalnya, saya merasa sedikit minder dengan teman-teman yang memiliki latar belakang IT. Namun, seiring berjalannya waktu, saya menyadari bahwa skill komunikasi dan analisis yang saya pelajari di Ilmu Komunikasi justru menjadi aset yang berharga di dunia cyber security. Kemampuan untuk memahami motivasi pelaku kejahatan siber, menganalisis pola komunikasi dalam serangan social engineering, dan menyampaikan informasi teknis secara jelas kepada pihak non-teknis ternyata sangat dibutuhkan.<br/>
+<br/>
+Bagi teman-teman freshgraduate dari jurusan non-IT yang tertarik dengan dunia cyber security tetapi merasa ragu dengan latar belakangnya, saya sangat merekomendasikan untuk mengikuti bootcamp seperti yang saya ikuti. Jangan biarkan latar belakang Anda menjadi batasan. Bootcamp cyber security yang tepat dapat memberikan Anda fondasi pengetahuan dan keterampilan yang dibutuhkan untuk memulai karir yang menjanjikan di bidang ini. Pengalaman saya membuktikan bahwa skill dari berbagai disiplin ilmu bisa saling melengkapi dan menjadi kekuatan unik di dunia cyber security.<br/>
+<br/>
+Terima kasih kepada Yuk-Mari Project dan instruktur yang luar biasa!
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Testimoni 7 -->
+<div class="modal fade" id="testimoniModal7" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Mbak Zihan - Mahasiswi UPI Cibiru (Teknik Komputer)</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <center><iframe src="https://drive.google.com/file/d/1sHscEPQCv4iDZlCjJbRpgc5Sg9Zgvc3o/preview" width="400" height="360" allow="autoplay"></iframe></center>
             </div>
         </div>
     </div>
