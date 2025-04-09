@@ -1,3 +1,84 @@
+<?php 
+require 'database.php';
+
+function fetchProject_BimbleContent($pdo) {
+    $stmt = $pdo->query("SELECT * FROM project_bimble ORDER BY id ASC");
+    return $stmt->fetchAll();
+}
+
+function fetchKeunggulan_KamiContent($pdo) {
+    $stmt = $pdo->query("SELECT * FROM keunggulan_kami ORDER BY id ASC");
+    return $stmt->fetchAll();
+}
+
+function fetchPaket_1Content($pdo) {
+    $stmt = $pdo->query("SELECT * FROM paket_1 ORDER BY id ASC");
+    return $stmt->fetchAll();
+}
+
+function fetchPaket_2Content($pdo) {
+    $stmt = $pdo->query("SELECT * FROM paket_2 ORDER BY id ASC");
+    return $stmt->fetchAll();
+}
+
+function fetchPaket_3Content($pdo) {
+    $stmt = $pdo->query("SELECT * FROM paket_3 ORDER BY id ASC");
+    return $stmt->fetchAll();
+}
+
+function fetchProject_TestimoniContent($pdo) {
+    $stmt = $pdo->query("SELECT * FROM project_testimoni ORDER BY id ASC");
+    return $stmt->fetchAll();
+}
+
+function fetchProjectTestiClientsContent($pdo) {
+    $stmt = $pdo->query("SELECT * FROM project_testi_clients ORDER BY id ASC");
+    return $stmt->fetchAll();
+}
+
+function fetchKerjasamaDevContent($pdo) {
+    $stmt = $pdo->query("SELECT * FROM kerjasama_dev ORDER BY id ASC");
+    return $stmt->fetchAll();
+}
+
+function fetchDevelopmentApplicationLogosContent($pdo) {
+    $stmt = $pdo->query("SELECT * FROM development_application_logos ORDER BY id ASC");
+    return $stmt->fetchAll();
+}
+
+function fetchSecurityMitraLogosContent($pdo) {
+    $stmt = $pdo->query("SELECT * FROM security_mitra_logos ORDER BY id ASC");
+    return $stmt->fetchAll();
+}
+
+function fetchFooterContent($pdo) {
+    $stmt = $pdo->query("SELECT * FROM footer ORDER BY id ASC");
+    return $stmt->fetchAll();
+}
+
+
+function getContentByType($contents, $type) {
+    foreach ($contents as $content) {
+        if ($content['content_type'] === $type) {
+            return $content['content'];
+        }
+    }
+    return '';
+}
+
+$fetchProject_BimbleContent = fetchProject_BimbleContent($pdo);
+$fetchKeunggulan_KamiContent = fetchKeunggulan_KamiContent($pdo);
+$fetchPaket_1Content = fetchPaket_1Content($pdo);
+$fetchPaket_2Content = fetchPaket_2Content($pdo);
+$fetchPaket_3Content = fetchPaket_3Content($pdo);
+$fetchProject_TestimoniContent = fetchProject_TestimoniContent($pdo);
+$fetchProjectTestiClientsContent = fetchProjectTestiClientsContent($pdo);
+$fetchKerjasamaDevContent = fetchKerjasamaDevContent($pdo);
+$fetchDevelopmentApplicationLogosContent = fetchDevelopmentApplicationLogosContent($pdo);
+$fetchSecurityMitraLogosContent = fetchSecurityMitraLogosContent($pdo);
+$fetchFooterContent = fetchFooterContent($pdo);
+
+?>
 <?php include 'templates/header.php'; ?>
 
         <!-- Preloader -->
@@ -16,8 +97,8 @@
         <div class="page-title-area item-bg1 jarallax" data-jarallax='{"speed": 0.3}'>
             <div class="container">
                 <div class="page-title-content">
-                    <h2>Project Program & Bimbingan Belajar</h2>
-                    <p>Solusi Teknologi Web Milenial dengan Harga Terjangkau</p>
+                    <h2><?php echo htmlspecialchars(getContentByType($fetchProject_BimbleContent, 'Header Title')); ?></h2>
+                    <p><?php echo htmlspecialchars(getContentByType($fetchProject_BimbleContent, 'Title Description')); ?></p>
                 </div>
             </div>
         </div>
@@ -26,9 +107,9 @@
         <section class="comparisons-area ptb-70 bg-f7fafd">
             <div class="container">
                 <div class="section-title">
-                    <h2>Keunggulan Kami</h2>
+                    <h2><?php echo htmlspecialchars(getContentByType($fetchProject_BimbleContent, 'Header Title 2')); ?></h2>
                     <div class="bar"></div>
-                    <p>Kami mengutamakan serba terjangkau untuk mengutamakan kepuasan pelanggan. Lihat perbandingan dibawah ini.</p>
+                    <p><?php echo htmlspecialchars(getContentByType($fetchProject_BimbleContent, 'Title Description 2')); ?>.</p>
                 </div>
 
                 <div class="comparisons-table table-responsive">
@@ -43,37 +124,37 @@
                         
                         <tbody>
                             <tr>
-                                <td>Berlaku DP Awal 30% - 50% untuk sistem pembayaran</td>
+                                <td><?php echo htmlspecialchars(getContentByType($fetchKeunggulan_KamiContent, 'Fitur 1')); ?></td>
                                 <td><i class="flaticon-check-mark"></i></td>
                                 <td><i class="flaticon-cancel"></i></td>
                             </tr>
                             <tr>
-                                <td>Gratis Subdomain yuk-mari.com dan Hosting (12 Bulan Pertama)</td>
+                                <td><?php echo htmlspecialchars(getContentByType($fetchKeunggulan_KamiContent, 'Fitur 2')); ?></td>
                                 <td><i class="flaticon-check-mark"></i></td>
                                 <td><i class="flaticon-cancel"></i></td>
                             </tr>
                             <tr>
-                                <td>Pengerjaan Min. 5 Hari, Maks. 7 Hari sudah Selesai</td>
+                                <td><?php echo htmlspecialchars(getContentByType($fetchKeunggulan_KamiContent, 'Fitur 3')); ?></td>
                                 <td><i class="flaticon-check-mark"></i></td>
                                 <td><i class="flaticon-cancel"></i></td>
                             </tr>
                             <tr>
-                                <td>Free Revisi, Perawatan, dan Pengamanan Website (1 Bulan Pertama / Disesuaikan Kesepakatan)</td>
+                                <td><?php echo htmlspecialchars(getContentByType($fetchKeunggulan_KamiContent, 'Fitur 4')); ?></td>
                                 <td><i class="flaticon-check-mark"></i></td>
                                 <td><i class="flaticon-cancel"></i></td>
                             </tr>
                             <tr>
-                                <td>Fast Respon, Konsultasi Terbuka 24 Jam</td>
+                                <td><?php echo htmlspecialchars(getContentByType($fetchKeunggulan_KamiContent, 'Fitur 5')); ?></td>
                                 <td><i class="flaticon-check-mark"></i></td>
                                 <td><i class="flaticon-cancel"></i></td>
                             </tr>
                             <tr>
-                                <td>Bimbel / Pelatihan - Source Materi Internasional/ Nasional </td>
+                                <td><?php echo htmlspecialchars(getContentByType($fetchKeunggulan_KamiContent, 'Fitur 6')); ?></td>
                                 <td><i class="flaticon-check-mark"></i></td>
                                 <td><i class="flaticon-cancel"></i></td>
                             </tr>
                             <tr>
-                                <td>Bimbel / Pelatihan - Fleksibel Waktu & Tempat (Offline / Live Class (Zoom/GMeet) (Zoom/GMeet) / Self-Learning Video)</td>
+                                <td><?php echo htmlspecialchars(getContentByType($fetchKeunggulan_KamiContent, 'Fitur 7')); ?></td>
                                 <td><i class="flaticon-check-mark"></i></td>
                                 <td><i class="flaticon-cancel"></i></td>
                             </tr>
@@ -91,12 +172,12 @@
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <div class="single-pricing-box">
                             <div class="pricing-header">
-                                <h3>Pembuatan Website / Maintenance Website (Statis / Dinamis)</h3>
-                                <p>Kategori Pembuatan website atau Maintenance Website <i>Re-build (Direvisi/Diupgrade)</i> sesuai dengan <a href="https://yuk-mari.com" target="_blank">ruang lingkup</a> kami.</p>
+                                <h3><?php echo htmlspecialchars(getContentByType($fetchPaket_1Content, 'Header Title')); ?></h3>
+                                <p><?php echo htmlspecialchars_decode(getContentByType($fetchPaket_1Content, 'Title Description')); ?></p>
                             </div>
 
                             <div class="price">
-                                Rp207.000 - Rp2.159.500<span>,-</span>
+							<?php echo htmlspecialchars(getContentByType($fetchPaket_1Content, 'Price')); ?>
                             </div>
 
                             <div class="btn-primay">
@@ -108,11 +189,11 @@
                             <br/>
 
                             <ul class="pricing-features">
-                                <li><i class="fas fa-check"></i>Tersedia Pilihan Paket 1 (Paket Murah - Hosting Gratis Yuk-Mari dan SubDomain Yuk-Mari)</li>
-                                <li><i class="fas fa-check"></i>Tersedia Pilihan Paket 2 (Paket Murah - Hanya Hosting Yuk-Mari, Domain .TLD)</li>
-                                <li><i class="fas fa-check"></i>Tersedia Pilihan Paket 3 (Paket Murah - Hosting Berbayar & Domain .TLD)</li>
-                                <li><i class="fas fa-check"></i>Tersedia Pilihan Paket 4 (Paket Reguler - Hosting Berbayar & Domain .TLD)</li>
-                                <li><i class="fas fa-check"></i>Tersedia Pilihan Paket 5 (Paket Resmi - Hosting Berbayar & Domain .TLD)</li>           
+                                <li><i class="fas fa-check"></i><?php echo htmlspecialchars(getContentByType($fetchPaket_1Content, 'Fitur 1')); ?></li>
+                                <li><i class="fas fa-check"></i><?php echo htmlspecialchars(getContentByType($fetchPaket_1Content, 'Fitur 2')); ?></li>
+                                <li><i class="fas fa-check"></i><?php echo htmlspecialchars(getContentByType($fetchPaket_1Content, 'Fitur 3')); ?></li>
+                                <li><i class="fas fa-check"></i><?php echo htmlspecialchars(getContentByType($fetchPaket_1Content, 'Fitur 4')); ?></li>
+                                <li><i class="fas fa-check"></i><?php echo htmlspecialchars(getContentByType($fetchPaket_1Content, 'Fitur 5')); ?></li>           
                             </ul>
 
                             <br/>                            
@@ -158,12 +239,12 @@
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <div class="single-pricing-box">
                             <div class="pricing-header">
-                                <h3>Analisis / Pengamanan Website</h3>
-                                <p>Ketahui celah website anda sesuai dengan <a href="https://yuk-mari.com/layanan" target="_blank">layanan</a> kami.</p>
-                            </div>
+								<h3><?php echo htmlspecialchars(getContentByType($fetchPaket_2Content, 'Header Title')); ?></h3>
+                                <p><?php echo htmlspecialchars_decode(getContentByType($fetchPaket_1Content, 'Title Description')); ?></p>
+							</div>
 
                             <div class="price">
-                                Rp529.750
+							<?php echo htmlspecialchars(getContentByType($fetchPaket_2Content, 'Price')); ?>
                             </div>
 
                             <div class="btn-primay">
@@ -175,13 +256,11 @@
                             <br/>
 
                             <ul class="pricing-features">
-                                <li><i class="fas fa-check"></i> Sistem SAST & DAST</li>
-                                <li><i class="fas fa-check"></i> Kerentanan terlapor dalam <a href="https://drive.google.com/file/d/1ZRHM8HY_DOqir65wOcarBpVXkUSPepZw/view" target="_blank">Dokumentasi (VA&PT)</a>
-                                </li>
-                                <li><i class="fas fa-check"></i> Analisis dengan teknik Vulnerability Assesment & Penetration Testing</li>
-                                <li><i class="fas fa-check"></i> Satu Temuan Level Medium ditambah harga menjadi Rp45.000</li>
-                                <li><i class="fas fa-check"></i> Satu Temuan Level High ditambah harga menjadi Rp105.000</li>
-                                <li><i class="fas fa-check"></i> Satu Temuan Level Critical ditambah harga menjadi Rp195.000</li>
+								<li><i class="fas fa-check"></i><?php echo htmlspecialchars(getContentByType($fetchPaket_2Content, 'Fitur 1')); ?></li>
+                                <li><i class="fas fa-check"></i><?php echo htmlspecialchars_decode(getContentByType($fetchPaket_2Content, 'Fitur 2')); ?></li>
+                                <li><i class="fas fa-check"></i><?php echo htmlspecialchars(getContentByType($fetchPaket_2Content, 'Fitur 3')); ?></li>
+                                <li><i class="fas fa-check"></i><?php echo htmlspecialchars(getContentByType($fetchPaket_2Content, 'Fitur 4')); ?></li>
+                                <li><i class="fas fa-check"></i><?php echo htmlspecialchars(getContentByType($fetchPaket_2Content, 'Fitur 5')); ?></li>   
                                 <br/>
                                 <!--<a href="https://drive.google.com/file/d/1_83WY5UifWN0uYr-20aWjcholVDQyJVa/view?usp=sharing" target="_blank">>> Lihat tabel harga sesuai dengan kategori Instansi</a>-->
                             </ul>
@@ -200,12 +279,12 @@
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <div class="single-pricing-box">
                             <div class="pricing-header">
-                                <h3>Kelas Pelatihan / Bimbel Teknologi Web (Offline Mode / Live Class (Zoom/GMeet))</h3>
-                                <p>Membuka kelas pelatihan teknologi web semacam workshop atau kursus bertim serta bimbel web (Offline / Live Class (Zoom/GMeet) / Self-Learning Video). <br/>Untuk Self-Learning Video / Kursus Online, silahkan kunjungi halaman Virtual Classroom di Menu Program Pelajar.</a></p>
+								<h3><?php echo htmlspecialchars(getContentByType($fetchPaket_3Content, 'Header Title')); ?></h3>
+                                <p><?php echo htmlspecialchars(getContentByType($fetchPaket_3Content, 'Title Description')); ?></p>
                             </div>
 
                             <div class="price">
-                                Rp50.000 - Rp150.000<span> / orang dalam 1 minggu</span>
+								<?php echo htmlspecialchars_decode(getContentByType($fetchPaket_3Content, 'Price')); ?>
                             </div>
 
                             <div class="btn-primay">
@@ -218,18 +297,19 @@
                             <br/>
 
                             <ul class="pricing-features">
-                                <li><i class="fas fa-check"></i><a target="_blank" href="silabus"><u>Lihat Silabus / Materi</u></a></li>
-                                <li><i class="fas fa-check"></i>Minimal 5 - Sekian Peserta (Rp25.000 / peserta)</li>
-                                <li><i class="fas fa-check"></i> Minimal 2 - 4 Peserta (Rp50.000 / peserta)</li>
-                                <li><i class="fas fa-check"></i> Minimal 1 Peserta (Rp75.000 / peserta)</li>
-                                <li><i class="fas fa-check"></i> Jangka Waktu Kontrak 1 Bulan </li>
-                                <li><i class="fas fa-check"></i> Total 8x Pertemuan dalam 1 bulan </li>
-                                <li><i class="fas fa-check"></i> Pembayaran dapat dilakukan berangsur, yaitu per minggu (2x pertemuan) </li>
-                                <li><i class="fas fa-check"></i> Hari, Waktu, dan Tempat Disepakati</li>
-                                <li><i class="fas fa-check"></i> Bimbel via Offline / Online</li>
-                                <li><i class="fas fa-check"></i> Materi ajar pilihan : Pembuatan Web atau Keamanan Web</li>
-                                <li><i class="fas fa-check"></i> Berlaku mix / gabungan materi (disepakati)</li>
-                                <li><i class="fas fa-check"></i> Harga disepakati jika mengambil 2 pilihan materi ajar (Pembuatan Web dan Pengamanan Web)</li>
+								<li><i class="fas fa-check"></i><?php echo htmlspecialchars(getContentByType($fetchPaket_3Content, 'Fitur 1')); ?></li>
+                                <li><i class="fas fa-check"></i><?php echo htmlspecialchars_decode(getContentByType($fetchPaket_3Content, 'Fitur 2')); ?></li>
+                                <li><i class="fas fa-check"></i><?php echo htmlspecialchars(getContentByType($fetchPaket_3Content, 'Fitur 3')); ?></li>
+                                <li><i class="fas fa-check"></i><?php echo htmlspecialchars(getContentByType($fetchPaket_3Content, 'Fitur 4')); ?></li>
+                                <li><i class="fas fa-check"></i><?php echo htmlspecialchars(getContentByType($fetchPaket_3Content, 'Fitur 5')); ?></li>  
+								<li><i class="fas fa-check"></i><?php echo htmlspecialchars(getContentByType($fetchPaket_3Content, 'Fitur 6')); ?></li>
+                                <li><i class="fas fa-check"></i><?php echo htmlspecialchars(getContentByType($fetchPaket_3Content, 'Fitur 7')); ?></li>
+                                <li><i class="fas fa-check"></i><?php echo htmlspecialchars(getContentByType($fetchPaket_3Content, 'Fitur 8')); ?></li>  
+								<li><i class="fas fa-check"></i><?php echo htmlspecialchars(getContentByType($fetchPaket_3Content, 'Fitur 9')); ?></li>
+                                <li><i class="fas fa-check"></i><?php echo htmlspecialchars(getContentByType($fetchPaket_3Content, 'Fitur 10')); ?></li>
+                                <li><i class="fas fa-check"></i><?php echo htmlspecialchars(getContentByType($fetchPaket_3Content, 'Fitur 11')); ?></li>  
+								<li><i class="fas fa-check"></i><?php echo htmlspecialchars(getContentByType($fetchPaket_3Content, 'Fitur 12')); ?></li>
+                                <li><i class="fas fa-check"></i><?php echo htmlspecialchars(getContentByType($fetchPaket_3Content, 'Fitur 13')); ?></li>
                               </ul>
 
                             <br/>                            
@@ -247,168 +327,50 @@
 		<section class="feedback-area ptb-70 bg-f7fafd">
 			<div class="container">
 				<div class="section-title">
-					<h2>Apa kata mereka terhadap layanan Project/Bimbel Yuk-Mari Project?</h2>
+					<h2><?php echo htmlspecialchars(getContentByType($fetchProject_TestimoniContent, 'Header Title')); ?></h2>
 					<div class="bar"></div>
-					<p>Berikut adalah orang - orang ternama yang telah bekerjasama dengan kami.</p>
+					<p><?php echo htmlspecialchars(getContentByType($fetchProject_TestimoniContent, 'Title Description')); ?></p>
 				</div>
 
 				<div class="feedback-slides">
-					<div class="client-feedback">
-						<div>
-							<div class="item">
-								<div class="single-feedback">
-									<div class="client-img">
-										<img src="assets/img/client-image/1.jpg" alt="image">
-									</div>
+                    <div class="client-feedback">
+                        <div>
+                            <?php foreach ($fetchProjectTestiClientsContent as $testimonial) : ?>
+                                <div class="item">
+                                    <div class="single-feedback">
+                                        <div class="client-img">
+                                        <img src="<?php echo htmlspecialchars($testimonial['image']); ?>" alt="image">
+                                        </div>
+                                        <h3><?php echo htmlspecialchars($testimonial['name']); ?></h3>
+                                        <span><?php echo htmlspecialchars($testimonial['company']); ?></span>
+                                        <p><?php echo htmlspecialchars($testimonial['testimonial']); ?></p>
+                                    </div>
+                                </div>
+                            <?php endforeach; ?>
+                        </div>
+                    </div>
 
-									<h3>Kiki Wahyudi</h3>
-									<span>Founder Ciungwanara Adventure - Jasa Event Outbond</span>
-									<p>Kerja keras dan tuntas, terimakasih Yuk-Mari Project atas pembuatan websitenya, sudah memudahkan kami untuk mempromosikan event organizer kami.</p>
-								</div>
-							</div>
-							
-							<div class="item">
-								<div class="single-feedback">
-									<div class="client-img">
-										<img src="assets/img/client-image/2.jpg" alt="image">
-									</div>
+                    <div class="client-thumbnails">
+                        <div>
+                            <?php foreach ($fetchProjectTestiClientsContent as $testimonial) : ?>
+                                <div class="item">
+                                    <div class="img-fill">
+                                    <img src="<?php echo htmlspecialchars($testimonial['image']); ?>" alt="image">
+                                    </div>
+                                </div>
+                            <?php endforeach; ?>
+                        </div>
 
-									<h3>Abdul Jawad</h3>
-									<span>Founder UMKM WuFi Food - Suplier Bubuk Cabe</span>
-									<p> Terimakasih Yuk-Mari Project, mudah – mudahan selalu terus berkembang dan sukses. Jangan Menyerah. .</p>
-								</div>
-							</div>
-							
-							<div class="item">
-								<div class="single-feedback">
-									<div class="client-img">
-										<img src="assets/img/client-image/3.jpg" alt="image">
-									</div>
+                        <button class="prev-arrow slick-arrow">
+                            <i class="fas fa-arrow-left"></i>
+                        </button>
+                        
+                        <button class="next-arrow slick-arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
 
-									<h3>Teh Alya</h3>
-									<span>Founder UMKM BnC Cookies - Cookies and Pastry</span>
-									<p>Dengan adanya website BnC Cookies ini kami jadi terbantu dalam proses Marketing Product nya, terimakasih Yuk-Mari Project.</p>
-								</div>
-							</div>
-
-                            <div class="item">
-								<div class="single-feedback">
-									<div class="client-img">
-										<img src="assets/img/client-image/7.jpg" alt="image">
-									</div>
-
-									<h3>Ibu Maida Wahyuningsih</h3>
-									<span>Direktur - Makmur Jaya Tekstil, Ruko Taman Holis Cimahi</span>
-									<p>Saya cukup senang dengn adanya aplikasi untuk pengelolaan jenis kain, karena merasa dimudahkan, terimakasih. </p>
-								</div>
-							</div>
-
-                            <div class="item">
-								<div class="single-feedback">
-									<div class="client-img">
-										<img src="assets/img/client-image/9.jpg" alt="image">
-									</div>
-
-									<h3>Pa Helmi Hariyadi</h3>
-									<span>Operator  - Balai Besar Logam dan Mesin, Bandung</span>
-									<p>Bapa tidak mengerti apa itu CMS (Content Management System), yang penting aplikasi bisa dipakai dan aplikatif. Nuhun ya. </p>
-								</div>
-							</div>
-
-                            <div class="item">
-								<div class="single-feedback">
-									<div class="client-img">
-										<img src="assets/img/client-image/10.jpg" alt="image">
-									</div>
-
-									<h3>Pahmi</h3>
-									<span>Founder  - CV. Shover</span>
-									<p>Pengerjaan lumayan cepat dan terhitung jari. Mudah - mudahan sukses terus Yuk-Mari Project. </p>
-								</div>
-							</div>
-
-                            <div class="item">
-								<div class="single-feedback">
-									<div class="client-img">
-										<img src="assets/img/client-image/11.jpg" alt="image">
-									</div>
-
-									<h3>Edy Ashari</h3>
-									<span>Founder  - CV. Cipta Anugerah Arsitektur</span>
-									<p>Bagus, tingkatkan lagi kualitas, khususnya dari segi pembayarannya. </p>
-								</div>
-							</div>
-							
-							<div class="item">
-								<div class="single-feedback">
-									<div class="client-img">
-										<img src="assets/img/client-image/12.jpg" alt="image">
-									</div>
-
-									<h3>Pa Tantan</h3>
-									<span>Agency Indihome Telkomsel</span>
-									<p>Aammmiinn a nuhunnya tos di bantosan 🙏🙏🙏 </p>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="client-thumbnails">
-						<div>
-							<div class="item">
-								<div class="img-fill"><img src="assets/img/client-image/1.jpg" alt="client"></div>
-							</div>
-							
-							<div class="item">
-								<div class="img-fill"><img src="assets/img/client-image/2.jpg" alt="client"></div>
-							</div>
-							
-							<div class="item">
-								<div class="img-fill"><img src="assets/img/client-image/3.jpg" alt="client"></div>
-							</div>
-							
-							<div class="item">
-								<div class="img-fill"><img src="assets/img/client-image/4.jpg" alt="client"></div>
-							</div>
-							
-							<div class="item">
-								<div class="img-fill"><img src="assets/img/client-image/5.jpg" alt="client"></div>
-							</div>
-
-                            <div class="item">
-								<div class="img-fill"><img src="assets/img/client-image/7.jpg" alt="client"></div>
-							</div>
-
-                            <div class="item">
-								<div class="img-fill"><img src="assets/img/client-image/8.jpg" alt="client"></div>
-							</div>
-
-                            <div class="item">
-								<div class="img-fill"><img src="assets/img/client-image/9.jpg" alt="client"></div>
-							</div>
-
-                            <div class="item">
-								<div class="img-fill"><img src="assets/img/client-image/10.jpg" alt="client"></div>
-							</div>
-
-                            <div class="item">
-								<div class="img-fill"><img src="assets/img/client-image/11.jpg" alt="client"></div>
-							</div>
-							
-							<div class="item">
-								<div class="img-fill"><img src="assets/img/client-image/12.jpg" alt="client"></div>
-							</div>
-						</div>
-
-						<button class="prev-arrow slick-arrow">
-							<i class="fas fa-arrow-left"></i>
-						</button>
-						
-						<button class="next-arrow slick-arrow">
-							<i class="fas fa-arrow-right"></i>
-						</button>
-					</div>
-				</div>
 			</div>
 		</section>
         <!-- End Feedback Area -->
@@ -417,9 +379,9 @@
 		<section class="ready-to-talk">
 			<div class="container">
 				<div class="ready-to-talk-content">
-                    <h3>Kerjasama Development Application</h3>
-                    <p>Siap untuk melakukan kerjasama Development Application dengan Kami?</p>
-                    <a target="_blank" href="https://api.whatsapp.com/send/?phone=6282295603115&text=Permisi..+saya+ingin+bekerjasama+dalam+Develpment+Application+di+Yuk-Mari+Project&type=phone_number&app_absent=0" class="btn btn-primary">Hubungi Kami</a>
+                    <h3><?php echo htmlspecialchars(getContentByType($fetchKerjasamaDevContent, 'Header Title 1')); ?></h3>
+                    <p><?php echo htmlspecialchars(getContentByType($fetchKerjasamaDevContent, 'Title Description 1')); ?></p>
+                    <a target="_blank" href="<?php echo htmlspecialchars(getContentByType($fetchKerjasamaDevContent, 'Number Whatsapp 1')); ?>" class="btn btn-primary">Hubungi Kami</a>
                     <!--<span><a href="#">Atau, coba hubungi kami dengan penawaran Gratis</a></span>-->
                 </div>
 			</div>
@@ -429,140 +391,30 @@
         <!-- Start Partner Area -->
 		<div class="partner-area">
 			<div class="container">
-
 				<div class="partner-inner">
 					<div class="row align-items-center">
-						<div class="col-lg-2 col-sm-4 col-md-3 col-6">
-							<a href="#">
-								<img src="assets/img/partner-image/partner-1.png" alt="partner">
-								<img src="assets/img/partner-image/partner-hover1.png" alt="partner">
-							</a>
-						</div>
-
-						<div class="col-lg-2 col-sm-4 col-md-3 col-6">
-							<a href="#">
-								<img src="assets/img/partner-image/partner-2.png" alt="partner">
-								<img src="assets/img/partner-image/partner-hover2.png" alt="partner">
-							</a>
-						</div>
-
-						<div class="col-lg-2 col-sm-4 col-md-3 col-6">
-							<a href="#">
-								<img src="assets/img/partner-image/partner-3.png" alt="partner">
-								<img src="assets/img/partner-image/partner-hover3.png" alt="partner">
-							</a>
-						</div>
-
-						<div class="col-lg-2 col-sm-4 col-md-3 col-6">
-							<a href="#">
-								<img src="assets/img/partner-image/partner-4.png" alt="partner">
-								<img src="assets/img/partner-image/partner-hover4.png" alt="partner">
-							</a>
-						</div>
-
-						<div class="col-lg-2 col-sm-4 col-md-3 col-6">
-							<a href="#">
-								<img src="assets/img/partner-image/partner-hover10.png" alt="partner">
-								<img src="assets/img/partner-image/partner-10.png" alt="partner">
-							</a>
-						</div>
-
-						<div class="col-lg-2 col-sm-4 col-md-3 col-6">
-							<a href="#">
-								<img src="assets/img/partner-image/partner-11.png" alt="partner">
-								<img src="assets/img/partner-image/partner-hover11.png" alt="partner">
-							</a>
-						</div>
-
-						<div class="col-lg-2 col-sm-4 col-md-3 col-6">
-							<a href="#">
-								<img src="assets/img/partner-image/partner-12.png" alt="partner">
-								<img src="assets/img/partner-image/partner-hover12.png" alt="partner">
-							</a>
-						</div>
-						
-						<div class="col-lg-2 col-sm-4 col-md-3 col-6">
-							<a href="#">
-								<img src="assets/img/partner-image/partner-hover5.png" alt="partner">
-								<img src="assets/img/partner-image/partner-5.png" alt="partner">
-							</a>
-						</div>
-						
-						<div class="col-lg-2 col-sm-4 col-md-3 col-6">
-							<a href="#">
-								<img src="assets/img/partner-image/partner-hover6.png" alt="partner">
-								<img src="assets/img/partner-image/partner-6.png" alt="partner">
-							</a>
-						</div>
-						
-						<div class="col-lg-2 col-sm-4 col-md-3 col-6">
-							<a href="#">
-								<img src="assets/img/partner-image/partner-hover7.png" alt="partner">
-								<img src="assets/img/partner-image/partner-7.png" alt="partner">
-							</a>
-						</div>
-						
-						<div class="col-lg-2 col-sm-4 col-md-3 col-6">
-							<a href="#">
-								<img src="assets/img/partner-image/partner-hover8.png" alt="partner">
-								<img src="assets/img/partner-image/partner-8.png" alt="partner">
-							</a>
-						</div>
-						
-						<div class="col-lg-2 col-sm-4 col-md-3 col-6">
-							<a href="#">
-								<img src="assets/img/partner-image/partner-hover9.png" alt="partner">
-								<img src="assets/img/partner-image/partner-9.png" alt="partner">
-							</a>
-						</div>
-						
-						<div class="col-lg-2 col-sm-4 col-md-3 col-6">
-							<a href="#">
-								<img src="assets/img/partner-image/partner-hover14.png" alt="partner">
-								<img src="assets/img/partner-image/partner-14.png" alt="partner">
-							</a>
-						</div>
-						
-						<div class="col-lg-2 col-sm-4 col-md-3 col-6">
-							<a href="#">
-								<img src="assets/img/partner-image/partner-hover15.png" alt="partner">
-								<img src="assets/img/partner-image/partner-15.png" alt="partner">
-							</a>
-						</div>
-						
-						<div class="col-lg-2 col-sm-4 col-md-3 col-6">
-							<a href="#">
-								<img src="assets/img/partner-image/partner-hover25.png" alt="partner">
-								<img src="assets/img/partner-image/partner-25.png" alt="partner">
-							</a>
-						</div>
-
-						<div class="col-lg-2 col-sm-4 col-md-3 col-6">
-							<a href="#">
-								<img src="assets/img/koneksi-kami/03-hover.png" alt="partner">
-								<img src="assets/img/koneksi-kami/03.png" alt="partner">
-							</a>
-						</div>
-
-						<div class="col-lg-2 col-sm-4 col-md-3 col-6">
-							<a href="#">
-								<img src="assets/img/koneksi-kami/04-hover.png" alt="partner">
-								<img src="assets/img/koneksi-kami/04.png" alt="partner">
-							</a>
-						</div>
+						<?php foreach ($fetchDevelopmentApplicationLogosContent as $logo): ?>
+							<div class="col-lg-2 col-sm-4 col-md-3 col-6">
+								<a href="#" class="partner-item">
+									<img src="<?= htmlspecialchars($logo['image']); ?>" class="partner-img default-img" alt="partner">
+									<img src="<?= htmlspecialchars($logo['image']); ?>" class="partner-img hover-img" alt="partner">
+								</a>
+							</div>
+						<?php endforeach; ?>
 					</div>
 				</div>
 			</div>
 		</div>
-        <!-- End Partner Area -->
+
+		<!-- End Partner Area -->
 
         <!-- Start Ready To Talk Area -->
 		<section class="ready-to-talk">
 			<div class="container">
 				<div class="ready-to-talk-content">
-                    <h3>Kerjasama Security Application</h3>
-                    <p>Siap untuk melakukan kerjasama Security Application dengan Kami?</p>
-                    <a target="_blank" href="https://api.whatsapp.com/send/?phone=6282295603115&text=Permisi..+saya+ingin+bekerjasama+dalam+Security+Application+di+Yuk-Mari+Project&type=phone_number&app_absent=0" class="btn btn-primary">Hubungi Kami</a>
+				<h3><?php echo htmlspecialchars(getContentByType($fetchKerjasamaDevContent, 'Header Title 2')); ?></h3>
+                    <p><?php echo htmlspecialchars(getContentByType($fetchKerjasamaDevContent, 'Title Description 2')); ?></p>
+                    <a target="_blank" href="<?php echo htmlspecialchars(getContentByType($fetchKerjasamaDevContent, 'Number Whatsapp 2')); ?>" class="btn btn-primary">Hubungi Kami</a>
                     <!--<span><a href="#">Atau, coba hubungi kami dengan penawaran Gratis</a></span>-->
                 </div>
 			</div>
@@ -572,66 +424,16 @@
         <!-- Start Partner Area -->
 		<div class="partner-area">
 			<div class="container">
-
 				<div class="partner-inner">
 					<div class="row align-items-center">
-						
-						<div class="col-lg-2 col-sm-4 col-md-3 col-6">
-							<a href="#">
-								<img src="assets/img/partner-image/partner-hover16.png" alt="partner">
-								<img src="assets/img/partner-image/partner-16.png" alt="partner">
-							</a>
-						</div>
-						
-						<div class="col-lg-2 col-sm-4 col-md-3 col-6">
-							<a href="#">
-								<img src="assets/img/partner-image/partner-hover17.png" alt="partner">
-								<img src="assets/img/partner-image/partner-17.png" alt="partner">
-							</a>
-						</div>
-						
-						<div class="col-lg-2 col-sm-4 col-md-3 col-6">
-							<a href="#">
-								<img src="assets/img/partner-image/partner-hover24.png" alt="partner">
-								<img src="assets/img/partner-image/partner-24.png" alt="partner">
-							</a>
-						</div>
-						
-						<div class="col-lg-2 col-sm-4 col-md-3 col-6">
-							<a href="#">
-								<img src="assets/img/partner-image/partner-hover18.png" alt="partner">
-								<img src="assets/img/partner-image/partner-18..png" alt="partner">
-							</a>
-						</div>
-						
-						<div class="col-lg-2 col-sm-4 col-md-3 col-6">
-							<a href="#">
-								<img src="assets/img/partner-image/partner-hover19.png" alt="partner">
-								<img src="assets/img/partner-image/partner-19..png" alt="partner">
-							</a>
-						</div>
-						
-						<div class="col-lg-2 col-sm-4 col-md-3 col-6">
-							<a href="#">
-								<img src="assets/img/partner-image/partner-hover20.png" alt="partner">
-								<img src="assets/img/partner-image/partner-20.png" alt="partner">
-							</a>
-						</div>
-						
-						<div class="col-lg-2 col-sm-4 col-md-3 col-6">
-							<a href="#">
-								<img src="assets/img/partner-image/partner-hover21.png" alt="partner">
-								<img src="assets/img/partner-image/partner-21.png" alt="partner">
-							</a>
-						</div>
-						
-						<div class="col-lg-2 col-sm-4 col-md-3 col-6">
-							<a href="#">
-								<img src="assets/img/partner-image/partner-hover23.png" alt="partner">
-								<img src="assets/img/partner-image/partner-23.png" alt="partner">
-							</a>
-						</div>
-
+						<?php foreach ($fetchSecurityMitraLogosContent as $logo): ?>
+							<div class="col-lg-2 col-sm-4 col-md-3 col-6">
+								<a href="#" class="partner-item">
+									<img src="<?= htmlspecialchars($logo['image']); ?>" class="partner-img default-img" alt="partner">
+									<img src="<?= htmlspecialchars($logo['image']); ?>" class="partner-img hover-img" alt="partner">
+								</a>
+							</div>
+						<?php endforeach; ?>
 					</div>
 				</div>
 			</div>
@@ -641,13 +443,37 @@
         <section class="account-create-area">
             <div class="container">
                 <div class="account-create-content">
-                    <h2>ANDA MAHASISWA? ATAU ALUMNI? INGIN MENJADI BAGIAN DARI KAMI?</h2>
-                    <p>Tambah pengalaman menarik anda dan jadikan ini sebagai penghasilan sampingan anda!</p>
-                    <a target="_blank" href="https://api.whatsapp.com/send/?phone=6282295603115&text=Izin%20Bergabung%20kedalam%20Tim%20Project/Bimbel&type=phone_number&app_absent=0" class="btn btn-primary">DAFTARKAN DIRIMU</a>
+                    <h2><?php echo htmlspecialchars(getContentByType($fetchFooterContent, 'Header Title')); ?></h2>
+                    <p><?php echo htmlspecialchars(getContentByType($fetchFooterContent, 'Title Description')); ?></p>
+                    <a target="_blank" href="<?php echo htmlspecialchars(getContentByType($fetchFooterContent, 'Number Whatsapp')); ?>" class="btn btn-primary">DAFTARKAN DIRIMU</a>
                 </div>
             </div>
         </section>
         <!-- End Pricing Area -->
+
+		<style>
+			.partner-img {
+				display: block;
+				width: 100%;
+				transition: filter 0.3s ease-in-out, opacity 0.3s ease-in-out;
+			}
+			.default-img {
+				filter: grayscale(100%);
+			}
+			.hover-img {
+				position: absolute;
+				top: 0;
+				left: 0;
+				opacity: 0;
+			}
+			.partner-item:hover .default-img {
+				opacity: 0;
+			}
+			.partner-item:hover .hover-img {
+				opacity: 1;
+				filter: grayscale(0%);
+			}
+		</style>
 
     <?php include 'templates/footer.php'; ?>
 

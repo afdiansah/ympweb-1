@@ -1,3 +1,36 @@
+<?php 
+require 'database.php';
+
+function fetchKontak_KamiContent($pdo) {
+    $stmt = $pdo->query("SELECT * FROM kontak_kami ORDER BY id ASC");
+    return $stmt->fetchAll();
+}
+
+function getContentByType($contents, $type) {
+    foreach ($contents as $content) {
+        if ($content['content_type'] === $type) {
+            return $content['content'];
+        }
+    }
+    return '';
+}
+
+// Function to format Vision & Mission content
+function formatVisionMission($content) {
+    $content = preg_replace('/^\d+\.\s*/', '', $content);
+    $points = preg_split('/\d+\.\s*/', $content, -1, PREG_SPLIT_NO_EMPTY);
+    $formattedContent = "<ol>";
+    foreach ($points as $point) {
+        $formattedContent .= "<li style='text-align: justify; margin-bottom: 10px;'>" . trim($point) . "</li>";
+    }
+    $formattedContent .= "</ol>";
+    return $formattedContent;
+}
+
+// Get about us content
+$KontakKamiContent = fetchKontak_KamiContent($pdo);
+?>
+
 <?php include 'templates/header.php'; ?>
 <?php include 'templates/nav.php'; ?>
         
@@ -5,8 +38,8 @@
         <div class="page-title-area item-bg1 jarallax" data-jarallax='{"speed": 0.3}'>
             <div class="container">
                 <div class="page-title-content">
-                    <h2>Kontak kami</h2>
-                    <p>Pertanyaan, diskusi umum, dan bentuk kerjasama lainnya dapat hubungi kami di laman kontak yang tertera dibawah ini</p>
+                    <h2><?php echo htmlspecialchars(getContentByType($KontakKamiContent, 'Header Title')); ?></h2>
+                    <p><?php echo htmlspecialchars(getContentByType($KontakKamiContent, 'Title Description')); ?></p>
                 </div>
             </div>
         </div>
@@ -25,7 +58,7 @@
                     <div class="info" style="flex: 1;">
                         <span style="font-weight: bold; display: block; margin-bottom: 5px;">Alamat</span>
                         <p style="margin: 0; color: #555;">
-                            Komplek Bandung Indah Raya, Blok C13/No.17, Kelurahan Mekarjaya, Kecamatan Rancasari, Kota Bandung, Jawa Barat 40286
+                            <?php echo htmlspecialchars(getContentByType($KontakKamiContent, 'Alamat')); ?>
                         </p>
                     </div>
                 </div>
@@ -39,8 +72,8 @@
                     </div>
                     <div class="info" style="flex: 1;">
                         <span style="font-weight: bold; display: block; margin-bottom: 5px;">Email</span>
-                        <a href="mailto:yukmari2211@gmail.com" style="margin: 0; color: #555; text-decoration: none;">
-                            yukmari2211@gmail.com
+                        <a href="mailto:<?php echo htmlspecialchars(getContentByType($KontakKamiContent, 'Email')); ?>" style="margin: 0; color: #555; text-decoration: none;">
+                            <?php echo htmlspecialchars(getContentByType($KontakKamiContent, 'Email')); ?>
                         </a>
                     </div>
                 </div>
@@ -54,8 +87,8 @@
                     </div>
                     <div class="info" style="flex: 1;">
                         <span style="font-weight: bold; display: block; margin-bottom: 5px;">Nomor Telepon</span>
-                        <a href="tel:+6282295603115" style="margin: 0; color: #555; text-decoration: none;">
-                            +62 822-9560-3115 (via Whatsapp Messenger)
+                        <a href="tel:<?php echo htmlspecialchars(getContentByType($KontakKamiContent, 'Nomer Telepon')); ?>" style="margin: 0; color: #555; text-decoration: none;">
+                            <?php echo htmlspecialchars(getContentByType($KontakKamiContent, 'Nomer Telepon')); ?>
                         </a>
                     </div>
                 </div>

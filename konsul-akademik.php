@@ -1,4 +1,41 @@
-<?php include 'templates/header.php'; ?>
+<?php 
+require 'database.php';
+
+function fetchKonsultasiContent($pdo) {
+    $stmt = $pdo->query("SELECT * FROM konsultasi ORDER BY id ASC");
+    return $stmt->fetchAll();
+}
+
+function fetchTestimonialsContent($pdo) {
+    $stmt = $pdo->query("SELECT * FROM testimonials ORDER BY id ASC");
+    return $stmt->fetchAll();
+}
+
+function getContentByType($contents, $type) {
+    foreach ($contents as $content) {
+        if ($content['content_type'] === $type) {
+            return $content['content'];
+        }
+    }
+    return '';
+}
+
+function formatVisionMission($content) {
+    $content = preg_replace('/^\d+\.\s*/', '', $content);
+    $points = preg_split('/\d+\.\s*/', $content, -1, PREG_SPLIT_NO_EMPTY);
+    $formattedContent = "<ol>";
+    foreach ($points as $point) {
+        $formattedContent .= "<li style='text-align: justify; margin-bottom: 10px;'>" . trim($point) . "</li>";
+    }
+    $formattedContent .= "</ol>";
+    return $formattedContent;
+}
+
+$konsultasiContent = fetchKonsultasiContent($pdo);
+$testimonialsContent = fetchTestimonialsContent($pdo);
+
+include 'templates/header.php'; 
+?>
 
 <!-- CSS Styling -->
 <style>
@@ -102,8 +139,8 @@
         <div class="page-title-area item-bg1 jarallax" data-jarallax='{"speed": 0.3}'>
             <div class="container">
                 <div class="page-title-content">
-                    <h2>Konsultasi Tugas - Tugas Akademik</h2>
-                    <p>Silahkan hubungi kami untuk mendapatkan perbantuan / solusi dalam menangani tugas - tugas akademik seperti tugas harian / mingguan, Tugas UTS / UAS, Tugas Skripsi, Konsultasi Ilmiah (Jurnal / Paper), dan Pembuatan Aplikasi Dukungan Akademik</p>
+                    <h2><?php echo htmlspecialchars(getContentByType($konsultasiContent, 'Header1')); ?></h2>
+                    <p><?php echo htmlspecialchars(getContentByType($konsultasiContent, 'Title Description')); ?></p>
                     <!--<p>Nikmati pelatihan / bimbel website gratis untuk pelajar ataupun mahasiswa/i. Program ini menerapkan prinsip <i>Training, Capacity Building,</i> dan <i>Awarness Program.</i></p>-->
                 </div>
             </div>
@@ -114,173 +151,50 @@
 		<section class="feedback-area ptb-70 bg-f7fafd">
 			<div class="container">
 				<div class="section-title">
-					<h2>Apa kata mereka terhadap layanan Konsultasi Akademik Yuk-Mari Project?</h2>
+					<h2><?php echo htmlspecialchars(getContentByType($konsultasiContent, 'Header Title 2')); ?></h2>
 					<div class="bar"></div>
-					<p>Berikut adalah mahasiswa /mahasiswi yang telah bekerjasama dengan kami.</p>
+					<p><?php echo htmlspecialchars(getContentByType($konsultasiContent, 'Title Description 2')); ?></p>
 				</div>
 
-				<div class="feedback-slides">
-					<div class="client-feedback">
-						<div>
-                            <div class="item">
-								<div class="single-feedback">
-									<div class="client-img">
-										<img src="assets/img/client-image/8.jpg" alt="image">
-									</div>
+                <div class="feedback-slides">
+                    <div class="client-feedback">
+                        <div>
+                            <?php foreach ($testimonialsContent as $testimonial) : ?>
+                                <div class="item">
+                                    <div class="single-feedback">
+                                        <div class="client-img">
+                                        <img src="<?php echo htmlspecialchars($testimonial['image']); ?>" alt="image">
+                                        </div>
+                                        <h3><?php echo htmlspecialchars($testimonial['name']); ?></h3>
+                                        <span><?php echo htmlspecialchars($testimonial['university']); ?></span>
+                                        <p><?php echo htmlspecialchars($testimonial['testimonial']); ?></p>
+                                    </div>
+                                </div>
+                            <?php endforeach; ?>
+                        </div>
+                    </div>
 
-									<h3>Kang Erwin Guna Setiawan</h3>
-									<span>Tugas Skripsi S1 Teknik Komputer - UNIKOM</span>
-									<p>Terimakasih atas bantuannya untuk melengkapi projek saya di laboratorium, sekaligus menambahkan kekurangan dalam skripsi saya. </p>
-								</div>
-							</div>
+                    <div class="client-thumbnails">
+                        <div>
+                            <?php foreach ($testimonialsContent as $testimonial) : ?>
+                                <div class="item">
+                                    <div class="img-fill">
+                                    <img src="<?php echo htmlspecialchars($testimonial['image']); ?>" alt="image">
+                                    </div>
+                                </div>
+                            <?php endforeach; ?>
+                        </div>
 
-                            <div class="item">
-								<div class="single-feedback">
-									<div class="client-img">
-										<img src="assets/img/client-image/4.jpg" alt="image">
-									</div>
-
-									<h3>Fali Falyaoma</h3>
-									<span>Tugas Skripsi S1 Teknik Informatika - UNIKOM</span>
-									<p> Melalui konsep data mining, website saya bisa mudah digunakan berkat YM Project. Terimakasih YMP.</p>
-								</div>
-							</div>
-
-                            <div class="item">
-								<div class="single-feedback">
-									<div class="client-img">
-										<img src="assets/img/client-image/5.jpg" alt="image">
-									</div>
-
-									<h3>Teh Shofi</h3>
-									<span>Tugas Skripsi S1 Sistem Informasi - UNIKOM</span>
-									<p>Tetap semangat YMP, maju terus dengan karya - karyanya. Terimakasih sudah bantu SMAN 5 Cimahi untuk web quis nya.</p>
-								</div>
-							</div>
-
-							<div class="item">
-								<div class="single-feedback">
-									<div class="client-img">
-										<img src="assets/img/konsul-image/1.jpg" alt="image">
-									</div>
-
-									<h3>Ali</h3>
-									<span>Tugas Skripsi S1 Teknik Informatika - UNIKOM</span>
-									<p>Syukur bisa lulus di tahun 2019, terimakasih Yuk Mari Project sudah mendampingi sampai bisa lulus</p>
-								</div>
-							</div>
-							
-                            <div class="item">
-								<div class="single-feedback">
-									<div class="client-img">
-										<img src="assets/img/konsul-image/2.jpg" alt="image">
-									</div>
-
-									<h3>Kang Aswil</h3>
-									<span>Tugas Skripsi S1 Teknik Informatika - UNIKOM</span>
-									<p>Awalnya ga nyangka dan mau nyerah buat skripsi Machine Learning, tapi dengan bantuan Yuk Mari Project, semua lancar</p>
-								</div>
-							</div>
-
-                            <div class="item">
-								<div class="single-feedback">
-									<div class="client-img">
-										<img src="assets/img/konsul-image/3.jpg" alt="image">
-									</div>
-
-									<h3>Rharaaa</h3>
-									<span>Tugas Kuliah S1 Manajemen - UNIKOM</span>
-									<p>Tugas mata kuliah Kewirausahaan bikin bete, soalnya buat website, tapi bisa nemu Yuk Mari Project. Makasih Ya.</p>
-								</div>
-							</div>
-
-                            <div class="item">
-								<div class="single-feedback">
-									<div class="client-img">
-										<img src="assets/img/konsul-image/4.jpg" alt="image">
-									</div>
-
-									<h3>Elisa</h3>
-									<span>Tugas Skripsi S1 PGSD - UPI Bumi Siliwangi</span>
-									<p>Ga nyangka banget bisa lulus dan wisuda juga sesuai harapan. Padahal gak ngerti banget tentang Aplikasi Web dan Android. Btw makasih ya YMP.</p>
-								</div>
-							</div>
-
-                            <div class="item">
-								<div class="single-feedback">
-									<div class="client-img">
-										<img src="assets/img/konsul-image/5.jpg" alt="image">
-									</div>
-
-									<h3>Aca</h3>
-									<span>Tugas Akhir D3 Kebidanan - Poltekes TNI AU Cimbuleuit</span>
-									<p>Makasih YMP udah bantuin Aca buat tugas bimbingan sama dosen nya (jurnal). Huft.. lumayan juga hehe</p>
-								</div>
-							</div>
-
-                            <div class="item">
-								<div class="single-feedback">
-									<div class="client-img">
-										<img src="assets/img/konsul-image/6.jpg" alt="image">
-									</div>
-
-									<h3>Alfa</h3>
-									<span>Tugas UAS S1 Ilmu Komputer - UBP Karawang Ilmu Komputer</span>
-									<p>Sumnpah ga ngerti banget n**r ngoding android. Tapi dengan arahan dan bantuan Yuk Mari Project, beres juga.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="client-thumbnails">
-						<div>
-							<div class="item">
-								<div class="img-fill"><img src="assets/img/client-image/8.jpg" alt="client"></div>
-							</div>
-							
-							<div class="item">
-								<div class="img-fill"><img src="assets/img/client-image/4.jpg" alt="client"></div>
-							</div>
-							
-							<div class="item">
-								<div class="img-fill"><img src="assets/img/client-image/5.jpg" alt="client"></div>
-							</div>
-							
-							<div class="item">
-								<div class="img-fill"><img src="assets/img/konsul-image/1.jpg" alt="client"></div>
-							</div>
-							
-							<div class="item">
-								<div class="img-fill"><img src="assets/img/konsul-image/2.jpg" alt="client"></div>
-							</div>
-
-                            <div class="item">
-								<div class="img-fill"><img src="assets/img/konsul-image/3.jpg" alt="client"></div>
-							</div>
-
-                            <div class="item">
-								<div class="img-fill"><img src="assets/img/konsul-image/4.jpg" alt="client"></div>
-							</div>
-
-                            <div class="item">
-								<div class="img-fill"><img src="assets/img/konsul-image/5.jpg" alt="client"></div>
-							</div>
-
-                            <div class="item">
-								<div class="img-fill"><img src="assets/img/konsul-image/6.jpg" alt="client"></div>
-							</div>
-
-						</div>
-
-						<button class="prev-arrow slick-arrow">
-							<i class="fas fa-arrow-left"></i>
-						</button>
-						
-						<button class="next-arrow slick-arrow">
-							<i class="fas fa-arrow-right"></i>
-						</button>
-					</div>
-				</div>
+                        <button class="prev-arrow slick-arrow">
+                            <i class="fas fa-arrow-left"></i>
+                        </button>
+                        
+                        <button class="next-arrow slick-arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+                
 			</div>
 		</section>
         <!-- End Feedback Area -->
@@ -341,12 +255,12 @@
 					<div class="col-lg-12 col-md-12">
 					    <div class="container mt-5" style="margin-top:0rem !important;">
                             <div class="alert alert-info" role="alert">
-                                <h4 class="alert-heading">Kerjasama Menjadi Fasilitator Tugas Akademik</h4>
+                                <h4 class="alert-heading"><?php echo htmlspecialchars(getContentByType($konsultasiContent, 'Title Footer')); ?></h4>
                                 <hr>
-                                <p style="text-align:justify">Kami sangat antusias jika kami dapat bekerjasama dengan kamu untuk menjadi fasilitator tugas akademik di konsultasi tugas akademik Yuk-Mari Project ini. Kami yakin pengalaman dan pengetahuan kamu akan sangat bermanfaat bagi yang membutuhkan jasa konsultasi akademik. Yuk, gabung dan bantu mereka di konsultasi tugas - tugas Yuk-Mari Project!</p>
+                                <p style="text-align:justify"><?php echo htmlspecialchars(getContentByType($konsultasiContent, 'Sub Title Footer')); ?></p>
                                 <hr>
                                 <p class="mb-0">
-                                    <a href="https://api.whatsapp.com/send/?phone=6282295603115&text=Saya%20ingin%20menjadi%20Fasilitator%20tugas-tugas%20akademik%20di%20Yuk-Mari%20Project%20ini&type=phone_number&app_absent=0" class="whatsapp-button" target="_blank">
+                                    <a href="<?php echo htmlspecialchars(getContentByType($konsultasiContent, 'Number Whatsapp')); ?>" class="whatsapp-button" target="_blank">
                                         <i class="fab fa-whatsapp"></i>&nbsp; Hubungi Kami 
                                     </a>
                                 </p>
@@ -377,13 +291,13 @@
 
             const whatsappNumber = "+6282295603115";
             const text = `Data Formulir Konsultasi Tugas Akademik\n----------------------------------------------\n
-📛 *Nama Lengkap:* ${nama}
-✉️ *Alamat Email:* ${email}
-🏫 *Sekolah/Kampus:* ${instansi}
-🎓 *Jurusan:* ${jurusan}
-📱 *No Whatsapp:* ${no_whatsapp}
-📚 *Jenis Tugas:* ${jenis_tugas}
-📝 *Data Kebutuhan Tugas Akademik:* ${message}`;
+            📛 *Nama Lengkap:* ${nama}
+            ✉️ *Alamat Email:* ${email}
+            🏫 *Sekolah/Kampus:* ${instansi}
+            🎓 *Jurusan:* ${jurusan}
+            📱 *No Whatsapp:* ${no_whatsapp}
+            📚 *Jenis Tugas:* ${jenis_tugas}
+            📝 *Data Kebutuhan Tugas Akademik:* ${message}`;
 
             const url = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${encodeURIComponent(text)}`;
 
