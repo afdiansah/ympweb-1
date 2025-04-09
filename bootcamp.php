@@ -492,6 +492,108 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Testimoni 8 -->
+            <div class="col">
+                <div class="card border-0 shadow-lg text-center p-4">
+                    <img src="https://lh3.googleusercontent.com/d/1ArWLCapehHi1P18pXa5Fs1kM6tYd3wg3=s1020?authuser=0" class="border border-3 mx-auto img-fluid" 
+                        style="width: 180px; height: 180px; object-fit: cover;" alt="Mas Aprizam">
+                    <div class="mt-3">
+                    <button class="btn btn-primary" style="margin:5px" data-bs-toggle="modal" data-bs-target="#testimoniModal8">
+                        <i class="fas fa-comment-alt"></i> Show Testimoni
+                    </button>
+                    <button class="btn btn-primary">
+                        <i class="fas fa-download"></i> Download Sertifikat
+                    </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br/>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+            <!-- Testimoni 9 -->
+            <div class="col">
+                <div class="card border-0 shadow-lg text-center p-4">
+                    <img src="https://lh3.googleusercontent.com/d/18Y_va1wkyXXJigKrH01QS7IQdwbp4HLZ=s1020?authuser=0" class="border border-3 mx-auto img-fluid" 
+                        style="width: 180px; height: 180px; object-fit: cover;" alt="Mas Fikri">
+                    <div class="mt-3">
+                    <button class="btn btn-primary" style="margin:5px" data-bs-toggle="modal" data-bs-target="#testimoniModal9">
+                        <i class="fas fa-comment-alt"></i> Show Testimoni
+                    </button>
+                    <button class="btn btn-primary">
+                        <i class="fas fa-download"></i> Download Sertifikat
+                    </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimoni 10 -->
+            <div class="col">
+                <div class="card border-0 shadow-lg text-center p-4">
+                    <img src="https://lh3.googleusercontent.com/d/1nx431cb6LNrR6aJ0EO0gfoAQhccdS42P=s1020?authuser=0" class="border border-3 mx-auto img-fluid" 
+                        style="width: 180px; height: 180px; object-fit: cover;" alt="Mas Raden Farhan">
+                    <div class="mt-3">
+                    <button class="btn btn-primary" style="margin:5px" data-bs-toggle="modal" data-bs-target="#testimoniModal10">
+                        <i class="fas fa-comment-alt"></i> Show Testimoni
+                    </button>
+                    <button class="btn btn-primary">
+                        <i class="fas fa-download"></i> Download Sertifikat
+                    </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimoni 11 -->
+            <div class="col">
+                <div class="card border-0 shadow-lg text-center p-4">
+                    <img src="https://lh3.googleusercontent.com/d/1v0uP4sQHScE2AZrICOXT_En5zj2oktWd=s1020?authuser=0" class="border border-3 mx-auto img-fluid" 
+                        style="width: 180px; height: 180px; object-fit: cover;" alt="Mbak Miftah">
+                    <div class="mt-3">
+                    <button class="btn btn-primary" style="margin:5px" data-bs-toggle="modal" data-bs-target="#testimoniModal11">
+                        <i class="fas fa-comment-alt"></i> Show Testimoni
+                    </button>
+                    <button class="btn btn-primary">
+                        <i class="fas fa-download"></i> Download Sertifikat
+                    </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimoni 12 -->
+            <div class="col">
+                <div class="card border-0 shadow-lg text-center p-4">
+                    <img src="https://lh3.googleusercontent.com/d/1Z2cufHW2qV7GX8BizA3r4rK5gHbKmek2=s1020?authuser=0" class="border border-3 mx-auto img-fluid" 
+                        style="width: 180px; height: 180px; object-fit: cover;" alt="Mas Gusti Ngurah Suamertha">
+                    <div class="mt-3">
+                    <button class="btn btn-primary" style="margin:5px" data-bs-toggle="modal" data-bs-target="#testimoniModal12">
+                        <i class="fas fa-comment-alt"></i> Show Testimoni
+                    </button>
+                    <button class="btn btn-primary">
+                        <i class="fas fa-download"></i> Download Sertifikat
+                    </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+            <!-- Testimoni 13 -->
+            <div class="col">
+                <div class="card border-0 shadow-lg text-center p-4">
+                    <img src="https://lh3.googleusercontent.com/d/1MvuW-KpTGhXRaKtXA2GatYmHTu3n609e=s1020?authuser=0" class="border border-3 mx-auto img-fluid" 
+                        style="width: 180px; height: 180px; object-fit: cover;" alt="Mas Qasim">
+                    <div class="mt-3">
+                    <button class="btn btn-primary" style="margin:5px" data-bs-toggle="modal" data-bs-target="#testimoniModal13">
+                        <i class="fas fa-comment-alt"></i> Show Testimoni
+                    </button>
+                    <button class="btn btn-primary">
+                        <i class="fas fa-download"></i> Download Sertifikat
+                    </button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -576,7 +678,7 @@
     </div>
 </div>
 
-<!-- Modal Testimoni 6 -->>
+<!-- Modal Testimoni 6 -->
 <div class="modal fade" id="testimoniModal6" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -611,6 +713,96 @@ Terima kasih kepada Yuk-Mari Project dan instruktur yang luar biasa!
             </div>
             <div class="modal-body">
                 <center><iframe src="https://drive.google.com/file/d/1sHscEPQCv4iDZlCjJbRpgc5Sg9Zgvc3o/preview" width="400" height="360" allow="autoplay"></iframe></center>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Testimoni 8 -->
+<div class="modal fade" id="testimoniModal8" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Mas Aprizam - System Administrator</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" style="text-align:justify">
+            Saya awalnya tidak punya latar belakang cyber yang begitu mendalam. Tapi bootcamp dari Yuk-Mari Project berhasil membuka jalan saya ke dunia Cyber Security. Materinya terstruktur, instruktur sabar, dan praktiknya sangat membantu. Skill komunikasi saya justru jadi kekuatan tambahan di bidang ini!
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Testimoni 9 -->
+<div class="modal fade" id="testimoniModal9" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Mas Fikri - ASN</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" style="text-align:justify">
+            Dulu saya cuma dapat sedikit materi cyber security di tempat saya. Tapi setelah ikut Yuk-Mari Project, saya bisa langsung praktik tools-nya dan belajar dari mentor yang membimbing dengan sabar. Cocok banget untuk pemula!
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Testimoni 10 -->
+<div class="modal fade" id="testimoniModal10" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Mas Raden Farhan - Mahasiswa UPI Cibiru (Teknik Komputer)</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" style="text-align:justify">
+            Melalui bootcamp Ramadhan, saya jadi lebih paham perbedaan Red Team dan Blue Team, serta tools yang digunakan. Sangat membuka wawasan dan bikin makin tertarik di dunia keamanan siber. Terima kasih YMP!
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Testimoni 11 -->
+<div class="modal fade" id="testimoniModal11" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Mbak Miftah - Officer IT</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" style="text-align:justify">
+            Bootcamp ini benar-benar ramah untuk semua latar belakang, bahkan yang non-IT sekalipun. Hands-on practice dan studi kasusnya bikin kita paham betul, bukan cuma teori. Yuk-Mari Project beneran bantu buka peluang karier baru.
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Testimoni 12 -->
+<div class="modal fade" id="testimoniModal12" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Mas Gusti Ngurah Suamertha - Mahasiswa</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" style="text-align:justify">
+            Saya awalnya merasa takut karena tidak punya pengetahuan sama sekali tentang jaringan atau sistem. Tapi bootcamp Yuk-Mari Project berhasil membuat saya nyaman belajar dari nol. Penjelasannya mudah dimengerti dan sangat praktis. Sekarang saya jadi percaya diri untuk mulai karier di bidang keamanan siber.
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Testimoni 13 -->
+<div class="modal fade" id="testimoniModal13" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Mas Qasim - Engineer Instrument</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" style="text-align:justify">
+            Selama ini saya hanya tahu dasar-dasarnya saja. Tapi sejak ikut pelatihan Yuk-Mari Project, saya jadi punya arah dan bekal yang lebih kuat untuk jadi seorang Cyber Security Engineer. Penjelasan mentor dan kurikulum sangat membantu saya memantapkan langkah ke karier yang saya impikan.
             </div>
         </div>
     </div>
