@@ -386,8 +386,8 @@
                     <button class="btn btn-primary" style="margin:5px" data-bs-toggle="modal" data-bs-target="#testimoniModal1">
                         <i class="fas fa-comment-alt"></i> Show Testimoni
                     </button>
-                    <button class="btn btn-primary">
-                        <i class="fas fa-download"></i> Download Sertifikat
+                    <button class="btn btn-primary" style="margin:5px" data-bs-toggle="modal" data-bs-target="#sertifikatModal1">
+                        <i class="fas fa-comment-alt"></i> Show Sertifikat
                     </button>
                     </div>
                 </div>
@@ -402,8 +402,8 @@
                     <button class="btn btn-primary" style="margin:5px" data-bs-toggle="modal" data-bs-target="#testimoniModal2">
                         <i class="fas fa-comment-alt"></i> Show Testimoni
                     </button>
-                    <button class="btn btn-primary">
-                        <i class="fas fa-download"></i> Download Sertifikat
+                    <button class="btn btn-primary" style="margin:5px" data-bs-toggle="modal" data-bs-target="#sertifikatModal2">
+                        <i class="fas fa-comment-alt"></i> Show Sertifikat
                     </button>
                     </div>
                 </div>
@@ -418,8 +418,8 @@
                     <button class="btn btn-primary" style="margin:5px" data-bs-toggle="modal" data-bs-target="#testimoniModal3">
                         <i class="fas fa-comment-alt"></i> Show Testimoni
                     </button>
-                    <button class="btn btn-primary">
-                        <i class="fas fa-download"></i> Download Sertifikat
+                    <button class="btn btn-primary" style="margin:5px" data-bs-toggle="modal" data-bs-target="#sertifikatModal3">
+                        <i class="fas fa-comment-alt"></i> Show Sertifikat
                     </button>
                     </div>
                 </div>
@@ -434,8 +434,8 @@
                     <button class="btn btn-primary" style="margin:5px" data-bs-toggle="modal" data-bs-target="#testimoniModal4">
                         <i class="fas fa-comment-alt"></i> Show Testimoni
                     </button>
-                    <button class="btn btn-primary">
-                        <i class="fas fa-download"></i> Download Sertifikat
+                    <button class="btn btn-primary" style="margin:5px" data-bs-toggle="modal" data-bs-target="#sertifikatModal4">
+                        <i class="fas fa-comment-alt"></i> Show Sertifikat
                     </button>
                     </div>
                 </div>
@@ -454,8 +454,8 @@
                     <button class="btn btn-primary" style="margin:5px" data-bs-toggle="modal" data-bs-target="#testimoniModal5">
                         <i class="fas fa-comment-alt"></i> Show Testimoni
                     </button>
-                    <button class="btn btn-primary">
-                        <i class="fas fa-download"></i> Download Sertifikat
+                    <button class="btn btn-primary" style="margin:5px" data-bs-toggle="modal" data-bs-target="#sertifikatModal5">
+                        <i class="fas fa-comment-alt"></i> Show Sertifikat
                     </button>
                     </div>
                 </div>
@@ -470,8 +470,8 @@
                     <button class="btn btn-primary" style="margin:5px" data-bs-toggle="modal" data-bs-target="#testimoniModal6">
                         <i class="fas fa-comment-alt"></i> Show Testimoni
                     </button>
-                    <button class="btn btn-primary">
-                        <i class="fas fa-download"></i> Download Sertifikat
+                    <button class="btn btn-primary" style="margin:5px" data-bs-toggle="modal" data-bs-target="#sertifikatModal6">
+                        <i class="fas fa-comment-alt"></i> Show Sertifikat
                     </button>
                     </div>
                 </div>
@@ -486,8 +486,8 @@
                     <button class="btn btn-primary" style="margin:5px" data-bs-toggle="modal" data-bs-target="#testimoniModal7">
                         <i class="fas fa-comment-alt"></i> Show Testimoni
                     </button>
-                    <button class="btn btn-primary">
-                        <i class="fas fa-download"></i> Download Sertifikat
+                    <button class="btn btn-primary" style="margin:5px" data-bs-toggle="modal" data-bs-target="#sertifikatModal7">
+                        <i class="fas fa-comment-alt"></i> Show Sertifikat
                     </button>
                     </div>
                 </div>
@@ -502,8 +502,8 @@
                     <button class="btn btn-primary" style="margin:5px" data-bs-toggle="modal" data-bs-target="#testimoniModal8">
                         <i class="fas fa-comment-alt"></i> Show Testimoni
                     </button>
-                    <button class="btn btn-primary">
-                        <i class="fas fa-download"></i> Download Sertifikat
+                    <button class="btn btn-primary" style="margin:5px" data-bs-toggle="modal" data-bs-target="#sertifikatModal8">
+                        <i class="fas fa-comment-alt"></i> Show Sertifikat
                     </button>
                     </div>
                 </div>
@@ -522,8 +522,8 @@
                     <button class="btn btn-primary" style="margin:5px" data-bs-toggle="modal" data-bs-target="#testimoniModal9">
                         <i class="fas fa-comment-alt"></i> Show Testimoni
                     </button>
-                    <button class="btn btn-primary">
-                        <i class="fas fa-download"></i> Download Sertifikat
+                    <button class="btn btn-primary" style="margin:5px" data-bs-toggle="modal" data-bs-target="#sertifikatModal9">
+                        <i class="fas fa-comment-alt"></i> Show Sertifikat
                     </button>
                     </div>
                 </div>
@@ -538,8 +538,8 @@
                     <button class="btn btn-primary" style="margin:5px" data-bs-toggle="modal" data-bs-target="#testimoniModal10">
                         <i class="fas fa-comment-alt"></i> Show Testimoni
                     </button>
-                    <button class="btn btn-primary">
-                        <i class="fas fa-download"></i> Download Sertifikat
+                    <button class="btn btn-primary" style="margin:5px" data-bs-toggle="modal" data-bs-target="#sertifikatModal10">
+                        <i class="fas fa-comment-alt"></i> Show Sertifikat
                     </button>
                     </div>
                 </div>
@@ -554,8 +554,8 @@
                     <button class="btn btn-primary" style="margin:5px" data-bs-toggle="modal" data-bs-target="#testimoniModal11">
                         <i class="fas fa-comment-alt"></i> Show Testimoni
                     </button>
-                    <button class="btn btn-primary">
-                        <i class="fas fa-download"></i> Download Sertifikat
+                    <button class="btn btn-primary" style="margin:5px" data-bs-toggle="modal" data-bs-target="#sertifikatModal11">
+                        <i class="fas fa-comment-alt"></i> Show Sertifikat
                     </button>
                     </div>
                 </div>
@@ -570,8 +570,8 @@
                     <button class="btn btn-primary" style="margin:5px" data-bs-toggle="modal" data-bs-target="#testimoniModal12">
                         <i class="fas fa-comment-alt"></i> Show Testimoni
                     </button>
-                    <button class="btn btn-primary">
-                        <i class="fas fa-download"></i> Download Sertifikat
+                    <button class="btn btn-primary" style="margin:5px" data-bs-toggle="modal" data-bs-target="#sertifikatModal12">
+                        <i class="fas fa-comment-alt"></i> Show Sertifikat
                     </button>
                     </div>
                 </div>
@@ -588,8 +588,8 @@
                     <button class="btn btn-primary" style="margin:5px" data-bs-toggle="modal" data-bs-target="#testimoniModal13">
                         <i class="fas fa-comment-alt"></i> Show Testimoni
                     </button>
-                    <button class="btn btn-primary">
-                        <i class="fas fa-download"></i> Download Sertifikat
+                    <button class="btn btn-primary" style="margin:5px" data-bs-toggle="modal" data-bs-target="#sertifikatModal13">
+                        <i class="fas fa-comment-alt"></i> Show Sertifikat
                     </button>
                     </div>
                 </div>
@@ -803,6 +803,214 @@ Terima kasih kepada Yuk-Mari Project dan instruktur yang luar biasa!
             </div>
             <div class="modal-body" style="text-align:justify">
             Selama ini saya hanya tahu dasar-dasarnya saja. Tapi sejak ikut pelatihan Yuk-Mari Project, saya jadi punya arah dan bekal yang lebih kuat untuk jadi seorang Cyber Security Engineer. Penjelasan mentor dan kurikulum sangat membantu saya memantapkan langkah ke karier yang saya impikan.
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Sertifikat 1 -->
+<div class="modal fade" id="sertifikatModal1" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Sertifikat Mbak Febi Anwar - Mahasiswi Teknik Informatika</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <img src="https://lh3.googleusercontent.com/d/1hoZEwdLo_8e6I8O2x9EujWVbxfPXCeGj=s1020?authuser=0" class="border border-3 mx-auto img-fluid" 
+                        style="width: 400px; height: 290px; object-fit: cover;" alt="Sertifikat Mbak Febi Anwar">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Sertifikat 2 -->
+<div class="modal fade" id="sertifikatModal2" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Sertifikat Mas Ryan Prayoga - Freelancer Personal Assistant</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <img src="https://lh3.googleusercontent.com/d/1uYsL66Vac8dOmIvLfXj4v4cOklvyv3WI=s1020?authuser=0" class="border border-3 mx-auto img-fluid" 
+                        style="width: 400px; height: 290px; object-fit: cover;" alt="Sertifikat Mas Ryan Prayoga - Freelancer Personal Assistant">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Sertifikat 3 -->
+<div class="modal fade" id="sertifikatModal3" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Sertifikat Mas Abdul Muiz - Mahasiswa Universitas Pamulang</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <img src="https://lh3.googleusercontent.com/d/1Em9zh0tZ0NU61UVMzFoGWLFiwA8wJWj4=s1020?authuser=0" class="border border-3 mx-auto img-fluid" 
+                        style="width: 400px; height: 290px; object-fit: cover;" alt="Sertifikat Mas Abdul Muiz - Mahasiswa Universitas Pamulang">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Sertifikat 4 -->
+<div class="modal fade" id="sertifikatModal4" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Sertifikat Tuan Zulkifli bin Ahmad - IT Support (Malaysia)</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <img src="https://lh3.googleusercontent.com/d/1bOWum0sd4y8f2lHbEu2kShQ1KSvdOZB1=s1020?authuser=0" class="border border-3 mx-auto img-fluid" 
+                        style="width: 400px; height: 290px; object-fit: cover;" alt="Sertifikat Tuan Zulkifli bin Ahmad - IT Support (Malaysia)">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Sertifikat 5 -->
+<div class="modal fade" id="sertifikatModal5" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Sertifikat Mas Zaki Fadilah - Mahasiswa UPI Cibiru (Teknik Komputer)</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <img src="https://lh3.googleusercontent.com/d/1G_uHaxGnTLjc6SildoRwsFpKIJRPr-sS=s1020?authuser=0" class="border border-3 mx-auto img-fluid" 
+                        style="width: 400px; height: 290px; object-fit: cover;" alt="Sertifikat Mas Zaki Fadilah - Mahasiswa UPI Cibiru (Teknik Komputer)">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Sertifikat 6 -->
+<div class="modal fade" id="sertifikatModal6" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Sertifikat Mas Rifqi - IT Support</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <img src="https://lh3.googleusercontent.com/d/1pn7kD7R5VJkjmX7VAkrQwiDXpruAZd72=s1020?authuser=0" class="border border-3 mx-auto img-fluid" 
+                        style="width: 400px; height: 290px; object-fit: cover;" alt="Sertifikat Mas Rifqi - IT Support">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Sertifikat 7 -->
+<div class="modal fade" id="sertifikatModal7" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Sertifikat Mbak Zihan - Mahasiswi UPI Cibiru (Teknik Komputer)</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <img src="https://lh3.googleusercontent.com/d/1Lz6fmR0OS4E8gdTHpDev1dnUazJBKbN4=s1020?authuser=0" class="border border-3 mx-auto img-fluid" 
+                        style="width: 400px; height: 290px; object-fit: cover;" alt="Sertifikat Mbak Zihan - Mahasiswi UPI Cibiru (Teknik Komputer)">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Sertifikat 8 -->
+<div class="modal fade" id="sertifikatModal8" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Sertifikat Mas Aprizam - System Administrator</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <img src="https://lh3.googleusercontent.com/d/1C51yf1ScKOuxiWwIko1F5Xcx0PPrmOmf=s1020?authuser=0" class="border border-3 mx-auto img-fluid" 
+                        style="width: 400px; height: 290px; object-fit: cover;" alt="Sertifikat Mas Aprizam - System Administrator">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Sertifikat 9 -->
+<div class="modal fade" id="sertifikatModal9" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Sertifikat Mas Fikri - ASN</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <img src="https://lh3.googleusercontent.com/d/1kN4MOMP8dIO7NIz4zPiBK7JDeuqAeKPR=s1020?authuser=0" class="border border-3 mx-auto img-fluid" 
+                        style="width: 400px; height: 290px; object-fit: cover;" alt="Sertifikat Mas Fikri - ASN">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Sertifikat 10 -->
+<div class="modal fade" id="sertifikatModal10" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Sertifikat Mas Raden Farhan - Mahasiswa UPI Cibiru (Teknik Komputer)</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <img src="https://lh3.googleusercontent.com/d/1BVwNrdY_09eUhcfqrRbu8PVRUBHaOP-9=s1020?authuser=0" class="border border-3 mx-auto img-fluid" 
+                        style="width: 400px; height: 290px; object-fit: cover;" alt="Sertifikat Mas Raden Farhan - Mahasiswa UPI Cibiru (Teknik Komputer)">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Sertifikat 11 -->
+<div class="modal fade" id="sertifikatModal11" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Sertifikat Mbak Miftah - Officer IT</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <img src="https://lh3.googleusercontent.com/d/1ZP-WDX_-d3J-4AVoNg0-REluHY4hHFsT=s1020?authuser=0" class="border border-3 mx-auto img-fluid" 
+                        style="width: 400px; height: 290px; object-fit: cover;" alt="Sertifikat Mbak Miftah - Officer IT">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Sertifikat 12 -->
+<div class="modal fade" id="sertifikatModal12" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Sertifikat Mas Gusti Ngurah Suamertha - Mahasiswa</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <img src="https://lh3.googleusercontent.com/d/1scDYiexPupkZjd739bnR2K9riCQ1mtp-=s1020?authuser=0" class="border border-3 mx-auto img-fluid" 
+                        style="width: 400px; height: 290px; object-fit: cover;" alt="Sertifikat Mas Gusti Ngurah Suamertha - Mahasiswa">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Sertifikat 13 -->
+<div class="modal fade" id="sertifikatModal13" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Sertifikat Mas Qasim - Engineer Instrument</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <img src="https://lh3.googleusercontent.com/d/18-CMu2nBDfu-fVz1Gprb6fu9cgy6x8JF=s1020?authuser=0" class="border border-3 mx-auto img-fluid" 
+                        style="width: 400px; height: 290px; object-fit: cover;" alt="Sertifikat Mas Qasim - Engineer Instrument">
             </div>
         </div>
     </div>
